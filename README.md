@@ -12,6 +12,10 @@
 
 - http://player.streamingtvguides.com
 
+## Linux İçin IPTV Önerisi
+
+- [4gray/iptvnator](https://github.com/4gray/iptvnator)
+
 ## Android İçin IPTV Önerisi
 
 - https://play.google.com/store/apps/details?id=com.lamdaticket.goldenplayer
