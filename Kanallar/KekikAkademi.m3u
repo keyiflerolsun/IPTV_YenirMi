@@ -1,101 +1,95 @@
 #EXTM3U
 
 # * » TRT « * #
-#EXTINF:1 tvg-name="Meclis TV" tvg-language="Turkish" tvg-id="TR.TBMM" tvg-logo="https://seeklogo.com/images/T/tbmm-logo-9FB0F2818C-seeklogo.com.png" group-title="TRT",Meclis TV
+#EXTINF:-1 tvg-name="Meclis TV" tvg-language="Turkish" tvg-id="TR.TBMM" tvg-logo="https://seeklogo.com/images/T/tbmm-logo-9FB0F2818C-seeklogo.com.png" group-title="TRT",Meclis TV
 https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 
-#EXTINF:1 tvg-name="TRT 1" tvg-language="Turkish" tvg-id="TR.TRT_1" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/10660277.png" group-title="TRT",TRT 1
+#EXTINF:-1 tvg-name="TRT 1" tvg-language="Turkish" tvg-id="TR.TRT_1" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/10660277.png" group-title="TRT",TRT 1
 https://tv-trt1.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="TRT 2" tvg-language="Turkish" tvg-id="TR.TRT_2" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7027954.png" group-title="TRT",TRT 2
+#EXTINF:-1 tvg-name="TRT 2" tvg-language="Turkish" tvg-id="TR.TRT_2" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7027954.png" group-title="TRT",TRT 2
 https://tv-trt2.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="TRT Haber" tvg-language="Turkish" tvg-id="TR.TRT_Haber" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8971102.png" group-title="TRT",TRT Haber
+#EXTINF:-1 tvg-name="TRT Haber" tvg-language="Turkish" tvg-id="TR.TRT_Haber" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8971102.png" group-title="TRT;Haber",TRT Haber
 https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="TRT Belgesel" tvg-language="Turkish" tvg-id="TR.TRT_Belgesel" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8114410.png" group-title="TRT",TRT Belgesel
+#EXTINF:-1 tvg-name="TRT Belgesel" tvg-language="Turkish" tvg-id="TR.TRT_Belgesel" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8114410.png" group-title="TRT;Belgesel",TRT Belgesel
 https://tv-trtbelgesel.live.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="TRT Müzik" tvg-language="Turkish" tvg-id="TR.TRT_Muzik" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/12382043.png" group-title="TRT",TRT Müzik
+#EXTINF:-1 tvg-name="TRT Müzik" tvg-language="Turkish" tvg-id="TR.TRT_Muzik" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/12382043.png" group-title="TRT",TRT Müzik
 https://tv-trtmuzik.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="TRT Çocuk" tvg-language="Turkish" tvg-id="TR.TRT_Cocuk" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13060701.png" group-title="TRT",TRT Çocuk
+#EXTINF:-1 tvg-name="TRT Çocuk" tvg-language="Turkish" tvg-id="TR.TRT_Cocuk" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13060701.png" group-title="TRT",TRT Çocuk
 https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="EBA İlkOkul" tvg-language="Turkish" tvg-id="TR.EBA_IlkOkul" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8886648.png" group-title="TRT",EBA İlkOkul
+#EXTINF:-1 tvg-name="EBA İlkOkul" tvg-language="Turkish" tvg-id="TR.EBA_IlkOkul" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8886648.png" group-title="TRT",EBA İlkOkul
 https://tv-e-okul00.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="EBA OrtaOkul" tvg-language="Turkish" tvg-id="TR.EBA_OrtaOkul" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8886647.png" group-title="TRT",EBA OrtaOkul
+#EXTINF:-1 tvg-name="EBA OrtaOkul" tvg-language="Turkish" tvg-id="TR.EBA_OrtaOkul" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8886647.png" group-title="TRT",EBA OrtaOkul
 https://tv-e-okul01.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="EBA Lise" tvg-language="Turkish" tvg-id="TR.EBA_Lise" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8886628.png" group-title="TRT",EBA Lise
+#EXTINF:-1 tvg-name="EBA Lise" tvg-language="Turkish" tvg-id="TR.EBA_Lise" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8886628.png" group-title="TRT",EBA Lise
 https://tv-e-okul02.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="TRT Türk" tvg-language="Turkish" tvg-id="TR.TRT_Turk" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11787778.png" group-title="TRT",TRT Türk
+#EXTINF:-1 tvg-name="TRT Türk" tvg-language="Turkish" tvg-id="TR.TRT_Turk" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11787778.png" group-title="TRT",TRT Türk
 https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="TRT Avaz" tvg-language="Turkish" tvg-id="TR.TRT_Avaz" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7027789.png" group-title="TRT",TRT Avaz
+#EXTINF:-1 tvg-name="TRT Avaz" tvg-language="Turkish" tvg-id="TR.TRT_Avaz" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7027789.png" group-title="TRT",TRT Avaz
 https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="TRT Kürdi" tvg-language="Kurdish" tvg-id="TR.TRT_Kurdi" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/14812637.png" group-title="TRT",TRT Kürdi
+#EXTINF:-1 tvg-name="TRT Kürdi" tvg-language="Kurdish" tvg-id="TR.TRT_Kurdi" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/14812637.png" group-title="TRT",TRT Kürdi
 https://tv-trtkurdi.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="TRT Arabi" tvg-language="Arabic" tvg-id="TR.TRT_Arabi" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7027905.png" group-title="TRT",TRT Arabi
+#EXTINF:-1 tvg-name="TRT Arabi" tvg-language="Arabic" tvg-id="TR.TRT_Arabi" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7027905.png" group-title="TRT",TRT Arabi
 https://tv-trtarabi.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="TRT World" tvg-language="English" tvg-id="TR.TRT_World" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7834584.png" group-title="TRT",TRT World
+#EXTINF:-1 tvg-name="TRT World" tvg-language="English" tvg-id="TR.TRT_World" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7834584.png" group-title="TRT",TRT World
 https://tv-trtworld.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="TRT Spor" tvg-language="Turkish" tvg-id="TR.TRT_Spor" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png" group-title="TRT",TRT Spor
+#EXTINF:-1 tvg-name="TRT Spor" tvg-language="Turkish" tvg-id="TR.TRT_Spor" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png" group-title="TRT",TRT Spor
 https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:1 tvg-name="TRT Spor Yıldız" tvg-language="Turkish" tvg-id="TR.TRT_SporYildiz" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11290418.png" group-title="TRT",TRT Spor Yıldız
+#EXTINF:-1 tvg-name="TRT Spor Yıldız" tvg-language="Turkish" tvg-id="TR.TRT_SporYildiz" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11290418.png" group-title="TRT",TRT Spor Yıldız
 https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8
 
 
 
 # * » BluTV « * #
-#EXTINF:1 tvg-name="BluTV Komedi" tvg-language="Turkish" tvg-id="TR.BluTV_Komedi" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d44fd866ac31b90687cf0" group-title="BluTV",BluTV Komedi
+#EXTINF:-1 tvg-name="BluTV Komedi" tvg-language="Turkish" tvg-id="TR.BluTV_Komedi" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d44fd866ac31b90687cf0" group-title="BluTV",BluTV Komedi
 https://mn-nl.mncdn.com/blutv_komedi/live_720p2000000kbps/index.m3u8
 
-#EXTINF:1 tvg-name="BluTV Aksion" tvg-language="Turkish" tvg-id="TR.BluTV_Aksion" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d4509866ac31b90687cf3" group-title="BluTV",BluTV Aksion
+#EXTINF:-1 tvg-name="BluTV Aksion" tvg-language="Turkish" tvg-id="TR.BluTV_Aksion" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d4509866ac31b90687cf3" group-title="BluTV",BluTV Aksion
 https://mn-nl.mncdn.com/blutv_aksiyon/live_720p2000000kbps/index.m3u8
 
-#EXTINF:1 tvg-name="BluTV Özel" tvg-language="Turkish" tvg-id="TR.BluTV_Ozel" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d44e3866ac31b90687cea" group-title="BluTV",BluTV Özel
+#EXTINF:-1 tvg-name="BluTV Özel" tvg-language="Turkish" tvg-id="TR.BluTV_Ozel" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d44e3866ac31b90687cea" group-title="BluTV",BluTV Özel
 https://mn-nl.mncdn.com/blutv_ozelyapim2/live_720p2000000kbps/index.m3u8
 
-#EXTINF:1 tvg-name="BluTV Nostalji" tvg-language="Turkish" tvg-id="TR.BluTV_Nostalji" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d3d86866ac31b90687ce3" group-title="BluTV",BluTV Nostalji
+#EXTINF:-1 tvg-name="BluTV Nostalji" tvg-language="Turkish" tvg-id="TR.BluTV_Nostalji" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d3d86866ac31b90687ce3" group-title="BluTV",BluTV Nostalji
 https://d1kql9eqq12ti5.cloudfront.net/out/v1/73b6ebdccff34468abfaa716e8114192/master_31.m3u8
 
-#EXTINF:1 tvg-name="BluTV Belgesel" tvg-language="Turkish" tvg-id="TR.BluTV_Belgesel" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d3dd8866ac31b90687ce6" group-title="BluTV",BluTV Belgesel
+#EXTINF:-1 tvg-name="BluTV Belgesel" tvg-language="Turkish" tvg-id="TR.BluTV_Belgesel" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d3dd8866ac31b90687ce6" group-title="BluTV",BluTV Belgesel
 https://mn-nl.mncdn.com/blutv_belgesel/live_720p2000000kbps/index.m3u8
 
-#EXTINF:1 tvg-name="BluTV Kids" tvg-language="Turkish" tvg-id="TR.BluTV_Kids" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d44f0866ac31b90687ced" group-title="BluTV",BluTV Kids
+#EXTINF:-1 tvg-name="BluTV Kids" tvg-language="Turkish" tvg-id="TR.BluTV_Kids" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d44f0866ac31b90687ced" group-title="BluTV",BluTV Kids
 https://mn-nl.mncdn.com/blutv_cocuk/live_720p2000000kbps/index.m3u8
 
 
 
 # * » Belgesel « * #
-#EXTINF:1 tvg-name="TLC" tvg-language="Turkish" tvg-id="TR.Belgesel_TLC" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/604a04d1866ac32574736eef" group-title="Belgesel",TLC
+#EXTINF:-1 tvg-name="TLC" tvg-language="Turkish" tvg-id="TR.Belgesel_TLC" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/604a04d1866ac32574736eef" group-title="Belgesel",TLC
 https://mn-nl.mncdn.com/blutv_tlc_dvr/live_720p2000000/index.m3u8
 
-#EXTINF:1 tvg-name="DMax" tvg-language="Turkish" tvg-id="TR.Belgesel_DMax" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/604a04ef866ac32574736ef6" group-title="Belgesel",DMax
+#EXTINF:-1 tvg-name="DMax" tvg-language="Turkish" tvg-id="TR.Belgesel_DMax" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/604a04ef866ac32574736ef6" group-title="Belgesel",DMax
 https://tv.ensonhaber.com/tv/tr/dmax/index.m3u8
-
-#EXTINF:1 tvg-name="TRT Belgesel" tvg-language="Turkish" tvg-id="TR.Belgesel_TRTBelgesel" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8114410.png" group-title="Belgesel",TRT Belgesel
-https://tv-trtbelgesel.live.trt.com.tr/master_720.m3u8
 
 
 
 # * » Haber « * #
-#EXTINF:1 tvg-name="CNN Türk" tvg-language="Turkish" tvg-id="TR.Haber_CNNTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/61236013866ac319e8143500" group-title="Haber",CNN Türk
+#EXTINF:-1 tvg-name="CNN Türk" tvg-language="Turkish" tvg-id="TR.Haber_CNNTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/61236013866ac319e8143500" group-title="Haber",CNN Türk
 https://mn-nl.mncdn.com/blutv_cnnturk_dvr/live_720p2000000kbps/index.m3u8
 
-#EXTINF:1 tvg-name="NTV" tvg-language="Turkish" tvg-id="TR.Haber_NTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/56a72d98058d024d98970264" group-title="Haber",NTV
+#EXTINF:-1 tvg-name="NTV" tvg-language="Turkish" tvg-id="TR.Haber_NTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/56a72d98058d024d98970264" group-title="Haber",NTV
 https://dogus-live.daioncdn.net/ntv/ntv_720p.m3u8
 
-#EXTINF:1 tvg-name="TRT Haber" tvg-language="Turkish" tvg-id="TR.Haber_TRTHaber" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8971102.png" group-title="Haber",TRT Haber
-https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
-
-#EXTINF:1 tvg-name="Haber Türk" tvg-language="Turkish" tvg-id="TR.Haber_HaberTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2bf0c866ac331e0feb216" group-title="Haber",Haber Türk
+#EXTINF:-1 tvg-name="Haber Türk" tvg-language="Turkish" tvg-id="TR.Haber_HaberTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2bf0c866ac331e0feb216" group-title="Haber",Haber Türk
 https://tv.ensonhaber.com/tv/tr/haberturk/index.m3u8
