@@ -132,3 +132,63 @@ https://halktv-live.ercdn.net/halktv/halktv_1080p.m3u8
 
 #EXTINF:-1 tvg-name="Bloomberg HT" tvg-language="Turkish" tvg-id="TR.Haber_BloombergHT" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2bcb7866ac331e0feb1f0" group-title="Haber",Bloomberg HT
 https://mn-nl.mncdn.com/blutv_bloomberght_dvr/live_720p2000000kbps/index.m3u8
+
+
+
+# * » Müzik « * #
+#EXTINF:-1 tvg-name="NumberOne Türk" tvg-language="Turkish" tvg-id="TR.Muzik_NumberOneTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5e415bb8866ac31d980eb377" group-title="Müzik",NumberOne Türk
+https://mn-nl.mncdn.com/blutv_nr1turk2/live_720p2000000kbps/index.m3u8
+
+#EXTINF:-1 tvg-name="NumberOne TV" tvg-language="Turkish" tvg-id="TR.Muzik_NumberOneTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5e415748866ac31d980eb317" group-title="Müzik",NumberOne TV
+https://mn-nl.mncdn.com/blutv_nr12/live_720p2000000kbps/index.m3u8
+
+#EXTINF:-1 tvg-name="NumberOne Aşk" tvg-language="Turkish" tvg-id="TR.Muzik_NumberOneAsk" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/df6b924f-1b1c-4f3e-8eb7-1aeb0aff3c33.png" group-title="Müzik",NumberOne Aşk
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x67ch24
+
+#EXTINF:-1 tvg-name="NumberOne Damar" tvg-language="Turkish" tvg-id="TR.Muzik_NumberOneDamar" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/b29a2e64-5e88-4949-9b3d-d9945d95c75f.png" group-title="Müzik",NumberOne Damar
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x67ch8g
+
+#EXTINF:-1 tvg-name="NumberOne Dance" tvg-language="Turkish" tvg-id="TR.Muzik_NumberOneDance" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/46abd377-46f9-4ffa-8634-6bd9efb7e35d.png" group-title="Müzik",NumberOne Dance
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x67chco
+
+#EXTINF:-1 tvg-name="Dream Türk" tvg-language="Turkish" tvg-id="TR.Muzik_DreamTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c085866ac31da06187cd" group-title="Müzik",Dream Türk
+https://mn-nl.mncdn.com/blutv_dreamturk2/live_720p2000000kbps/index.m3u8
+
+#EXTINF:-1 tvg-name="Power Türk" tvg-language="Turkish" tvg-id="TR.Muzik_PowerTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c125866ac31da06187d6" group-title="Müzik",Power Türk
+https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b5250000_sltur.m3u8
+
+#EXTINF:-1 tvg-name="Power TV" tvg-language="Turkish" tvg-id="TR.Muzik_PowerTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c155866ac331e0feb22b" group-title="Müzik",Power TV
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist_b2650000_sltur.m3u8
+
+#EXTINF:-1 tvg-name="Power Dance" tvg-language="Turkish" tvg-id="TR.Muzik_PowerDance" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/c11e8434-7bee-4f04-ab62-05e9b7ee418b.png" group-title="Müzik",Power Dance
+https://listen.powerapp.com.tr/dance/dance.smil/chunklist_b2628000_sltur.m3u8
+
+#EXTINF:-1 tvg-name="Power Love" tvg-language="Turkish" tvg-id="TR.Muzik_PowerLove" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/5134ae1e-ccb1-4f2e-96a0-dd9628d23199.png" group-title="Müzik",Power Love
+https://listen.powerapp.com.tr/plove/love.smil/chunklist_b2628000_sltur.m3u8
+
+#EXTINF:-1 tvg-name="PowerTürk Akustik" tvg-language="Turkish" tvg-id="TR.Muzik_PowerTurkAkustik" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/18f73b0b-17a6-4691-8ffd-f9dc9ed209a3.png" group-title="Müzik",PowerTürk Akustik
+https://listen.powerapp.com.tr/pturkakustik/akustik.smil/chunklist_b2628000_sltur.m3u8
+
+#EXTINF:-1 tvg-name="PowerTürk En İyiler" tvg-language="Turkish" tvg-id="TR.Muzik_PowerTurkEnIyiler" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/80bb6dfc-e79c-4ae1-b1b8-4be8c6e560c7.png" group-title="Müzik",PowerTürk En İyiler
+https://listen.powerapp.com.tr/pturkeniyiler/eniyiler.smil/chunklist_b2628000_sltur.m3u8
+
+#EXTINF:-1 tvg-name="PowerTürk Slow" tvg-language="Turkish" tvg-id="TR.Muzik_PowerTurkSlow" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/472fbc19-59af-457c-bfe2-c903632c8556.png" group-title="Müzik",PowerTürk Slow
+https://listen.powerapp.com.tr/pturkslow/slow.smil/chunklist_b2628000_sltur.m3u8
+
+#EXTINF:-1 tvg-name="PowerTürk Taptaze" tvg-language="Turkish" tvg-id="TR.Muzik_PowerTurkTaptaze" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/59a04a11-4fe8-4455-a87f-016008e31550.png" group-title="Müzik",PowerTürk Taptaze
+https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/chunklist_b2628000_sltur.m3u8
+
+#EXTINF:-1 tvg-name="Milyon TV" tvg-language="Turkish" tvg-id="TR.Muzik_MilyonTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/60900db7866ac318488bc30f" group-title="Müzik",Milyon TV
+https://mn-nl.mncdn.com/blutv_milyontv/milyontv_sd.smil/chunklist_b2064000.m3u8
+
+#EXTINF:-1 tvg-name="Kral TV" tvg-language="Turkish" tvg-id="TR.Muzik_KralTV" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/a2a2c267-f41c-4825-aa80-6d1077e43b1f.png" group-title="Müzik",Kral TV
+https://dogus-live.daioncdn.net/kraltv/kraltv_720p.m3u8
+
+#EXTINF:-1 tvg-name="Kral Pop" tvg-language="Turkish" tvg-id="TR.Muzik_KralPop" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/1f08b8a5-6d69-4260-a003-be0eed42532f.png" group-title="Müzik",Kral Pop
+https://dogus-live.daioncdn.net/kralpoptv/kralpoptv_720p.m3u8
+
+#EXTINF:-1 tvg-name="Tatlıses TV" tvg-language="Turkish" tvg-id="TR.Muzik_TatlisesTV" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/862d8b5b-5d5a-4816-9dc6-0f567e4db201.png group-title="Müzik",Tatlıses TV
+http://yerelmedya.tv:1935/tatlisestv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TRT Müzik" tvg-language="Turkish" tvg-id="TR.Muzik_TRT" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/12382043.png" group-title="Müzik",TRT Müzik
+https://tv-trtmuzik.medya.trt.com.tr/master_720.m3u8
