@@ -1,0 +1,5 @@
+flask==2.0.2
+gunicorn==20.1.0
+git+https://github.com/LaneSh4d0w/streamlink@master#egg=streamlink
+validators==0.18.2
+Flask-Limiter==1.4

@@ -1,0 +1,58 @@
+#EXTM3U
+
+# * » TRT « * #
+#EXTINF:1 tvg-name="TRT 1" tvg-language="Turkish" tvg-id="TR.TRT_1" tvg-logo="https://pbs.twimg.com/profile_images/1450035334293737476/VinDQICa_400x400.jpg" group-title="TRT",TRT 1
+https://tv-trt1.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="TRT 2" tvg-language="Turkish" tvg-id="TR.TRT_2" tvg-logo="https://www.trt2.com.tr/images/placeholder-480x270.png" group-title="TRT",TRT 2
+https://tv-trt2.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="TRT Haber" tvg-language="Turkish" tvg-id="TR.TRT_Haber" tvg-logo="https://play-lh.googleusercontent.com/stko3vRumvnhku9Jptzr3ZS7sLDJ3NjIlJxa0N7R6D3pba4x4UcRGqFREZC2VUM_5w" group-title="TRT",TRT Haber
+https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="TRT Belgesel" tvg-language="Turkish" tvg-id="TR.TRT_Belgesel" tvg-logo="https://img.internethaber.com/rcman/Cw480h270q95gc/storage/files/images/2020/07/17/belgesel-BAhQ_cover.jpg" group-title="TRT",TRT Belgesel
+https://tv-trtbelgesel.live.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="TRT Müzik" tvg-language="Turkish" tvg-id="TR.TRT_Muzik" tvg-logo="https://pbs.twimg.com/profile_images/1428930895252234242/MqN5mjWM_400x400.jpg" group-title="TRT",TRT Müzik
+https://tv-trtmuzik.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="TRT Çocuk" tvg-language="Turkish" tvg-id="TR.TRT_Cocuk" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/archive/a/ab/20211217152855%21TRT_%C3%87ocuk_logo.png" group-title="TRT",TRT Çocuk
+https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="EBA İlkOkul" tvg-language="Turkish" tvg-id="TR.EBA_IlkOkul" tvg-logo="https://hdcanlitv.net/wp-content/uploads/2020/11/trt-eba-tv-ilkokul-2023-poster.jpg" group-title="TRT",EBA İlkOkul
+https://tv-e-okul00.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="EBA OrtaOkul" tvg-language="Turkish" tvg-id="TR.EBA_OrtaOkul" tvg-logo="https://www.ecanlitvizle.live/logo/trt-eba-tv-ortaokul-canli.png" group-title="TRT",EBA OrtaOkul
+https://tv-e-okul01.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="EBA Lise" tvg-language="Turkish" tvg-id="TR.EBA_Lise" tvg-logo="https://hdcanlitv.net/wp-content/uploads/2020/11/trt-eba-tv-lise-2030-poster.jpg" group-title="TRT",EBA Lise
+https://tv-e-okul02.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="TRT Türk" tvg-language="Turkish" tvg-id="TR.TRT_Turk" tvg-logo="https://yt3.ggpht.com/Q0wW9VagivcpNtiohgKT0gqwr5-LbWcxWLs3D04KdIeqzaslQQ-LOXso6b5AChdy2wV90mr0Lg=s900-c-k-c0x00ffffff-no-rj" group-title="TRT",TRT Türk
+https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="TRT Avaz" tvg-language="Turkish" tvg-id="TR.TRT_Avaz" tvg-logo="https://i.pinimg.com/originals/97/d4/d8/97d4d8cca24246fa8f230a3c11828810.png" group-title="TRT",TRT Avaz
+https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="TRT Kürdi" tvg-language="Kurdish" tvg-id="TR.TRT_Kurdi" tvg-logo="https://yt3.ggpht.com/n4LM7eNkO0My6MIq_tqsGRRHpwdYJfV-l0B5FjXOh6IUtiL5u0BtwOERGKHfbVHH1ILYZBkT5A=s900-c-k-c0x00ffffff-no-rj" group-title="TRT",TRT Kürdi
+https://tv-trtkurdi.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="TRT Arabi" tvg-language="Arabic" tvg-id="TR.TRT_Arabi" tvg-logo="https://cdnuploads.aa.com.tr/uploads/Contents/2019/01/07/thumbs_b_c_e8de2bce28a554404199c6143faaf46a.jpg" group-title="TRT",TRT Arabi
+https://tv-trtarabi.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="TRT World" tvg-language="English" tvg-id="TR.TRT_World" tvg-logo="https://warsawinstitute.org/wp-content/uploads/2020/08/trt-world-logo.png" group-title="TRT",TRT World
+https://tv-trtworld.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="TRT Spor" tvg-language="Turkish" tvg-id="TR.TRT_Spor" tvg-logo="https://pbs.twimg.com/profile_images/1479304451466932224/_bodpjyJ_400x400.jpg" group-title="TRT",TRT Spor
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="TRT Spor Yıldız" tvg-language="Turkish" tvg-id="TR.TRT_SporYildiz" tvg-logo="https://yt3.ggpht.com/eBeFkHjV5F4FmRWkhL8d1LMPWT_cf-g2UyodWnhNxf63mMaUp5RKSydKVeC9J7P5HVBZvFw7cw=s900-c-k-c0x00ffffff-no-rj" group-title="TRT",TRT Spor Yıldız
+https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:1 tvg-name="TRT 3 Spor" tvg-language="Turkish" tvg-id="TR.TRT_3Spor" tvg-logo="https://pbs.twimg.com/profile_images/1065579547888893952/AbNDHIL-_400x400.jpg" group-title="TRT",TRT 3 Spor
+http://195.155.98.170:5858/play/a09m
+
+
+
+
+# * » Bakalim « * #
