@@ -91,6 +91,8 @@ https://tv.ensonhaber.com/tv/tr/tgrtbelgesel/index.m3u8
 #EXTINF:-1 tvg-name="BluTV Belgesel" tvg-language="Turkish" tvg-id="TR.Belgesel_BluTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d3dd8866ac31b90687ce6" group-title="Belgesel",BluTV Belgesel
 https://mn-nl.mncdn.com/blutv_belgesel/live_720p2000000kbps/index.m3u8
 
+
+
 # * » Haber « * #
 #EXTINF:-1 tvg-name="CNN Türk" tvg-language="Turkish" tvg-id="TR.Haber_CNNTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/61236013866ac319e8143500" group-title="Haber",CNN Türk
 https://mn-nl.mncdn.com/blutv_cnnturk_dvr/live_720p2000000kbps/index.m3u8
