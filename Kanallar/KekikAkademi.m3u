@@ -204,3 +204,54 @@ https://unlimited1-us.dps.live/carolinatv/carolinatv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TRT Müzik" tvg-language="Turkish" tvg-id="Muzik_TRT" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/12382043.png" group-title="Müzik",TRT Müzik
 https://tv-trtmuzik.medya.trt.com.tr/master_720.m3u8
+
+
+
+# * » Rahatlatıcı « * #
+#EXTINF:-1 tvg-name="Ateş Başı" tvg-language="English" tvg-id="Rahat_AtesBasi" tvg-logo="https://rangleio.ghost.io/content/images/2019/09/fireside_desktop_16_9.png" group-title="Rahatlatıcı",Ateş Başı
+https://fireside.localnowlive.com/v1/master/385c85a93929f94966d0fb186fc33b431e6f1eb9/DSP_5fdd393a31300f16077a1692_fireside/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Hayvanlar" tvg-language="English" tvg-id="Rahat_Hayvanlar" tvg-logo="https://i.imgur.com/YbD8uHc.png" group-title="Rahatlatıcı",Hayvanlar
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9537b8932c837b49397343/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kuzey Işıkları" tvg-language="English" tvg-id="Rahat_KuzeyIsiklari" tvg-logo="https://i.imgur.com/1WIEWK7.png" group-title="Rahatlatıcı",Kuzey Işıkları
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953819932c837b49397345/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Sahiller" tvg-language="English" tvg-id="Rahat_Sahiller" tvg-logo="https://i.imgur.com/4rIbV7e.png" group-title="Rahatlatıcı",Sahiller
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95396f932c837b49397360/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Orman" tvg-language="English" tvg-id="Rahat_Orman" tvg-logo="https://i.imgur.com/J84tZzN.png" group-title="Rahatlatıcı",Orman
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953836932c837b49397355/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Göl" tvg-language="English" tvg-id="Rahat_Gol" tvg-logo="https://i.imgur.com/xAkuMa4.png" group-title="Rahatlatıcı",Göl
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95385c932c837b49397356/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Dağ" tvg-language="English" tvg-id="Rahat_Dag" tvg-logo="https://i.imgur.com/2Ipv14J.png" group-title="Rahatlatıcı",Dağ
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95387b932c837b49397357/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Nehirler" tvg-language="English" tvg-id="Rahat_Nehirler" tvg-logo="https://i.imgur.com/ii2IDmA.png" group-title="Rahatlatıcı",Nehirler
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95388f932c837b4939735a/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Gün Batımı" tvg-language="English" tvg-id="Rahat_GünBatimi" tvg-logo="https://i.imgur.com/K4GaruD.png" group-title="Rahatlatıcı",Gün Batımı
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538a5932c837b4939735b/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Tropikal" tvg-language="English" tvg-id="Rahat_Tropikal" tvg-logo="https://i.imgur.com/8F9qPbt.png" group-title="Rahatlatıcı",Tropikal
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538b9932c837b4939735c/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Şelaleler" tvg-language="English" tvg-id="Rahat_Selaleler" tvg-logo="https://i.imgur.com/i43l93j.png" group-title="Rahatlatıcı",Şelaleler
+https://95771f8415a84e31bd152fe9c6c9905c.mediatailor.us-east-1.amazonaws.com/v1/master/82ded7a88773aef3d6dd1fedce15ba2d57eb6bca/wse_powr_com_5c953910932c837b4939735d/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Şömine" tvg-language="English" tvg-id="Rahat_Sömine" tvg-logo="https://i.imgur.com/1VZZCZU.jpg" group-title="Rahatlatıcı",Şömine
+https://a.jsrdn.com/broadcast/aee08372e5/+0000/c.m3u8
+
+#EXTINF:-1 tvg-name="Akvaryum" tvg-language="English" tvg-id="Rahat_Akvaryum" tvg-logo="https://i.imgur.com/L5JDAkh.png" group-title="Rahatlatıcı",Akvaryum
+https://a.jsrdn.com/broadcast/8b43a16c1e/+0000/c.m3u8
+
+#EXTINF:-1 tvg-name="Ada" tvg-language="English" tvg-id="Rahat_Ada" tvg-logo="https://i.imgur.com/ZvF6Yin.png" group-title="Rahatlatıcı",Ada
+https://a.jsrdn.com/broadcast/41e3e6703e/+0000/c.m3u8
+
+#EXTINF:-1 tvg-name="Yağmur" tvg-language="English" tvg-id="Rahat_Yagmur" tvg-logo="https://i.imgur.com/USiqGyp.jpg" group-title="Rahatlatıcı",Yağmur
+https://a.jsrdn.com/broadcast/76381deeda/+0000/c.m3u8
+
+#EXTINF:-1 tvg-name="Doğa Manzarası" tvg-language="English" tvg-id="Rahat_DogaManzarasi" tvg-logo="https://i.imgur.com/sw1LtJ4.png" group-title="Rahatlatıcı",Doğa Manzarası
+https://dai.google.com/linear/hls/event/6RPZlzksTCyB1euPqLcBZQ/master.m3u8
