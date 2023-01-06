@@ -85,7 +85,7 @@ https://tv.ensonhaber.com/tv/tr/dmax/index.m3u8
 #EXTINF:-1 tvg-name="TRT Belgesel" tvg-language="Turkish" tvg-id="Belgesel_TRT" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8114410.png" group-title="Belgesel",TRT Belgesel
 https://tv-trtbelgesel.live.trt.com.tr/master_720.m3u8
 
-#EXTINF:-1 tvg-name="TGRT Belgesel" tvg-language="Turkish" tvg-id="Belgesel_TGRT" tvg-logo="https://www.tgrtbelgesel.com/images/logo.png" group-title="Belgesel",TGRT Belgesel
+#EXTINF:-1 tvg-name="TGRT Belgesel" tvg-language="Turkish" tvg-id="Belgesel_TGRT" tvg-logo="https://www.tgrtbelgesel.com.tr/wp-content/uploads/2021/08/TGRT_Belgesel_Logo.png" group-title="Belgesel",TGRT Belgesel
 https://tv.ensonhaber.com/tv/tr/tgrtbelgesel/index.m3u8
 
 #EXTINF:-1 tvg-name="BluTV Belgesel" tvg-language="Turkish" tvg-id="Belgesel_BluTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/616d3dd8866ac31b90687ce6" group-title="Belgesel",BluTV Belgesel
