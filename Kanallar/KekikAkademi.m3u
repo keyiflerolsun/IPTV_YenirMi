@@ -271,8 +271,8 @@ https://foxtv-live-ad.ercdn.net/foxtv/foxtv_720p.m3u8?e=1673001718&st=DS1BzVhZ-u
 #EXTINF:-1 tvg-name="Show TV" tvg-language="Turkish" tvg-id="Show_TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_of_Show_TV.png" group-title="Genel",Show TV
 https://tv.ensonhaber.com/tv/tr/showtv/index.m3u8
 
-#EXTINF:-1 tvg-name="TV 8" tvg-language="Turkish" tvg-id="TV_8" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png" group-title="Genel",TV 8
+#EXTINF:-1 tvg-name="TV 8" tvg-language="Turkish" tvg-id="TV_Sekiz" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png" group-title="Genel",TV 8
 https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=51gwvn4v9td6&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
 
-#EXTINF:-1 tvg-name="Kanal_D" tvg-language="Turkish" tvg-id="Kanal D" tvg-logo="https://seeklogo.com/images/K/kanal-d-logo-8327051372-seeklogo.com.png" group-title="Genel",Kanal D
+#EXTINF:-1 tvg-name="Kanal D" tvg-language="Turkish" tvg-id="Kanal_D" tvg-logo="https://seeklogo.com/images/K/kanal-d-logo-8327051372-seeklogo.com.png" group-title="Genel",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=51gxd64vpf3c&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
