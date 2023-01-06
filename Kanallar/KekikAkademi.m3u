@@ -101,7 +101,7 @@ https://mn-nl.mncdn.com/blutv_cnnturk_dvr/live_720p2000000kbps/index.m3u8
 https://dogus-live.daioncdn.net/ntv/ntv_720p.m3u8
 
 #EXTINF:-1 tvg-name="Haber Türk" tvg-language="Turkish" tvg-id="Haber_HaberTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2bf0c866ac331e0feb216" group-title="Haber",Haber Türk
-https://showtvdvr.blutv.com/blutv_showtv_dvr2/live_720p2000000kbps/index.m3u8
+https://haberturkdvr.blutv.com/blutv_haberturk_dvr2/live_720p2000000kbps/index.m3u8
 
 #EXTINF:-1 tvg-name="TRT Haber" tvg-language="Turkish" tvg-id="Haber_TRT" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8971102.png" group-title="Haber",TRT Haber
 https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
