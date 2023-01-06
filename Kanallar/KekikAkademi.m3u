@@ -101,7 +101,7 @@ https://mn-nl.mncdn.com/blutv_cnnturk_dvr/live_720p2000000kbps/index.m3u8
 https://dogus-live.daioncdn.net/ntv/ntv_720p.m3u8
 
 #EXTINF:-1 tvg-name="Haber Türk" tvg-language="Turkish" tvg-id="Haber_HaberTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2bf0c866ac331e0feb216" group-title="Haber",Haber Türk
-https://tv.ensonhaber.com/tv/tr/haberturk/index.m3u8
+https://showtvdvr.blutv.com/blutv_showtv_dvr2/live_720p2000000kbps/index.m3u8
 
 #EXTINF:-1 tvg-name="TRT Haber" tvg-language="Turkish" tvg-id="Haber_TRT" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8971102.png" group-title="Haber",TRT Haber
 https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
@@ -260,7 +260,7 @@ https://dai.google.com/linear/hls/event/6RPZlzksTCyB1euPqLcBZQ/master.m3u8
 
 # * » Genel « * #
 #EXTINF:-1 tvg-name="Star TV" tvg-language="Turkish" tvg-id="Star_TV" tvg-logo="http://upload.turkcewiki.org/wikipedia/commons/thumb/a/a4/StarTV.svg/1200px-StarTV.svg.png" group-title="Genel",Star TV
-https://tv.ensonhaber.com/tv/tr/startv/index.m3u8
+https://startvdvr.blutv.com/blutv_startv_dvr2/live_720p2000000kbps/index.m3u8
 
 #EXTINF:-1 tvg-name="ATV" tvg-language="Turkish" tvg-id="ATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Atv_logo_2010.svg/1200px-Atv_logo_2010.svg.png" group-title="Genel",ATV
 https://trkvz.daioncdn.net/atv/atv.m3u8?ce=3&app=d1ce2d40-5256-4550-b02e-e73c185a314e&st=0NHGzXpYy3EoRh_fuSi-5w&e=1672995885&dfp_paln=AQzzBGQEo4YImrBtdqSWeh7k81VyD26CovwUDz2CX4PL3Asks5KWtjHVfBOsG2fnEk0vs4F1pdEToro7hrQ09sd5XyB3pE0_pTML_PKmaNNRnTD9ASvHha8d05U7aTcxMAK6eOTvHqUhdHTZdCPVstMDjczhuB-Waf56tyBn2fO6i8jXQsLPO82jF4xAbG2uBVzl8iP5am2iS1pP0AAQi7-D6X5lemLNV6Kc1e5J5XXObm8Ovf2gFSa0sZTRsHlEL8Zo7HHjcsOH47E-Ec5VuCE83IFi8rqRekdAZryhAOFoanfOb5EC8JbYv3jS98CjnGYY_7tduWWI4-5BwWS4WxAlLzcFEBTOz7AdcaiVh6awpSUFOAzk-Tje0EHdkTRuJA29RFdYTaDem07tDqgkGO52UKrvbcvxPkWdqiq44izcCf7nQiv7VKBEeOXybJIYmnVfS4ptHh3xjj4IvMyG3zg8xJYkf0heT0Sj3rcUKqqN82YUw06ntLICxqziBVt4EAUetLm5j5SNvey2ifG50D6XHM32lMQrvgo9zknlXCgSnQa5aUuHxoQfs6_gkE91fepajws4Zt4gB4vcJEqCw2ewQ4eoMs1rc-o3MHO7-npUZM2QwsSjLHwGHyRYceaYJCPeC46ucxN3CLBiOwXmjWz0Z9L179E6RA0JVi1AsAi4gMX7CXUfH4e073t5seArgNl9TxDG6ttRsdhGvADKlylL9HFbrbHwDtBWCXkoFDOO6aSzXfF-_KxB8Fk5caztqfcCpjPOqbXVBKvEmLhFaxSH-GtbdR6UTFkr12g_m1Dn93Kfj4J8DpgwsWrrRZylx5ucLsdiNPoMGAndSoQNcsGIhCPz1wVlFvRtUpGfe6E_Rls8tUs-tV4hB87oATiFrmDjrgtPinIj012vINuQYsb2qBNKQlEJt6wVohTTqCVj59VszK-BnFoXu3yJngUPVHs9fVKDqtYevuvCzsNoffxq3nCS691tOStA49JaPf13PRNbGCg.&gdpr=0
@@ -269,7 +269,7 @@ https://trkvz.daioncdn.net/atv/atv.m3u8?ce=3&app=d1ce2d40-5256-4550-b02e-e73c185
 https://foxtv-live-ad.ercdn.net/foxtv/foxtv_720p.m3u8?e=1673001718&st=DS1BzVhZ-uM03cw2j2eIBw
 
 #EXTINF:-1 tvg-name="Show TV" tvg-language="Turkish" tvg-id="Show_TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_of_Show_TV.png" group-title="Genel",Show TV
-https://tv.ensonhaber.com/tv/tr/showtv/index.m3u8
+https://showtvdvr.blutv.com/blutv_showtv_dvr2/live_720p2000000kbps/index.m3u8
 
 #EXTINF:-1 tvg-name="TV 8" tvg-language="Turkish" tvg-id="TV_Sekiz" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png" group-title="Genel",TV 8
 https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=51gwvn4v9td6&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
