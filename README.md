@@ -28,6 +28,10 @@
 
 - [LaneSh4d0w/query-streamlink](https://github.com/LaneSh4d0w/query-streamlink)
 
+## Youtube Yayını M3U'ya Çevirme
+
+- [abskmj/youtube-hls-m3u8](https://github.com/abskmj/youtube-hls-m3u8)
+
 ## M3U Liste Kontrol
 
 - [pawanpaudel93/m3u_parser](https://github.com/pawanpaudel93/m3u_parser)
