@@ -88,6 +88,11 @@ https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=51gwvn4v9td6&app=7ddc255a-ef47-
 #EXTINF:-1 tvg-name="Kanal D" tvg-language="Turkish" tvg-id="Kanal_D" tvg-logo="https://seeklogo.com/images/K/kanal-d-logo-8327051372-seeklogo.com.png" group-title="Genel",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=51gxd64vpf3c&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
 
+#EXTINF:-1 tvg-name="Teve2" tvg-language="Turkish" tvg-id="Teve_2" tvg-logo="https://s.teve2.com.tr/assets/img/teve2logo.png" group-title="Genel",Teve2
+https://demiroren.daioncdn.net/teve2/teve2.m3u8?ce=3&app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd
+
+#EXTINF:-1 tvg-name="A2" tvg-language="Turkish" tvg-id="A2" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" group-title="Genel",A2
+https://trkvz.daioncdn.net/a2tv/a2tv.m3u8?ce=3&app=59363a60-be96-4f73-9eff-355d0ff2c758&st=UDPDLFKOF6bY5XRqboGzeQ&e=1698056363&gdpr=0
 
 
 # * » Haber « * #
