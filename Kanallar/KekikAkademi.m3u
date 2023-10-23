@@ -217,44 +217,32 @@ https://vod-k2304-kbp.1plus1.video/vod/1698139341/7t1qyi7leFKrEc-I6SfnLQ/202303/
 #EXTINF:-1 tvg-name="Bulutlar" tvg-language="English" tvg-id="Rahat_Bulutlar" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/a40024aa-80af-4119-ab46-581fb2bafaa2.png" group-title="Rahatlatıcı",Bulutlar
 https://vod-k2307-kbp.1plus1.video/vod/1698139656/G0zhYlEw2adndWcRNpup7g/202209/6/61/61225f5f7d52d60047fc7a122a7eeb5bf3de09f51381619f31e61f87dfe1a8cc.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Kuzey Işıkları" tvg-language="English" tvg-id="Rahat_KuzeyIsiklari" tvg-logo="https://i.imgur.com/1WIEWK7.png" group-title="Rahatlatıcı",Kuzey Işıkları
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953819932c837b49397345/playlist.m3u8
+#EXTINF:-1 tvg-name="Hava" tvg-language="English" tvg-id="Rahat_Hava" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/6017815b-527d-4dfe-9019-8ebb5e940293.png" group-title="Rahatlatıcı",Hava
+https://vod-k2312-kbp.1plus1.video/vod/1698139815/ZKp2s52aE_jLVsaUbA4oXw/202303/e/e1/e1237f803dc983b1638abd0ce311db9a6efe52f2a24103de689e9fb80eec1174.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Sahiller" tvg-language="English" tvg-id="Rahat_Sahiller" tvg-logo="https://i.imgur.com/4rIbV7e.png" group-title="Rahatlatıcı",Sahiller
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95396f932c837b49397360/playlist.m3u8
+#EXTINF:-1 tvg-name="Kar" tvg-language="English" tvg-id="Rahat_Kar" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/8d49b1bd-ed3b-40de-bfc7-0565c8737691.png" group-title="Rahatlatıcı",Kar
+https://vod-k2307-kbp.1plus1.video/vod/1698140621/yDo8xnWjKS8m1Uf5y0yaDA/202211/6/6c/6c663b3d89a3f5bdbe13cf16d07512df3675ac0238068040b489745b022cd1ce.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Orman" tvg-language="English" tvg-id="Rahat_Orman" tvg-logo="https://i.imgur.com/J84tZzN.png" group-title="Rahatlatıcı",Orman
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953836932c837b49397355/playlist.m3u8
+#EXTINF:-1 tvg-name="Hayvanlar" tvg-language="English" tvg-id="Rahat_Hayvanlar" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/997e4dbd-2c7f-469d-8464-74a187575ef8.png" group-title="Rahatlatıcı",Hayvanlar
+https://vidmind-blizzard-images.s3.amazonaws.com/997e4dbd-2c7f-469d-8464-74a187575ef8.png
 
-#EXTINF:-1 tvg-name="Göl" tvg-language="English" tvg-id="Rahat_Gol" tvg-logo="https://i.imgur.com/xAkuMa4.png" group-title="Rahatlatıcı",Göl
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95385c932c837b49397356/playlist.m3u8
+#EXTINF:-1 tvg-name="Akvaryum" tvg-language="English" tvg-id="Rahat_Akvaryum" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/e06cfd66-f618-49ce-9bd0-e15421c5cd8c.png" group-title="Rahatlatıcı",Akvaryum
+https://vod-k2304-kbp.1plus1.video/vod/1698139996/XdGatTD_LOM28UvEKyaBYw/202309/b/b6/b6e3f3fe062376c0b25cce8a939e0b51ef70ebe3c873b632b339891c45b4bf35.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Dağ" tvg-language="English" tvg-id="Rahat_Dag" tvg-logo="https://i.imgur.com/2Ipv14J.png" group-title="Rahatlatıcı",Dağ
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95387b932c837b49397357/playlist.m3u8
+#EXTINF:-1 tvg-name="Kumsal" tvg-language="English" tvg-id="Rahat_Kumsal" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/607e90a5-ec3e-4e38-9797-8dfe6268b96d.png" group-title="Rahatlatıcı",Kumsal
+https://vod-k2308-kbp.1plus1.video/vod/1698140127/RWLvzgpleDb4icxrq-bpog/202307/4/48/482eb098702dfb5c27075eaed076ed4b2f3ce498f12886eb7085da247e3d3fc6.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Nehirler" tvg-language="English" tvg-id="Rahat_Nehirler" tvg-logo="https://i.imgur.com/ii2IDmA.png" group-title="Rahatlatıcı",Nehirler
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95388f932c837b4939735a/playlist.m3u8
+#EXTINF:-1 tvg-name="Dünya" tvg-language="English" tvg-id="Rahat_Dunya" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/58043d53-0955-4f90-8bfe-d215cb83879b.png" group-title="Rahatlatıcı",Dünya
+https://vod-k2304-kbp.1plus1.video/vod/1698140156/yF66gJo7WiQLRn92B2g63A/202308/5/5a/5a3077a72a5b9eca55513f9e5485a3dc192682274d198e42d33eafb6dc6c229c.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Gün Batımı" tvg-language="English" tvg-id="Rahat_GünBatimi" tvg-logo="https://i.imgur.com/K4GaruD.png" group-title="Rahatlatıcı",Gün Batımı
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538a5932c837b4939735b/playlist.m3u8
+#EXTINF:-1 tvg-name="Ninni" tvg-language="English" tvg-id="Rahat_Ninni" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/0e81ba77-73a0-4989-80b8-4dfb4018f161.png" group-title="Rahatlatıcı",Ninni
+https://vod-k2310-kbp.1plus1.video/vod/1698140256/A9n2NT3zjWXLDzEAKPWPcA/202303/3/3b/3bb6d5f09ef502f299a34bca92cf5a80832362fb725ebf2bbf422e3d761e29e7.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Tropikal" tvg-language="English" tvg-id="Rahat_Tropikal" tvg-logo="https://i.imgur.com/8F9qPbt.png" group-title="Rahatlatıcı",Tropikal
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538b9932c837b4939735c/playlist.m3u8
+#EXTINF:-1 tvg-name="Uzay" tvg-language="English" tvg-id="Rahat_Uzay" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/394d652d-8f54-44c2-b704-5a7cf2eba547.png" group-title="Rahatlatıcı",Uzay
+https://vod-k2302-kbp.1plus1.video/vod/1698140314/h4sDd5xOnop_gSnyqz2Trg/202304/4/48/4819c8f056973e97d291ec99ab4805dc3f5796eb4c4836396c58caeb7110fe04.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Şelaleler" tvg-language="English" tvg-id="Rahat_Selaleler" tvg-logo="https://i.imgur.com/i43l93j.png" group-title="Rahatlatıcı",Şelaleler
-https://95771f8415a84e31bd152fe9c6c9905c.mediatailor.us-east-1.amazonaws.com/v1/master/82ded7a88773aef3d6dd1fedce15ba2d57eb6bca/wse_powr_com_5c953910932c837b4939735d/playlist.m3u8
+#EXTINF:-1 tvg-name="Şelale" tvg-language="English" tvg-id="Rahat_Selale" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/1791ab8c-c13b-416f-b075-6e8a71c5fef5.png" group-title="Rahatlatıcı",Şelale
+https://vod-k2307-kbp.1plus1.video/vod/1698140359/hm18dF-Fv2vlDLK4HPhpxw/202304/9/98/985acdefe277ffba5632721de3cc2f79208587a3b79d2fa033b1a7515355da6e.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Şömine" tvg-language="English" tvg-id="Rahat_Sömine" tvg-logo="https://i.imgur.com/1VZZCZU.jpg" group-title="Rahatlatıcı",Şömine
-https://a.jsrdn.com/broadcast/aee08372e5/+0000/c.m3u8
-
-#EXTINF:-1 tvg-name="Akvaryum" tvg-language="English" tvg-id="Rahat_Akvaryum" tvg-logo="https://i.imgur.com/L5JDAkh.png" group-title="Rahatlatıcı",Akvaryum
-https://a.jsrdn.com/broadcast/8b43a16c1e/+0000/c.m3u8
-
-#EXTINF:-1 tvg-name="Ada" tvg-language="English" tvg-id="Rahat_Ada" tvg-logo="https://i.imgur.com/ZvF6Yin.png" group-title="Rahatlatıcı",Ada
-https://a.jsrdn.com/broadcast/41e3e6703e/+0000/c.m3u8
-
-#EXTINF:-1 tvg-name="Yağmur" tvg-language="English" tvg-id="Rahat_Yagmur" tvg-logo="https://i.imgur.com/USiqGyp.jpg" group-title="Rahatlatıcı",Yağmur
-https://a.jsrdn.com/broadcast/76381deeda/+0000/c.m3u8
-
-#EXTINF:-1 tvg-name="Doğa Manzarası" tvg-language="English" tvg-id="Rahat_DogaManzarasi" tvg-logo="https://i.imgur.com/sw1LtJ4.png" group-title="Rahatlatıcı",Doğa Manzarası
-https://dai.google.com/linear/hls/event/6RPZlzksTCyB1euPqLcBZQ/master.m3u8
+#EXTINF:-1 tvg-name="Deniz" tvg-language="English" tvg-id="Rahat_Deniz" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/36cef3c4-a1aa-4a42-98bb-c0d315373fe6.png" group-title="Rahatlatıcı",Deniz
+https://vod-k2312-kbp.1plus1.video/vod/1698140433/0BmGIhe6MQPR3o-KysO-wQ/202309/5/5d/5d92d64973b1d9a280046c50eb1390529027247504f9b155ce3810f3cb9900af.smil/playlist.m3u8
