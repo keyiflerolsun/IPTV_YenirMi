@@ -279,3 +279,6 @@ https://cdn-main.lolokoko.tv/Private.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Redlight HD" tvg-language="English" tvg-id="NSFW_Redlight_HD" tvg-logo="https://i.imgur.com/g0QF5IG.png" group-title="NSFW",Redlight HD
 https://cdn-main.lolokoko.tv/REDLIGHT.stream/chunks.m3u8
+
+#EXTINF:-1 tvg-name="OLaLa" tvg-language="English" tvg-id="NSFW_OLaLa" tvg-logo="https://i.imgur.com/adhMvTl.png" group-title="NSFW",OLaLa
+http://31.148.48.15:80/O-la-la/index.m3u8
