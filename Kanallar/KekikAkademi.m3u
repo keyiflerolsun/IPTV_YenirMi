@@ -74,10 +74,10 @@ https://tv.ensonhaber.com/tgrtbelgesel/tgrtbelgesel.m3u8
 https://dogus-live.daioncdn.net/startv/startv.m3u8
 
 #EXTINF:-1 tvg-name="ATV" tvg-language="Turkish" tvg-id="ATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Atv_logo_2010.svg/1200px-Atv_logo_2010.svg.png" group-title="Genel",ATV
-https://ecanlitv3.etvserver.com/atv.m3u8?tkn=34CqoSxELdpy1Hyu7Fg_mQ&tms=1696160326
+https://ecanlitv3.etvserver.com/atv.m3u8?tkn=Lzo4ZjOyqoywyX9n6amETw&tms=1698054168
 
 #EXTINF:-1 tvg-name="Fox TV" tvg-language="Turkish" tvg-id="Fox_TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/FOX_wordmark-red_2.svg/1200px-FOX_wordmark-red_2.svg.png" group-title="Genel",Fox TV
-https://foxtv-live-ad.ercdn.net/foxtv/playlist.m3u8?st=7DUmmaSo8Cwy-A_CkxNndg&e=1696167652
+https://foxtv-live-ad.ercdn.net/foxtv/foxtv_720p.m3u8?e=1698104479&st=rwcEgLS4Vnn2or0Wi_hdJA
 
 #EXTINF:-1 tvg-name="Show TV" tvg-language="Turkish" tvg-id="Show_TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_of_Show_TV.png" group-title="Genel",Show TV
 https://showtvdvr.blutv.com/blutv_showtv_dvr2/live_720p2000000kbps/index.m3u8
@@ -88,11 +88,12 @@ https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=51gwvn4v9td6&app=7ddc255a-ef47-
 #EXTINF:-1 tvg-name="Kanal D" tvg-language="Turkish" tvg-id="Kanal_D" tvg-logo="https://seeklogo.com/images/K/kanal-d-logo-8327051372-seeklogo.com.png" group-title="Genel",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=51gxd64vpf3c&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
 
-#EXTINF:-1 tvg-name="Teve2" tvg-language="Turkish" tvg-id="Teve_2" tvg-logo="https://s.teve2.com.tr/assets/img/teve2logo.png" group-title="Genel",Teve2
+#EXTINF:-1 tvg-name="Teve2" tvg-language="Turkish" tvg-id="Teve_2" tvg-logo="https://play-lh.googleusercontent.com/oXtnvGvKeRm3A668LZYAlm9TnrPmZWILngjmHvIOvrtajhZfwCUsJxM1_cgqaQlSaZM" group-title="Genel",Teve2
 https://demiroren.daioncdn.net/teve2/teve2.m3u8?ce=3&app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd
 
-#EXTINF:-1 tvg-name="A2" tvg-language="Turkish" tvg-id="A2" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" group-title="Genel",A2
+#EXTINF:-1 tvg-name="A2" tvg-language="Turkish" tvg-id="A2" tvg-logo="https://vavoo.to/live2/logo/938116779.png" group-title="Genel",A2
 https://trkvz.daioncdn.net/a2tv/a2tv.m3u8?ce=3&app=59363a60-be96-4f73-9eff-355d0ff2c758&st=UDPDLFKOF6bY5XRqboGzeQ&e=1698056363&gdpr=0
+
 
 
 # * » Haber « * #
