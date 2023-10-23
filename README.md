@@ -22,7 +22,7 @@
 
 ## IPTV Database
 
-- [iptv-org/database](https://github.com/iptv-org/database)
+- [iptv-org/database](https://iptv-org.github.io/)
 
 ## Hazır M3U Aynalama
 
