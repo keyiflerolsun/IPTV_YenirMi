@@ -79,10 +79,10 @@ https://kanal24.blutv.com/blutv_kanal24_live/live_720p2000000kbps/index.m3u8
 #EXTINF:-1 tvg-name="Ulusal Kanal" tvg-language="Turkish" tvg-id="Haber_UlusalKanal" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/603c1580866ac31704a99333" group-title="Haber",Ulusal Kanal 
 https://stream.guventechnology.com:19360/ulusaltv/ulusaltv.m3u8
 
-#EXTINF:-1 tvg-name="TV100" tvg-language="Turkish" tvg-id="Haber_TV100" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/60420fa5866ac32430025edd" group-title="Haber",TV100
+#EXTINF:-1 tvg-name="TV 100" tvg-language="Turkish" tvg-id="Haber_TV100" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/60420fa5866ac32430025edd" group-title="Haber",TV 100
 https://tv100.blutv.com/blutv_tv100_live/live.m3u8
 
-#EXTINF:-1 tvg-name="Tele1" tvg-language="Turkish" tvg-id="Haber_Tele1" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/60e54dfe866ac30fa0be7528" group-title="Haber",Tele1
+#EXTINF:-1 tvg-name="Tele 1" tvg-language="Turkish" tvg-id="Haber_Tele1" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/60e54dfe866ac30fa0be7528" group-title="Haber",Tele 1
 https://ythlsgo.onrender.com/channel/UCoHnRpOS5rL62jTmSDO5Npw.m3u8
 
 #EXTINF:-1 tvg-name="TGRT Haber" tvg-language="Turkish" tvg-id="Haber_TGRT" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5c63c466866ac30cbc2ad84f" group-title="Haber",TGRT Haber
@@ -90,6 +90,9 @@ https://tgrthaber.daioncdn.net/tgrthaber/tgrthaber.m3u8?app=web
 
 #EXTINF:-1 tvg-name="KRT TV" tvg-language="Turkish" tvg-id="Haber_KRTTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/61951f4c866ac31a807822e8" group-title="Haber",KRT TV
 https://krt.blutv.com/blutv_krt_live/live.m3u8
+
+#EXTINF:-1 tvg-name="Sözcü TV" tvg-language="Turkish" tvg-id="Haber_SozcuTV" tvg-logo="https://www.evrensel.net/upload/dosya/231375.jpg" group-title="Haber",Sözcü TV
+https://ythlsgo.onrender.com/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8
 
 #EXTINF:-1 tvg-name="Halk TV" tvg-language="Turkish" tvg-id="Haber_HalkTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2bfbd866ac31da06187c5" group-title="Haber",Halk TV
 https://halktv.daioncdn.net/halktv/halktv.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609&ce=3
