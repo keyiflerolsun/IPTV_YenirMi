@@ -205,17 +205,14 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa
 #EXTINF:-1 tvg-name="Tatlıses TV" tvg-language="Turkish" tvg-id="Muzik_TatlisesTV" tvg-logo="https://canlitv.center/channels/tatlises-tv.png" group-title="Müzik",Tatlıses TV
 https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Box Hits" tvg-language="English" tvg-id="Muzik_BoxHits" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4f/Box_Hits_2016.png" group-title="Müzik",Box Hits
+https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,boxhits-alldev.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/boxhits/
+
 #EXTINF:-1 tvg-name="MTV Biggest Pop" tvg-language="English" tvg-id="Muzik_MTVBiggestPop" tvg-logo="https://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/colorLogoPNG.png" group-title="Müzik",MTV Biggest Pop
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
 
 #EXTINF:-1 tvg-name="Vevo Pop" tvg-language="English" tvg-id="Muzik_VevoPop" tvg-logo="https://images.pluto.tv/channels/5d93b635b43dd1a399b39eee/colorLogoPNG.png" group-title="Müzik",Vevo Pop
 https://5f3491c50b093e00015a3c4c-samsung.eu.ssai.zype.com/5f3491c50b093e00015a3c4c_samsung_eu/manifest.m3u8
-
-#EXTINF:-1 tvg-name="Box Hits" tvg-language="English" tvg-id="Muzik_BoxHits" tvg-logo="https://tvepg.eu/img/united_kingdom/logo/box_hits.png" group-title="Müzik",Box Hits
-https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,boxhits-alldev.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/boxhits/
-
-#EXTINF:-1 tvg-name="Carolina TV" tvg-language="English" tvg-id="Muzik_CarolinaTV" tvg-logo="https://i.imgur.com/eaHPbqd.png" group-title="Müzik",Carolina TV
-https://unlimited1-us.dps.live/carolinatv/carolinatv.smil/playlist.m3u8
 
 
 
