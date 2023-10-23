@@ -211,11 +211,11 @@ https://unlimited1-us.dps.live/carolinatv/carolinatv.smil/playlist.m3u8
 
 
 # * » Rahatlatıcı « * #
-#EXTINF:-1 tvg-name="Ateş Başı" tvg-language="English" tvg-id="Rahat_AtesBasi" tvg-logo="https://rangleio.ghost.io/content/images/2019/09/fireside_desktop_16_9.png" group-title="Rahatlatıcı",Ateş Başı
-https://fireside.localnowlive.com/v1/master/385c85a93929f94966d0fb186fc33b431e6f1eb9/DSP_5fdd393a31300f16077a1692_fireside/playlist.m3u8
+#EXTINF:-1 tvg-name="Ateş Başı" tvg-language="English" tvg-id="Rahat_AtesBasi" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/b524a99a-92d1-49a4-bb81-fda99617db2c.png" group-title="Rahatlatıcı",Ateş Başı
+https://vod-k2304-kbp.1plus1.video/vod/1698139341/7t1qyi7leFKrEc-I6SfnLQ/202303/8/8f/8f22d6a97987d27d61d4f92d4092e2aeb8285393b42c15fa35767b62bd274cdb.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Hayvanlar" tvg-language="English" tvg-id="Rahat_Hayvanlar" tvg-logo="https://i.imgur.com/YbD8uHc.png" group-title="Rahatlatıcı",Hayvanlar
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9537b8932c837b49397343/playlist.m3u8
+#EXTINF:-1 tvg-name="Bulutlar" tvg-language="English" tvg-id="Rahat_Bulutlar" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/a40024aa-80af-4119-ab46-581fb2bafaa2.png" group-title="Rahatlatıcı",Bulutlar
+https://vod-k2307-kbp.1plus1.video/vod/1698139656/G0zhYlEw2adndWcRNpup7g/202209/6/61/61225f5f7d52d60047fc7a122a7eeb5bf3de09f51381619f31e61f87dfe1a8cc.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Kuzey Işıkları" tvg-language="English" tvg-id="Rahat_KuzeyIsiklari" tvg-logo="https://i.imgur.com/1WIEWK7.png" group-title="Rahatlatıcı",Kuzey Işıkları
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953819932c837b49397345/playlist.m3u8
