@@ -37,13 +37,13 @@ https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-name="TRT Avaz" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_Avaz" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7027789.png" group-title="TRT",TRT Avaz
 https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:-1 tvg-name="TRT Kürdi" tvg-language="Kurdish" tvg-country="KU" tvg-id="TRT_Kurdi" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/14812637.png" group-title="TRT",TRT Kürdi
+#EXTINF:-1 tvg-name="TRT Kürdi" tvg-language="Kurdish" tvg-country="KR" tvg-id="TRT_Kurdi" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/14812637.png" group-title="TRT",TRT Kürdi
 https://tv-trtkurdi.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:-1 tvg-name="TRT Arabi" tvg-language="Arabic" tvg-country="AR" tvg-id="TRT_Arabi" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7027905.png" group-title="TRT",TRT Arabi
+#EXTINF:-1 tvg-name="TRT Arabi" tvg-language="Arabic" tvg-country="SA" tvg-id="TRT_Arabi" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7027905.png" group-title="TRT",TRT Arabi
 https://tv-trtarabi.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:-1 tvg-name="TRT World" tvg-language="English" tvg-country="EN" tvg-id="TRT_World" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7834584.png" group-title="TRT",TRT World
+#EXTINF:-1 tvg-name="TRT World" tvg-language="English" tvg-country="UK" tvg-id="TRT_World" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7834584.png" group-title="TRT",TRT World
 https://tv-trtworld.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-name="TRT Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_Spor" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png" group-title="TRT",TRT Spor
@@ -211,77 +211,77 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa
 #EXTINF:-1 tvg-name="Tatlıses TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Muzik_TatlisesTV" tvg-logo="https://canlitv.center/channels/tatlises-tv.png" group-title="Müzik",Tatlıses TV
 https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Box Hits" tvg-language="English" tvg-country="EN" tvg-id="Muzik_BoxHits" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4f/Box_Hits_2016.png" group-title="Müzik",Box Hits
+#EXTINF:-1 tvg-name="Box Hits" tvg-language="English" tvg-country="UK" tvg-id="Muzik_BoxHits" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4f/Box_Hits_2016.png" group-title="Müzik",Box Hits
 https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,boxhits-alldev.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/boxhits/
 
-#EXTINF:-1 tvg-name="MTV Biggest Pop" tvg-language="English" tvg-country="EN" tvg-id="Muzik_MTVBiggestPop" tvg-logo="https://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/colorLogoPNG.png" group-title="Müzik",MTV Biggest Pop
+#EXTINF:-1 tvg-name="MTV Biggest Pop" tvg-language="English" tvg-country="UK" tvg-id="Muzik_MTVBiggestPop" tvg-logo="https://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/colorLogoPNG.png" group-title="Müzik",MTV Biggest Pop
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
 
-#EXTINF:-1 tvg-name="Vevo Pop" tvg-language="English" tvg-country="EN" tvg-id="Muzik_VevoPop" tvg-logo="https://images.pluto.tv/channels/5d93b635b43dd1a399b39eee/colorLogoPNG.png" group-title="Müzik",Vevo Pop
+#EXTINF:-1 tvg-name="Vevo Pop" tvg-language="English" tvg-country="UK" tvg-id="Muzik_VevoPop" tvg-logo="https://images.pluto.tv/channels/5d93b635b43dd1a399b39eee/colorLogoPNG.png" group-title="Müzik",Vevo Pop
 https://5f3491c50b093e00015a3c4c-samsung.eu.ssai.zype.com/5f3491c50b093e00015a3c4c_samsung_eu/manifest.m3u8
 
 
 
 # * » Rahatlatıcı « * #
-#EXTINF:-1 tvg-name="Ateş Başı" tvg-language="English" tvg-country="EN" tvg-id="Rahat_AtesBasi" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/b524a99a-92d1-49a4-bb81-fda99617db2c.png" group-title="Rahatlatıcı",Ateş Başı
+#EXTINF:-1 tvg-name="Ateş Başı" tvg-language="English" tvg-country="UK" tvg-id="Rahat_AtesBasi" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/b524a99a-92d1-49a4-bb81-fda99617db2c.png" group-title="Rahatlatıcı",Ateş Başı
 https://vod-k2304-kbp.1plus1.video/vod/1698139341/7t1qyi7leFKrEc-I6SfnLQ/202303/8/8f/8f22d6a97987d27d61d4f92d4092e2aeb8285393b42c15fa35767b62bd274cdb.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Bulutlar" tvg-language="English" tvg-country="EN" tvg-id="Rahat_Bulutlar" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/a40024aa-80af-4119-ab46-581fb2bafaa2.png" group-title="Rahatlatıcı",Bulutlar
+#EXTINF:-1 tvg-name="Bulutlar" tvg-language="English" tvg-country="UK" tvg-id="Rahat_Bulutlar" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/a40024aa-80af-4119-ab46-581fb2bafaa2.png" group-title="Rahatlatıcı",Bulutlar
 https://vod-k2307-kbp.1plus1.video/vod/1698139656/G0zhYlEw2adndWcRNpup7g/202209/6/61/61225f5f7d52d60047fc7a122a7eeb5bf3de09f51381619f31e61f87dfe1a8cc.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Hava" tvg-language="English" tvg-country="EN" tvg-id="Rahat_Hava" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/6017815b-527d-4dfe-9019-8ebb5e940293.png" group-title="Rahatlatıcı",Hava
+#EXTINF:-1 tvg-name="Hava" tvg-language="English" tvg-country="UK" tvg-id="Rahat_Hava" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/6017815b-527d-4dfe-9019-8ebb5e940293.png" group-title="Rahatlatıcı",Hava
 https://vod-k2312-kbp.1plus1.video/vod/1698139815/ZKp2s52aE_jLVsaUbA4oXw/202303/e/e1/e1237f803dc983b1638abd0ce311db9a6efe52f2a24103de689e9fb80eec1174.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Kar" tvg-language="English" tvg-country="EN" tvg-id="Rahat_Kar" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/8d49b1bd-ed3b-40de-bfc7-0565c8737691.png" group-title="Rahatlatıcı",Kar
+#EXTINF:-1 tvg-name="Kar" tvg-language="English" tvg-country="UK" tvg-id="Rahat_Kar" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/8d49b1bd-ed3b-40de-bfc7-0565c8737691.png" group-title="Rahatlatıcı",Kar
 https://vod-k2307-kbp.1plus1.video/vod/1698140621/yDo8xnWjKS8m1Uf5y0yaDA/202211/6/6c/6c663b3d89a3f5bdbe13cf16d07512df3675ac0238068040b489745b022cd1ce.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Hayvanlar" tvg-language="English" tvg-country="EN" tvg-id="Rahat_Hayvanlar" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/997e4dbd-2c7f-469d-8464-74a187575ef8.png" group-title="Rahatlatıcı",Hayvanlar
+#EXTINF:-1 tvg-name="Hayvanlar" tvg-language="English" tvg-country="UK" tvg-id="Rahat_Hayvanlar" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/997e4dbd-2c7f-469d-8464-74a187575ef8.png" group-title="Rahatlatıcı",Hayvanlar
 https://vod-k2311-kbp.1plus1.video/vod/1698144594/cGsqypFLTyLM6vYakL4s-w/202310/a/ac/acf05c246f3eaa7944b3a95549d6d8f049eafc044ee29bae4ef6bf43269b5928.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Akvaryum" tvg-language="English" tvg-country="EN" tvg-id="Rahat_Akvaryum" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/e06cfd66-f618-49ce-9bd0-e15421c5cd8c.png" group-title="Rahatlatıcı",Akvaryum
+#EXTINF:-1 tvg-name="Akvaryum" tvg-language="English" tvg-country="UK" tvg-id="Rahat_Akvaryum" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/e06cfd66-f618-49ce-9bd0-e15421c5cd8c.png" group-title="Rahatlatıcı",Akvaryum
 https://vod-k2304-kbp.1plus1.video/vod/1698139996/XdGatTD_LOM28UvEKyaBYw/202309/b/b6/b6e3f3fe062376c0b25cce8a939e0b51ef70ebe3c873b632b339891c45b4bf35.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Kumsal" tvg-language="English" tvg-country="EN" tvg-id="Rahat_Kumsal" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/607e90a5-ec3e-4e38-9797-8dfe6268b96d.png" group-title="Rahatlatıcı",Kumsal
+#EXTINF:-1 tvg-name="Kumsal" tvg-language="English" tvg-country="UK" tvg-id="Rahat_Kumsal" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/607e90a5-ec3e-4e38-9797-8dfe6268b96d.png" group-title="Rahatlatıcı",Kumsal
 https://vod-k2308-kbp.1plus1.video/vod/1698140127/RWLvzgpleDb4icxrq-bpog/202307/4/48/482eb098702dfb5c27075eaed076ed4b2f3ce498f12886eb7085da247e3d3fc6.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Dünya" tvg-language="English" tvg-country="EN" tvg-id="Rahat_Dunya" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/58043d53-0955-4f90-8bfe-d215cb83879b.png" group-title="Rahatlatıcı",Dünya
+#EXTINF:-1 tvg-name="Dünya" tvg-language="English" tvg-country="UK" tvg-id="Rahat_Dunya" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/58043d53-0955-4f90-8bfe-d215cb83879b.png" group-title="Rahatlatıcı",Dünya
 https://vod-k2304-kbp.1plus1.video/vod/1698140156/yF66gJo7WiQLRn92B2g63A/202308/5/5a/5a3077a72a5b9eca55513f9e5485a3dc192682274d198e42d33eafb6dc6c229c.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Ninni" tvg-language="English" tvg-country="EN" tvg-id="Rahat_Ninni" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/0e81ba77-73a0-4989-80b8-4dfb4018f161.png" group-title="Rahatlatıcı",Ninni
+#EXTINF:-1 tvg-name="Ninni" tvg-language="English" tvg-country="UK" tvg-id="Rahat_Ninni" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/0e81ba77-73a0-4989-80b8-4dfb4018f161.png" group-title="Rahatlatıcı",Ninni
 https://vod-k2310-kbp.1plus1.video/vod/1698140256/A9n2NT3zjWXLDzEAKPWPcA/202303/3/3b/3bb6d5f09ef502f299a34bca92cf5a80832362fb725ebf2bbf422e3d761e29e7.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Uzay" tvg-language="English" tvg-country="EN" tvg-id="Rahat_Uzay" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/394d652d-8f54-44c2-b704-5a7cf2eba547.png" group-title="Rahatlatıcı",Uzay
+#EXTINF:-1 tvg-name="Uzay" tvg-language="English" tvg-country="UK" tvg-id="Rahat_Uzay" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/394d652d-8f54-44c2-b704-5a7cf2eba547.png" group-title="Rahatlatıcı",Uzay
 https://vod-k2302-kbp.1plus1.video/vod/1698140314/h4sDd5xOnop_gSnyqz2Trg/202304/4/48/4819c8f056973e97d291ec99ab4805dc3f5796eb4c4836396c58caeb7110fe04.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Şelale" tvg-language="English" tvg-country="EN" tvg-id="Rahat_Selale" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/1791ab8c-c13b-416f-b075-6e8a71c5fef5.png" group-title="Rahatlatıcı",Şelale
+#EXTINF:-1 tvg-name="Şelale" tvg-language="English" tvg-country="UK" tvg-id="Rahat_Selale" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/1791ab8c-c13b-416f-b075-6e8a71c5fef5.png" group-title="Rahatlatıcı",Şelale
 https://vod-k2307-kbp.1plus1.video/vod/1698140359/hm18dF-Fv2vlDLK4HPhpxw/202304/9/98/985acdefe277ffba5632721de3cc2f79208587a3b79d2fa033b1a7515355da6e.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Deniz" tvg-language="English" tvg-country="EN" tvg-id="Rahat_Deniz" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/36cef3c4-a1aa-4a42-98bb-c0d315373fe6.png" group-title="Rahatlatıcı",Deniz
+#EXTINF:-1 tvg-name="Deniz" tvg-language="English" tvg-country="UK" tvg-id="Rahat_Deniz" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/36cef3c4-a1aa-4a42-98bb-c0d315373fe6.png" group-title="Rahatlatıcı",Deniz
 https://vod-k2312-kbp.1plus1.video/vod/1698140433/0BmGIhe6MQPR3o-KysO-wQ/202309/5/5d/5d92d64973b1d9a280046c50eb1390529027247504f9b155ce3810f3cb9900af.smil/playlist.m3u8
 
 
 
 # * » NSFW « * #
-#EXTINF:-1 tvg-name="BRAZZERS TV" tvg-language="English" tvg-country="EN" tvg-id="NSFW_BRAZZERSTV" tvg-logo="https://i.imgur.com/95nP0Pb.png" group-title="NSFW",BRAZZERS TV
+#EXTINF:-1 tvg-name="BRAZZERS TV" tvg-language="English" tvg-country="UK" tvg-id="NSFW_BRAZZERSTV" tvg-logo="https://i.imgur.com/95nP0Pb.png" group-title="NSFW",BRAZZERS TV
 https://cdn-main.lolokoko.tv/BRAZZERS.stream/chunks.m3u8
 
-#EXTINF:-1 tvg-name="Dorcel TV" tvg-language="English" tvg-country="EN" tvg-id="NSFW_DorcelTV" tvg-logo="https://i.imgur.com/RkzyjEd.png" group-title="NSFW",Dorcel TV
+#EXTINF:-1 tvg-name="Dorcel TV" tvg-language="English" tvg-country="UK" tvg-id="NSFW_DorcelTV" tvg-logo="https://i.imgur.com/RkzyjEd.png" group-title="NSFW",Dorcel TV
 https://cdn-main.lolokoko.tv/DorcelTV.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-name="EroX" tvg-language="English" tvg-country="EN" tvg-id="NSFW_EroX" tvg-logo="https://i.imgur.com/B9Fz9Yr.png" group-title="NSFW",EroX
+#EXTINF:-1 tvg-name="EroX" tvg-language="English" tvg-country="UK" tvg-id="NSFW_EroX" tvg-logo="https://i.imgur.com/B9Fz9Yr.png" group-title="NSFW",EroX
 https://cdn-main.lolokoko.tv/Eroxx.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-name="EroXXX" tvg-language="English" tvg-country="EN" tvg-id="NSFW_EroXXX" tvg-logo="https://i.imgur.com/sc11PtR.png" group-title="NSFW",EroXXX
+#EXTINF:-1 tvg-name="EroXXX" tvg-language="English" tvg-country="UK" tvg-id="NSFW_EroXXX" tvg-logo="https://i.imgur.com/sc11PtR.png" group-title="NSFW",EroXXX
 https://cdn-main.lolokoko.tv/Eroxxx.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Hustler" tvg-language="English" tvg-country="EN" tvg-id="NSFW_Hustler" tvg-logo="https://i.imgur.com/41Ej2io.png" group-title="NSFW",Hustler
+#EXTINF:-1 tvg-name="Hustler" tvg-language="English" tvg-country="UK" tvg-id="NSFW_Hustler" tvg-logo="https://i.imgur.com/41Ej2io.png" group-title="NSFW",Hustler
 https://cdn-main.lolokoko.tv/HUSTLER.stream/chunks.m3u8
 
-#EXTINF:-1 tvg-name="Private TV HD" tvg-language="English" tvg-country="EN" tvg-id="NSFW_PrivateTVHD" tvg-logo="https://i.imgur.com/89E8Ev2.png" group-title="NSFW",Private TV HD
+#EXTINF:-1 tvg-name="Private TV HD" tvg-language="English" tvg-country="UK" tvg-id="NSFW_PrivateTVHD" tvg-logo="https://i.imgur.com/89E8Ev2.png" group-title="NSFW",Private TV HD
 https://cdn-main.lolokoko.tv/Private.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Redlight HD" tvg-language="English" tvg-country="EN" tvg-id="NSFW_RedlightHD" tvg-logo="https://i.imgur.com/g0QF5IG.png" group-title="NSFW",Redlight HD
+#EXTINF:-1 tvg-name="Redlight HD" tvg-language="English" tvg-country="UK" tvg-id="NSFW_RedlightHD" tvg-logo="https://i.imgur.com/g0QF5IG.png" group-title="NSFW",Redlight HD
 https://cdn-main.lolokoko.tv/REDLIGHT.stream/chunks.m3u8
 
-#EXTINF:-1 tvg-name="OLaLa" tvg-language="English" tvg-country="EN" tvg-id="NSFW_OLaLa" tvg-logo="https://i.imgur.com/adhMvTl.png" group-title="NSFW",OLaLa
+#EXTINF:-1 tvg-name="OLaLa" tvg-language="English" tvg-country="UK" tvg-id="NSFW_OLaLa" tvg-logo="https://i.imgur.com/adhMvTl.png" group-title="NSFW",OLaLa
 http://31.148.48.15:80/O-la-la/index.m3u8
