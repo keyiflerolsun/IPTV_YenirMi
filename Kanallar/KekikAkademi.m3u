@@ -121,6 +121,9 @@ https://tv.ensonhaber.com/tgrtbelgesel/tgrtbelgesel.m3u8
 #EXTINF:-1 tvg-name="Star TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_StarTV" tvg-logo="https://www.ecanlitvizle.video/logo/star-tv-izle-1.png" group-title="Genel",Star TV
 https://dogus-live.daioncdn.net/startv/startv.m3u8
 
+#EXTINF:-1 tvg-name="ATV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_ATV" tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="Genel",ATV
+https://stream2.filbox.com.tr/live/7d6b0f92687edd8eb008a8b4f223f1d0/8/index.m3u8
+
 #EXTINF:-1 tvg-name="Fox TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_FoxTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/FOX_wordmark-red_2.svg/1200px-FOX_wordmark-red_2.svg.png" group-title="Genel",Fox TV
 https://foxtv.blutv.com/blutv_foxtv_live/live.m3u8
 
