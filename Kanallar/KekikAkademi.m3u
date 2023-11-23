@@ -268,14 +268,23 @@ https://vod-k2312-kbp.1plus1.video/vod/1698140433/0BmGIhe6MQPR3o-KysO-wQ/202309/
 
 
 # * » Spor « * #
+#EXTINF:-1 tvg-name="TRT Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TRT" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png" group-title="Spor",TRT Spor
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:-1 tvg-name="Euro Sport" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Euro_Sport" tvg-logo="https://w7.pngwing.com/pngs/29/138/png-transparent-eurosport-1-eurosport-2-television-logo-euro-miscellaneous-television-blue.png" group-title="Spor",Euro Sport
+https://eurosport1.blutv.com/blutv_eurosport1/eurosport1_hd.smil/index.m3u8
+
+#EXTINF:-1 tvg-name="Tivibu Spor 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Tivibu_Spor_1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/qadnsi1642604437.png" group-title="Spor",Tivibu Spor 1
+https://tre.a4411eec34a3.shop/p/izlemac703.sbs/606/e.2e00f5c6226d.shop/chunklist_hd.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36&Referer=https://ifra.strmrdrfronc.click/
+
+#EXTINF:-1 tvg-name="Spor Smart" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Spor_Smart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fd/Smart-spor-hd.png" group-title="Spor",Spor Smart
+https://sette.tell16060populate.click/i/2NpL75gXPU5tnnTjc5F1n/102/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0&Referer=https://google.com/
+
 #EXTINF:-1 tvg-name="S SPORT" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_S_SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Ssport-plus-.png" group-title="Spor",S SPORT
 https://cinque.a4411eec34a3.shop/p/izlemac703.sbs/3450/f.2e00f5c6226d.shop/chunklist_hd.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36&Referer=https://ifra.strmrdrfronc.click/
 
 #EXTINF:-1 tvg-name="beIN SPORTS Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beIN_SPORTS_Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Bein_sport_logo.svg/640px-Bein_sport_logo.svg.png" group-title="Spor",beIN SPORTS Haber
 https://uno.a4411eec34a3.shop/i/mactanmaca115.shop/1/playlist.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36&Referer=https://ic.strmrdrfronc.click/
-
-#EXTINF:-1 tvg-name="Tivibu Spor 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Tivibu_Spor_1" tvg-logo="https://i.pinimg.com/originals/6c/16/90/6c169064ba0695f9a79ac4a7c513ad83.png" group-title="Spor",Tivibu Spor 1
-https://tre.a4411eec34a3.shop/p/izlemac703.sbs/606/e.2e00f5c6226d.shop/chunklist_hd.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36&Referer=https://ifra.strmrdrfronc.click/
 
 
 
