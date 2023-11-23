@@ -150,6 +150,30 @@ https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
 
 
+# * » Spor « * #
+#EXTINF:-1 tvg-name="TRT Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TRT" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png" group-title="Spor",TRT Spor
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:-1 tvg-name="TRT Spor Yıldız" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporYildiz" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11290418.png" group-title="Spor",TRT Spor Yıldız
+https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:-1 tvg-name="Euro Sport" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Eurosport_logo_%282001-2011%29.svg/640px-Eurosport_logo_%282001-2011%29.svg.png" group-title="Spor",Euro Sport
+https://eurosport1.blutv.com/blutv_eurosport1/eurosport1_hd.smil/index.m3u8
+
+#EXTINF:-1 tvg-name="Tivibu Spor 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/qadnsi1642604437.png" group-title="Spor",Tivibu Spor 1
+https://tre.a4411eec34a3.shop/p/izlemac703.sbs/606/e.2e00f5c6226d.shop/chunklist_hd.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36&Referer=https://ifra.strmrdrfronc.click/
+
+#EXTINF:-1 tvg-name="Spor Smart" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporSmart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fd/Smart-spor-hd.png" group-title="Spor",Spor Smart
+https://sette.tell16060populate.click/i/2NpL75gXPU5tnnTjc5F1n/102/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0&Referer=https://google.com/
+
+#EXTINF:-1 tvg-name="S SPORT" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Ssport-plus-.png" group-title="Spor",S SPORT
+https://cinque.a4411eec34a3.shop/p/izlemac703.sbs/3450/f.2e00f5c6226d.shop/chunklist_hd.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36&Referer=https://ifra.strmrdrfronc.click/
+
+#EXTINF:-1 tvg-name="beIN SPORTS Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSHaber" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Bein_sport_logo.svg/640px-Bein_sport_logo.svg.png" group-title="Spor",beIN SPORTS Haber
+https://uno.a4411eec34a3.shop/i/mactanmaca115.shop/1/playlist.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36&Referer=https://ic.strmrdrfronc.click/
+
+
+
 # * » Müzik « * #
 #EXTINF:-1 tvg-name="TRT Müzik" tvg-language="Turkish" tvg-country="TR" tvg-id="Muzik_TRT" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/12382043.png" group-title="Müzik",TRT Müzik
 https://tv-trtmuzik.medya.trt.com.tr/master_720.m3u8
@@ -255,30 +279,6 @@ https://grandcentral.1plus1.video/vod/partner/viasat/202304/985acdefe277ffba5632
 
 #EXTINF:-1 tvg-name="Deniz" tvg-language="Russian" tvg-country="RU" tvg-id="Rahat_Deniz" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/36cef3c4-a1aa-4a42-98bb-c0d315373fe6.png" group-title="Rahatlatıcı",Deniz
 https://grandcentral.1plus1.video/vod/partner/viasat/202309/5d92d64973b1d9a280046c50eb1390529027247504f9b155ce3810f3cb9900af/e671942cd8b66f57c528afa77ac8bb47/1700827296?return_http=true
-
-
-
-# * » Spor « * #
-#EXTINF:-1 tvg-name="TRT Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TRT" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png" group-title="Spor",TRT Spor
-https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
-
-#EXTINF:-1 tvg-name="TRT Spor Yıldız" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporYildiz" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11290418.png" group-title="Spor",TRT Spor Yıldız
-https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8
-
-#EXTINF:-1 tvg-name="Euro Sport" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Eurosport_logo_%282001-2011%29.svg/640px-Eurosport_logo_%282001-2011%29.svg.png" group-title="Spor",Euro Sport
-https://eurosport1.blutv.com/blutv_eurosport1/eurosport1_hd.smil/index.m3u8
-
-#EXTINF:-1 tvg-name="Tivibu Spor 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/qadnsi1642604437.png" group-title="Spor",Tivibu Spor 1
-https://tre.a4411eec34a3.shop/p/izlemac703.sbs/606/e.2e00f5c6226d.shop/chunklist_hd.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36&Referer=https://ifra.strmrdrfronc.click/
-
-#EXTINF:-1 tvg-name="Spor Smart" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporSmart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fd/Smart-spor-hd.png" group-title="Spor",Spor Smart
-https://sette.tell16060populate.click/i/2NpL75gXPU5tnnTjc5F1n/102/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0&Referer=https://google.com/
-
-#EXTINF:-1 tvg-name="S SPORT" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Ssport-plus-.png" group-title="Spor",S SPORT
-https://cinque.a4411eec34a3.shop/p/izlemac703.sbs/3450/f.2e00f5c6226d.shop/chunklist_hd.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36&Referer=https://ifra.strmrdrfronc.click/
-
-#EXTINF:-1 tvg-name="beIN SPORTS Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSHaber" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Bein_sport_logo.svg/640px-Bein_sport_logo.svg.png" group-title="Spor",beIN SPORTS Haber
-https://uno.a4411eec34a3.shop/i/mactanmaca115.shop/1/playlist.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36&Referer=https://ic.strmrdrfronc.click/
 
 
 
