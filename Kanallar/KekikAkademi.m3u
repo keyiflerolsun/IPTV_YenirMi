@@ -178,6 +178,9 @@ https://sette.tell16060populate.click/i/2NpL75gXPU5tnnTjc5F1n/102/playlist.m3u8|
 #EXTINF:-1 tvg-name="S SPORT" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Ssport-plus-.png" group-title="Spor",S SPORT
 https://corsproxy.org/?https://cakal.click/yayinss.m3u8
 
+#EXTINF:-1 tvg-name="S SPORT 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Ssport-plus-.png" group-title="Spor",S SPORT 2
+https://corsproxy.org/?https://cakal.click/yayinss2.m3u8
+
 #EXTINF:-1 tvg-name="beIN SPORTS" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Bein_sport_logo.svg/640px-Bein_sport_logo.svg.png" group-title="Spor",beIN SPORTS
 https://corsproxy.org/?https://cakal.click/yayin1.m3u8|User-Agent=Lavf53.32.100
 
