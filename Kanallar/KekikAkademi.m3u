@@ -157,6 +157,9 @@ https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-name="TRT Spor Yıldız" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporYildiz" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11290418.png" group-title="Spor",TRT Spor Yıldız
 https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8
 
+#EXTINF:-1 tvg-name="beIN SPORTS Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSHaber" tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-haber-logo.jpg.webp" group-title="Spor",beIN SPORTS Haber
+https://ythlsgo.onrender.com/video/OypUpUTYAHI.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36
+
 #EXTINF:-1 tvg-name="Euro Sport" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Eurosport_logo_%282001-2011%29.svg/640px-Eurosport_logo_%282001-2011%29.svg.png" group-title="Spor",Euro Sport
 https://eurosport1.blutv.com/blutv_eurosport1/eurosport1_hd.smil/index.m3u8
 
@@ -189,9 +192,6 @@ https://corsproxy.org/?https://cakal.click/yayinb2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS Max" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax" tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-max-1-logo.png" group-title="Spor",beIN SPORTS Max
 https://corsproxy.org/?https://cakal.click/yayinbm1.m3u8|User-Agent=Lavf53.32.100
-
-#EXTINF:-1 tvg-name="beIN SPORTS Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSHaber" tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-haber-logo.jpg.webp" group-title="Spor",beIN SPORTS Haber
-https://uno.a4411eec34a3.shop/i/mactanmaca115.shop/1/playlist.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36&Referer=https://ic.strmrdrfronc.click/
 
 
 
