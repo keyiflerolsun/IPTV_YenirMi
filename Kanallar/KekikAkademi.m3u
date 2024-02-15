@@ -325,17 +325,17 @@ https://grandcentral.1plus1.video/vod/partner/viasat/202309/5d92d64973b1d9a28004
 
 
 # * » NSFW « * #
-#EXTINF:-1 tvg-name="BRAZZERS TV" tvg-language="English" tvg-country="USA" tvg-id="NSFW_BRAZZERSTV" tvg-logo="https://i.imgur.com/95nP0Pb.png" group-title="NSFW",BRAZZERS TV
-https://cdn-main.lolokoko.tv/BRAZZERS.stream/chunks.m3u8
-
-#EXTINF:-1 tvg-name="Dorcel TV" tvg-language="English" tvg-country="USA" tvg-id="NSFW_DorcelTV" tvg-logo="https://i.imgur.com/RkzyjEd.png" group-title="NSFW",Dorcel TV
-https://cdn-main.lolokoko.tv/DorcelTV.stream/playlist.m3u8
-
 #EXTINF:-1 tvg-name="EroX" tvg-language="English" tvg-country="USA" tvg-id="NSFW_EroX" tvg-logo="https://i.imgur.com/B9Fz9Yr.png" group-title="NSFW",EroX
 https://cdn-main.lolokoko.tv/Eroxx.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="EroXXX" tvg-language="English" tvg-country="USA" tvg-id="NSFW_EroXXX" tvg-logo="https://i.imgur.com/sc11PtR.png" group-title="NSFW",EroXXX
 https://cdn-main.lolokoko.tv/Eroxxx.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="BRAZZERS TV" tvg-language="English" tvg-country="USA" tvg-id="NSFW_BRAZZERSTV" tvg-logo="https://i.imgur.com/95nP0Pb.png" group-title="NSFW",BRAZZERS TV
+https://cdn-main.lolokoko.tv/BRAZZERS.stream/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Dorcel TV" tvg-language="English" tvg-country="USA" tvg-id="NSFW_DorcelTV" tvg-logo="https://i.imgur.com/RkzyjEd.png" group-title="NSFW",Dorcel TV
+https://cdn-main.lolokoko.tv/DorcelTV.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Hustler" tvg-language="English" tvg-country="USA" tvg-id="NSFW_Hustler" tvg-logo="https://i.imgur.com/41Ej2io.png" group-title="NSFW",Hustler
 https://cdn-main.lolokoko.tv/HUSTLER.stream/chunks.m3u8
@@ -345,6 +345,9 @@ https://cdn-main.lolokoko.tv/Private.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Redlight HD" tvg-language="English" tvg-country="USA" tvg-id="NSFW_RedlightHD" tvg-logo="https://i.imgur.com/g0QF5IG.png" group-title="NSFW",Redlight HD
 https://cdn-main.lolokoko.tv/REDLIGHT.stream/chunks.m3u8
+
+#EXTINF:-1 tvg-name="XXL" tvg-language="English" tvg-country="USA" tvg-id="NSFW_XXL" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/fc/XXL_AB_logo.svg/langfr-1280px-XXL_AB_logo.svg.png" group-title="NSFW",XXL
+https://cdn-main.lolokoko.tv/xxl.stream/chunks.m3u8
 
 #EXTINF:-1 tvg-name="OLaLa" tvg-language="English" tvg-country="USA" tvg-id="NSFW_OLaLa" tvg-logo="https://i.imgur.com/adhMvTl.png" group-title="NSFW",OLaLa
 http://31.148.48.15:80/O-la-la/index.m3u8
