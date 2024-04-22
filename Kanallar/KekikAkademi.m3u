@@ -200,7 +200,7 @@ https://owifavo5.rocketcdn.com/gstv/gstv.smil/master.m3u8
 http://stream.tvcdn.net/spor/fb-tv.m3u8
 
 #EXTINF:-1 tvg-name="Tivibu Spor 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/qadnsi1642604437.png" group-title="Spor",Tivibu Spor 1
-https://l.trgoals822.xyz/yayint1.m3u8
+http://stream.tvcdn.net/spor/tivibu-spor.m3u8
 
 #EXTINF:-1 tvg-name="Tivibu Spor 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor2" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/kuasdm1642604455.png" group-title="Spor",Tivibu Spor 2
 https://l.trgoals822.xyz/yayint2.m3u8
@@ -291,6 +291,30 @@ http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
 
 #EXTINF:-1 tvg-name="Vevo Pop" tvg-language="English" tvg-country="USA" tvg-id="Muzik_VevoPop" tvg-logo="https://images.pluto.tv/channels/5d93b635b43dd1a399b39eee/colorLogoPNG.png" group-title="Müzik",Vevo Pop
 https://5f3491c50b093e00015a3c4c-samsung.eu.ssai.zype.com/5f3491c50b093e00015a3c4c_samsung_eu/manifest.m3u8
+
+
+
+# * » İçerik « * #
+#EXTINF:-1 tvg-name="Cennet Mahallesi" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CennetMahallesi" tvg-logo="http://assets.tvcdn.net/c8b09a02-18e2-4952-8ba3-5a5f8b2c5f2e.png" group-title="İçerik",Cennet Mahallesi
+http://stream.tvcdn.net/dizi-youtube/cennet-mahallesi.m3u8
+
+#EXTINF:-1 tvg-name="Behzat Ç." tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_BehzatC" tvg-logo="http://assets.tvcdn.net/842192cc-760c-41d6-ba34-78cf50bb6d14.png" group-title="İçerik",Behzat Ç.
+http://stream.tvcdn.net/dizi-youtube/behzat-c.m3u8
+
+#EXTINF:-1 tvg-name="Çok Güzel Hareketler Bunlar" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CGBH" tvg-logo="http://assets.tvcdn.net/e83f6574-4011-4247-b034-c5b4b2f02f71.png" group-title="İçerik",Çok Güzel Hareketler Bunlar
+http://stream.tvcdn.net/dizi-youtube/cghb.m3u8
+
+#EXTINF:-1 tvg-name="Zeki & Metin" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_ZekiMetin" tvg-logo="http://assets.tvcdn.net/07d81c3b-e207-4558-b7c5-e38280f06bf0.png" group-title="İçerik",Zeki & Metin
+http://stream.tvcdn.net/diger-eglence/zeki-metin.m3u8
+
+#EXTINF:-1 tvg-name="Şaban" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_Saban" tvg-logo="http://assets.tvcdn.net/6ec6e894-25f3-4432-8cb3-dbd2ff783842.png" group-title="İçerik",Şaban
+http://stream.tvcdn.net/diger-eglence/saban-tv.m3u8
+
+#EXTINF:-1 tvg-name="Malkoçoğlu" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_Malkocoglu" tvg-logo="http://assets.tvcdn.net/6241e642-d1a3-496f-97d5-3850c31b93d3.png" group-title="İçerik",Malkoçoğlu
+http://stream.tvcdn.net/diger-eglence/malkocoglu-murat-film.m3u8
+
+#EXTINF:-1 tvg-name="Yansıma Sineması" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_YansimaSinemasi" tvg-logo="http://assets.tvcdn.net/dbdb9b76-d4f4-47b4-a342-54bee0025b1c.jpeg" group-title="İçerik",Yansıma Sineması
+http://stream.tvcdn.net/diger-eglence/yansima-sinema-tv.m3u8
 
 
 
