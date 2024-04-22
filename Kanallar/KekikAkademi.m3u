@@ -41,7 +41,7 @@ https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/playlist.m3u8
 https://dogus-live.daioncdn.net/ntv/ntv_720p.m3u8
 
 #EXTINF:-1 tvg-name="A Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_AHaber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png" group-title="Haber",A Haber
-https://ythlsgo.onrender.com/channel/UCKQhfw-lzz0uKnE1fY1PsAA.m3u8
+https://ythls-v2.onrender.com/channel/UCKQhfw-lzz0uKnE1fY1PsAA.m3u8
 
 #EXTINF:-1 tvg-name="Haber Global" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_HaberGlobal" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/603dfe0f866ac31798b3f4fa" group-title="Haber",Haber Global
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
@@ -56,7 +56,7 @@ https://stream.guventechnology.com:19360/ulusaltv/ulusaltv.m3u8
 https://tv100.blutv.com/blutv_tv100_live/live.m3u8
 
 #EXTINF:-1 tvg-name="Tele 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_Tele1" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/60e54dfe866ac30fa0be7528" group-title="Haber",Tele 1
-https://ythlsgo.onrender.com/channel/UCoHnRpOS5rL62jTmSDO5Npw.m3u8
+https://ythls-v2.onrender.com/channel/UCoHnRpOS5rL62jTmSDO5Npw.m3u8
 
 #EXTINF:-1 tvg-name="TGRT Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_TGRT" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5c63c466866ac30cbc2ad84f" group-title="Haber",TGRT Haber
 https://tgrthaber.daioncdn.net/tgrthaber/tgrthaber.m3u8?app=web
@@ -65,7 +65,7 @@ https://tgrthaber.daioncdn.net/tgrthaber/tgrthaber.m3u8?app=web
 https://krt.blutv.com/blutv_krt_live/live.m3u8
 
 #EXTINF:-1 tvg-name="Sözcü TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_SozcuTV" tvg-logo="https://www.evrensel.net/upload/dosya/231375.jpg" group-title="Haber",Sözcü TV
-https://ythlsgo.onrender.com/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8
+https://ythls-v2.onrender.com/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8
 
 #EXTINF:-1 tvg-name="Halk TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_HalkTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2bfbd866ac31da06187c5" group-title="Haber",Halk TV
 https://halktv.daioncdn.net/halktv/halktv.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609&ce=3
@@ -182,7 +182,7 @@ https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSHaber" tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-haber-logo.jpg.webp" group-title="Spor",beIN SPORTS Haber
-https://ythlsgo.onrender.com/video/OypUpUTYAHI.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36
+https://ythls-v2.onrender.com/video/OypUpUTYAHI.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-A127F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36
 
 #EXTINF:-1 tvg-name="Euro Sport" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Eurosport_logo_%282001-2011%29.svg/640px-Eurosport_logo_%282001-2011%29.svg.png" group-title="Spor",Euro Sport
 https://eurosport1.blutv.com/blutv_eurosport1/eurosport1_hd.smil/index.m3u8
@@ -290,7 +290,7 @@ https://5f3491c50b093e00015a3c4c-samsung.eu.ssai.zype.com/5f3491c50b093e00015a3c
 
 # * » Rahatlatıcı « * #
 #EXTINF:-1 tvg-name="Ateş Başı" tvg-language="Russian" tvg-country="RU" tvg-id="Rahat_AtesBasi" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/b524a99a-92d1-49a4-bb81-fda99617db2c.png" group-title="Rahatlatıcı",Ateş Başı
-https://ythls.armelin.one/channel/UCMlIZGBeueCZBUmEP-PddJg.m3u8
+https://ythls-v2.onrender.com/channel/UCMlIZGBeueCZBUmEP-PddJg.m3u8
 
 #EXTINF:-1 tvg-name="Bulutlar" tvg-language="Russian" tvg-country="RU" tvg-id="Rahat_Bulutlar" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/a40024aa-80af-4119-ab46-581fb2bafaa2.png" group-title="Rahatlatıcı",Bulutlar
 https://grandcentral.1plus1.video/vod/partner/viasat/202310/8347227284d5366ac2be696a34f0330c8961d62f988d55c01227759775880725/620c434ac065fbce0a792afd1f8c46fb/1700826826?return_http=true
