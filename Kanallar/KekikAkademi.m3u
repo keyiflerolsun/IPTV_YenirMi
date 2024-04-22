@@ -157,17 +157,17 @@ https://tv-e-okul02.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-name="TRT Çocuk" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_TRT" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13060701.png" group-title="ÇizgiFilm",TRT Çocuk
 https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:-1 tvg-name="Cartoon Network" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_CartoonNetwork" tvg-logo="https://i.ibb.co/X5yPXkD/cartoon-network.png" group-title="ÇizgiFilm",Cartoon Network
-https://cartoonnetwork.blutv.com/blutv_cartoonnetwork/live_720p2000000kbps/index.m3u8
+#EXTINF:-1 tvg-name="TRT Diyanet Çocuk" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_TRTDiyanet" tvg-logo="http://assets.tvcdn.net/dba05bf2-9d24-4d20-bc6c-f54a2b60ef7f.png" group-title="ÇizgiFilm",TRT Diyanet Çocuk
+http://stream.tvcdn.net/cocuk-egitim/trt-diyanet-cocuk.m3u8
 
-#EXTINF:-1 tvg-name="Cartoonito" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_Cartoonito" tvg-logo="https://i.ibb.co/RvVF9hQ/cartoonito.png" group-title="ÇizgiFilm",Cartoonito
-https://boomerang.blutv.com/blutv_boomerang/live_720p2000000kbps/index.m3u8
+#EXTINF:-1 tvg-name="Cartoon Network" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_CartoonNetwork" tvg-logo="https://i.ibb.co/X5yPXkD/cartoon-network.png" group-title="ÇizgiFilm",Cartoon Network
+http://stream.tvcdn.net/cocuk-egitim/cartoon-network.m3u8
 
 #EXTINF:-1 tvg-name="MinikaGo" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_MinikaGo" tvg-logo="https://i.ibb.co/2ZwxWr0/minika-go.png" group-title="ÇizgiFilm",MinikaGo
-https://trn10.tulix.tv/gt-minikago/index.m3u8
+http://stream.tvcdn.net/cocuk-egitim/minika-go.m3u8
 
 #EXTINF:-1 tvg-name="Minika Çocuk" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_MinikaCocuk" tvg-logo="https://i.ibb.co/S794c6W/minika-cocuk.png" group-title="ÇizgiFilm",Minika Çocuk
-https://trn10.tulix.tv/gt-minikacocuk/index.m3u8
+http://stream.tvcdn.net/cocuk-egitim/minika-cocuk.m3u8
 
 #EXTINF:-1 tvg-name="Zarok TV" tvg-language="Kurdish" tvg-country="IR" tvg-id="CizgiFilm_ZarokTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ee/1_ZarokTVLogonet5.png" group-title="ÇizgiFilm",Zarok TV
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
