@@ -185,7 +185,7 @@ https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8
 http://stream.tvcdn.net/spor/bein-sports-haber.m3u8
 
 #EXTINF:-1 tvg-name="Sports TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SportsTV" tvg-logo="http://assets.tvcdn.net/96bc5554-741b-4e91-8b4f-7b3bcc1e4c1d.png" group-title="Spor",Sports TV
-https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8
+http://stream.tvcdn.net/spor/sports-tv.m3u8
 
 #EXTINF:-1 tvg-name="TJK TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TJKTV" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV
 http://stream.tvcdn.net/spor/tjk-tv.m3u8
