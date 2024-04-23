@@ -11,6 +11,7 @@
 ## Tarayıcı Üzerinden M3U Oynatma
 
 - http://player.streamingtvguides.com
+- https://m3u8play.dev
 
 ## Linux İçin IPTV Önerisi
 
@@ -23,6 +24,8 @@
 ## IPTV Database
 
 - [iptv-org/database](https://iptv-org.github.io/)
+- [hayatiptv/iptv](https://github.com/hayatiptv/iptv)
+- [UzunMuhalefet/Legal-IPTV](https://github.com/UzunMuhalefet/Legal-IPTV)
 
 ## Hazır M3U Aynalama
 
