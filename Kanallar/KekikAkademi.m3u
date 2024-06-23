@@ -5,7 +5,7 @@
 https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 
 #EXTINF:-1 tvg-name="TRT 1" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_1" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/10660277.png" group-title="TRT",TRT 1
-https://tv-trt1.medya.trt.com.tr/master_720.m3u8
+https://trt.daioncdn.net/trt-1/master_720p.m3u8?app=web
 
 #EXTINF:-1 tvg-name="TRT 2" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_2" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7027954.png" group-title="TRT",TRT 2
 https://tv-trt2.medya.trt.com.tr/master_720.m3u8
@@ -56,7 +56,7 @@ https://stream.guventechnology.com:19360/ulusaltv/ulusaltv.m3u8
 https://tv100.blutv.com/blutv_tv100_live/live.m3u8
 
 #EXTINF:-1 tvg-name="Tele 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_Tele1" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/60e54dfe866ac30fa0be7528" group-title="Haber",Tele 1
-https://ythls-v2.onrender.com/channel/UCoHnRpOS5rL62jTmSDO5Npw.m3u8
+https://ythls-v3.onrender.com/channel/UCoHnRpOS5rL62jTmSDO5Npw.m3u8
 
 #EXTINF:-1 tvg-name="TGRT Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_TGRT" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5c63c466866ac30cbc2ad84f" group-title="Haber",TGRT Haber
 https://tgrthaber.daioncdn.net/tgrthaber/tgrthaber.m3u8?app=web
@@ -65,7 +65,7 @@ https://tgrthaber.daioncdn.net/tgrthaber/tgrthaber.m3u8?app=web
 https://krt.blutv.com/blutv_krt_live/live.m3u8
 
 #EXTINF:-1 tvg-name="Sözcü TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_SozcuTV" tvg-logo="https://www.evrensel.net/upload/dosya/231375.jpg" group-title="Haber",Sözcü TV
-https://ythls-v2.onrender.com/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8
+https://ythls-v3.onrender.com/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8
 
 #EXTINF:-1 tvg-name="Halk TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_HalkTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2bfbd866ac31da06187c5" group-title="Haber",Halk TV
 https://halktv.daioncdn.net/halktv/halktv.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609&ce=3
@@ -77,7 +77,7 @@ https://bloomberght2dvr.blutv.com/blutv_bloomberght_dvr/live.m3u8
 
 # * » Belgesel « * #
 #EXTINF:-1 tvg-name="TRT Belgesel" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_TRT" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/8114410.png" group-title="Belgesel",TRT Belgesel
-https://tv-trtbelgesel.live.trt.com.tr/master_720.m3u8
+https://tv-trtbelgesel.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-name="TLC" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_TLC" tvg-logo="https://img-tlctv.mncdn.com/logo.png" group-title="Belgesel",TLC
 https://dogus.daioncdn.net/tlc/tlc_720p.m3u8?sid=5s2zuatipddo&app=1aca0aa1-06e3-41ff-a8e5-38d7df475469&ce=3
@@ -86,7 +86,7 @@ https://dogus.daioncdn.net/tlc/tlc_720p.m3u8?sid=5s2zuatipddo&app=1aca0aa1-06e3-
 https://dogus.daioncdn.net/dmax/dmax_720p.m3u8?sid=5s3069oep2m5&app=5a02c599-d17e-4982-9b04-090934d51af7&ce=3
 
 #EXTINF:-1 tvg-name="TGRT Belgesel" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_TGRT" tvg-logo="https://www.tgrtbelgesel.com.tr/wp-content/uploads/2021/08/TGRT_Belgesel_Logo.png" group-title="Belgesel",TGRT Belgesel
-https://tv.ensonhaber.com/tgrtbelgesel/tgrtbelgesel.m3u8
+https://canli.ihlasdigitalassets.com/tgrtbelgesel.m3u8
 
 
 
@@ -97,8 +97,8 @@ https://dogus-live.daioncdn.net/startv/startv.m3u8
 #EXTINF:-1 tvg-name="ATV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_ATV" tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="Genel",ATV
 https://stream2.filbox.com.tr/live/7d6b0f92687edd8eb008a8b4f223f1d0/8/index.m3u8
 
-#EXTINF:-1 tvg-name="Fox TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_FoxTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/FOX_wordmark-red_2.svg/1200px-FOX_wordmark-red_2.svg.png" group-title="Genel",Fox TV
-https://foxtv.blutv.com/blutv_foxtv_live/live.m3u8
+#EXTINF:-1 tvg-name="Now TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_FoxTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/NOW_TV_%28Turkey%29_wordmark-red.svg/1920px-NOW_TV_%28Turkey%29_wordmark-red.svg.png" group-title="Genel",Now TV
+https://nowtvdvr.blutv.com/blutv_nowtv_dvr/live.m3u8
 
 #EXTINF:-1 tvg-name="Show TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_ShowTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_of_Show_TV.png" group-title="Genel",Show TV
 https://showtvdvr.blutv.com/blutv_showtv_dvr2/live_720p2000000kbps/index.m3u8
@@ -110,7 +110,7 @@ https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=51gwvn4v9td6&app=7ddc255a-ef47-
 https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=51gxd64vpf3c&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
 
 #EXTINF:-1 tvg-name="Teve2" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_Teve2" tvg-logo="https://play-lh.googleusercontent.com/oXtnvGvKeRm3A668LZYAlm9TnrPmZWILngjmHvIOvrtajhZfwCUsJxM1_cgqaQlSaZM" group-title="Genel",Teve2
-https://demiroren.daioncdn.net/teve2/teve2.m3u8?ce=3&app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd
+https://demiroren.daioncdn.net/teve2/teve2_720p.m3u8?ce=3&app=web
 
 #EXTINF:-1 tvg-name="A2" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_A2" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/e/e8/A2_logosu.jpg?20161129163613" group-title="Genel",A2
 https://c.fulltvizle.com/a2/index.m3u8
@@ -168,6 +168,9 @@ http://stream.tvcdn.net/cocuk-egitim/minika-go.m3u8
 
 #EXTINF:-1 tvg-name="Minika Çocuk" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_MinikaCocuk" tvg-logo="https://i.ibb.co/S794c6W/minika-cocuk.png" group-title="ÇizgiFilm",Minika Çocuk
 http://stream.tvcdn.net/cocuk-egitim/minika-cocuk.m3u8
+
+#EXTINF:-1 tvg-name="Cartoonito TV" tvg-language="Turkish" tvg-country="IR" tvg-id="CizgiFilm_CartoonitoTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/500x500/64f57b42866ac307e484249e" group-title="ÇizgiFilm",Cartoonito TV
+https://cartoonito.blutv.com/blutv_cartoonito/smil:cartoonito.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Zarok TV" tvg-language="Kurdish" tvg-country="IR" tvg-id="CizgiFilm_ZarokTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ee/1_ZarokTVLogonet5.png" group-title="ÇizgiFilm",Zarok TV
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
@@ -320,7 +323,7 @@ http://stream.tvcdn.net/diger-eglence/yansima-sinema-tv.m3u8
 
 # * » Rahatlatıcı « * #
 #EXTINF:-1 tvg-name="Ateş Başı" tvg-language="Russian" tvg-country="RU" tvg-id="Rahat_AtesBasi" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/b524a99a-92d1-49a4-bb81-fda99617db2c.png" group-title="Rahatlatıcı",Ateş Başı
-https://ythls-v2.onrender.com/channel/UCMlIZGBeueCZBUmEP-PddJg.m3u8
+https://ythls-v3.onrender.com/channel/UCMlIZGBeueCZBUmEP-PddJg.m3u8
 
 #EXTINF:-1 tvg-name="Bulutlar" tvg-language="Russian" tvg-country="RU" tvg-id="Rahat_Bulutlar" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/a40024aa-80af-4119-ab46-581fb2bafaa2.png" group-title="Rahatlatıcı",Bulutlar
 https://grandcentral.1plus1.video/vod/partner/viasat/202310/8347227284d5366ac2be696a34f0330c8961d62f988d55c01227759775880725/620c434ac065fbce0a792afd1f8c46fb/1700826826?return_http=true
