@@ -1,8 +1,14 @@
 name: Check Live Stream List
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
-cron: '0 0 * * *'
+  schedule: 
+    - cron: '0 0 * * *'
+
+    workflow_dispatch:
 
 jobs:
   build:
