@@ -1,12 +1,12 @@
 name: Check Live Stream List
 
 on: 
-  push:
-    branches:
-      - master
-
-  schedule: 
-    - cron: '0 0 * * *' # every hour
+  # push:
+  #   branches:
+  #     - master
+  # 
+  # schedule: 
+  #   - cron: '0 0 * * *' # every hour
   
   workflow_dispatch:
 
@@ -17,6 +17,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Check URLs
-        uses: paramt/url-checker@master
+        run: ./script.sh
         with:
           files: "Kanallar/KekikAkademi.m3u"
