@@ -314,6 +314,9 @@ http://stream.tvcdn.net/dizi-youtube/cennet-mahallesi.m3u8
 #EXTINF:-1 tvg-name="Behzat Ç." tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_BehzatC" tvg-logo="http://assets.tvcdn.net/842192cc-760c-41d6-ba34-78cf50bb6d14.png" group-title="İçerik",Behzat Ç.
 http://stream.tvcdn.net/dizi-youtube/behzat-c.m3u8
 
+#EXTINF:-1 tvg-name="Güldür Güldür" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GuldurGuldur" tvg-logo="https://i.ytimg.com/vi/nXo9GVhd9sc/hqdefault.jpg" group-title="İçerik",Güldür Güldür
+https://ythls-v3.onrender.com/channel/UCdlEXiVLTEvA280oyMvr8Kw.m3u8
+
 #EXTINF:-1 tvg-name="Çok Güzel Hareketler Bunlar" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CGBH" tvg-logo="http://assets.tvcdn.net/e83f6574-4011-4247-b034-c5b4b2f02f71.png" group-title="İçerik",Çok Güzel Hareketler Bunlar
 http://stream.tvcdn.net/dizi-youtube/cghb.m3u8
 
