@@ -332,20 +332,32 @@ https://ythls-v3.onrender.com/channel/UCmw7e_6j2TSWCKeaZALjyuA.m3u8
 #EXTINF:-1 tvg-name="Şaban" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_Saban" tvg-logo="http://assets.tvcdn.net/6ec6e894-25f3-4432-8cb3-dbd2ff783842.png" group-title="İçerik",Şaban
 http://stream.tvcdn.net/diger-eglence/saban-tv.m3u8
 
+#EXTINF:-1 tvg-name="Şener Şen" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_SenerSen" tvg-logo="https://i.ytimg.com/vi/PTp6hmibGSc/hqdefault.jpg" group-title="İçerik",Şener Şen
+https://ythls-v3.onrender.com/video/PTp6hmibGSc.m3u8
+
+#EXTINF:-1 tvg-name="eee Sonra" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_eeeSonra" tvg-logo="https://i.ytimg.com/vi/vzcV17H4pgk/hqdefault.jpg" group-title="İçerik",eee Sonra
+https://ythls-v3.onrender.com/video/vzcV17H4pgk.m3u8
+
+#EXTINF:-1 tvg-name="İşler Güçler" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_islerGucler" tvg-logo="https://i.ytimg.com/vi/So3gvma5Fmc/hqdefault.jpg" group-title="İçerik",İşler Güçler
+https://ythls-v3.onrender.com/channel/UCALHvpjqmBwdRwYPc3qVezw.m3u8
+
+#EXTINF:-1 tvg-name="Geniş Aile" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GenisAile" tvg-logo="https://i.ytimg.com/vi/A-VMV-mJFiY/hqdefault.jpg" group-title="İçerik",Geniş Aile
+https://ythls-v3.onrender.com/channel/UC-_QrTM2lCjRhlv4l0vLJmw.m3u8
+
+#EXTINF:-1 tvg-name="Yalan Dünya" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_YalanDunya" tvg-logo="https://i.ytimg.com/vi/2X5QsM3Z8pQ/hqdefault.jpg" group-title="İçerik",Yalan Dünya
+https://ythls-v3.onrender.com/channel/UCN2Q-lSzQa7RjrCxQZ8DzbA.m3u8
+
+#EXTINF:-1 tvg-name="Türk Malı" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_TurkMali" tvg-logo="https://i.ytimg.com/vi/RObRiZDDLEk/hqdefault.jpg" group-title="İçerik",Türk Malı
+https://ythls-v3.onrender.com/channel/UCpSOc0PBZP3eVjEAhFoq3rg.m3u8
+
 #EXTINF:-1 tvg-name="Sihirli Annem" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_SihirliAnnem" tvg-logo="https://i.ytimg.com/vi/hzRyv4pyeO0/hqdefault.jpg" group-title="İçerik",Sihirli Annem
 https://ythls-v3.onrender.com/channel/UCNjRKDlSvo1H38XTkbIrMsA.m3u8
-
-#EXTINF:-1 tvg-name="Kiralık Aşk" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_KiralikAsk" tvg-logo="https://i.ytimg.com/vi/Axpkjga2n9g/hqdefault.jpg" group-title="İçerik",Kiralık Aşk
-https://ythls-v3.onrender.com/channel/UCVKo-TGjnJPwq_vDzz8rcMg.m3u8
 
 #EXTINF:-1 tvg-name="Çilek Kokusu" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CilekKokusu" tvg-logo="https://i.ytimg.com/vi/78sojzQcvgs/hqdefault.jpg" group-title="İçerik",Çilek Kokusu
 https://ythls-v3.onrender.com/channel/UC3uB257qcHNt-Ri-iPx7uVA.m3u8
 
 #EXTINF:-1 tvg-name="Adını Feriha Koydum" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_AdiniFerihaKoydum" tvg-logo="https://i.ytimg.com/vi/ESNRjuK9QdU/hqdefault.jpg" group-title="İçerik",Adını Feriha Koydum
 https://ythls-v3.onrender.com/channel/UCtkp8YehDHBNJ63CS9xwIQg.m3u8
-
-#EXTINF:-1 tvg-name="Erkenci Kuş" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_ErkenciKus" tvg-logo="https://i.ytimg.com/vi/_9ijNON1XqA/hqdefault.jpg" group-title="İçerik",Erkenci Kuş
-https://ythls-v3.onrender.com/channel/UC64mzacdticc87zH870bQGA.m3u8
 
 
 
