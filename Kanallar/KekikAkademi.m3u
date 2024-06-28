@@ -317,16 +317,16 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d93b635b
 
 
 # * » İçerik « * #
-#EXTINF:-1 tvg-name="Cennet Mahallesi" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CennetMahallesi" tvg-logo="http://assets.tvcdn.net/c8b09a02-18e2-4952-8ba3-5a5f8b2c5f2e.png" group-title="İçerik",Cennet Mahallesi
+#EXTINF:-1 tvg-name="Cennet Mahallesi" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CennetMahallesi" tvg-logo="https://i.ytimg.com/vi/lf1NxAexRAE/hqdefault.jpg" group-title="İçerik",Cennet Mahallesi
 https://ythls-v3.onrender.com/channel/UCOqe-z52nnpVSAe8Ds0fxaA.m3u8
 
-#EXTINF:-1 tvg-name="Behzat Ç." tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_BehzatC" tvg-logo="http://assets.tvcdn.net/842192cc-760c-41d6-ba34-78cf50bb6d14.png" group-title="İçerik",Behzat Ç.
+#EXTINF:-1 tvg-name="Behzat Ç." tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_BehzatC" tvg-logo="https://i.ytimg.com/vi/asbzUzzLwxs/hqdefault.jpg" group-title="İçerik",Behzat Ç.
 https://ythls-v3.onrender.com/channel/UCH3WnhFSx9r850HJRRs16lQ.m3u8
 
-#EXTINF:-1 tvg-name="Güldür Güldür" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GuldurGuldur" tvg-logo="https://i.ytimg.com/vi/nXo9GVhd9sc/hqdefault.jpg" group-title="İçerik",Güldür Güldür
+#EXTINF:-1 tvg-name="Güldür Güldür" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GuldurGuldur" tvg-logo="https://i.ytimg.com/vi/JX5mSkUfxmk/hqdefault.jpg" group-title="İçerik",Güldür Güldür
 https://ythls-v3.onrender.com/channel/UCdlEXiVLTEvA280oyMvr8Kw.m3u8
 
-#EXTINF:-1 tvg-name="Zeki & Metin" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_ZekiMetin" tvg-logo="http://assets.tvcdn.net/07d81c3b-e207-4558-b7c5-e38280f06bf0.png" group-title="İçerik",Zeki & Metin
+#EXTINF:-1 tvg-name="Zeki & Metin" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_ZekiMetin" tvg-logo="https://i.ytimg.com/vi/EYg1n041Nug/hqdefault.jpg" group-title="İçerik",Zeki & Metin
 https://ythls-v3.onrender.com/channel/UCmw7e_6j2TSWCKeaZALjyuA.m3u8
 
 #EXTINF:-1 tvg-name="Şaban" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_Saban" tvg-logo="http://assets.tvcdn.net/6ec6e894-25f3-4432-8cb3-dbd2ff783842.png" group-title="İçerik",Şaban
