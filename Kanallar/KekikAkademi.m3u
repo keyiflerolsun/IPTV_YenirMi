@@ -243,6 +243,11 @@ https://m3u8.trgoalsbabacdn.workers.dev/yayin1.m3u8
 #EXTVLCOPT:http-referrer=https://trgoals866.xyz/
 https://m3u8.trgoalsbabacdn.workers.dev/yayinb2.m3u8
 
+#EXTINF:-1 tvg-name="beIN SPORTS 3" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS3" tvg-logo="https://i.goalzz.com/?i=o%2fh%2f1%2f203%2fbein-sports-hd-1.png" group-title="Spor",beIN SPORTS 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals866.xyz/
+https://m3u8.trgoalsbabacdn.workers.dev/yayinb3.m3u8
+
 #EXTINF:-1 tvg-name="beIN SPORTS Max" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax" tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-max-1-logo.png" group-title="Spor",beIN SPORTS Max
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals866.xyz/
