@@ -244,6 +244,9 @@ https://m3u8.trgoalsbabacdn.workers.dev/yayinb3.m3u8
 #EXTVLCOPT:http-referrer=https://trgoals866.xyz/
 https://m3u8.trgoalsbabacdn.workers.dev/yayinbm1.m3u8
 
+#EXTINF:-1 tvg-name="Sports TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SportsTV" tvg-logo="https://sportstv.com.tr/assets/images/template/sportstv-live.png" group-title="Spor",Sports TV
+https://live.sportstv.com.tr/hls/low/sportstv.m3u8
+
 
 
 # * » Müzik « * #
