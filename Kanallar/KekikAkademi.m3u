@@ -190,11 +190,11 @@ https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-name="TRT Spor Yıldız" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporYildiz" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11290418.png" group-title="Spor",TRT Spor Yıldız
 https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8
 
-#EXTINF:-1 tvg-name="beIN SPORTS Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSHaber" tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-haber-logo.jpg.webp" group-title="Spor",beIN SPORTS Haber
-http://stream.tvcdn.net/spor/bein-sports-haber.m3u8
-
 #EXTINF:-1 tvg-name="Sports TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SportsTV" tvg-logo="http://assets.tvcdn.net/96bc5554-741b-4e91-8b4f-7b3bcc1e4c1d.png" group-title="Spor",Sports TV
 http://stream.tvcdn.net/spor/sports-tv.m3u8
+
+#EXTINF:-1 tvg-name="beIN SPORTS Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSHaber" tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-haber-logo.jpg.webp" group-title="Spor",beIN SPORTS Haber
+http://stream.tvcdn.net/spor/bein-sports-haber.m3u8
 
 #EXTINF:-1 tvg-name="TJK TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TJKTV" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV
 http://stream.tvcdn.net/spor/tjk-tv.m3u8
@@ -363,114 +363,6 @@ https://ythls.kekikakademi.org/channel/UCtkp8YehDHBNJ63CS9xwIQg.m3u8
 # * » Rahatlatıcı « * #
 #EXTINF:-1 tvg-name="Ateş Başı" tvg-language="Russian" tvg-country="RU" tvg-id="Rahat_AtesBasi" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/b524a99a-92d1-49a4-bb81-fda99617db2c.png" group-title="Rahatlatıcı",Ateş Başı
 https://ythls.kekikakademi.org/channel/UCMlIZGBeueCZBUmEP-PddJg.m3u8
-
-
-
-# * » NSFW « * #
-#EXTINF:-1 tvg-name="ОxАx HD" tvg-language="English" tvg-country="USA" tvg-id="NSFW_ОxАxHD" tvg-logo="https://i.imgur.com/Ck89ehE.png" group-title="NSFW",ОxАx HD
-https://ythls.kekikakademi.org/oxax/oh-ah.m3u8
-
-#EXTINF:-1 tvg-name="Brazzers TV Europe" tvg-language="English" tvg-country="USA" tvg-id="NSFW_BrazzersTVEurope" tvg-logo="https://i.imgur.com/YQrr9bJ.png" group-title="NSFW",Brazzers TV Europe
-https://ythls.kekikakademi.org/oxax/brazzers-tv-europe.m3u8
-
-#EXTINF:-1 tvg-name="Brazzers TV" tvg-language="English" tvg-country="USA" tvg-id="NSFW_BrazzersTV" tvg-logo="https://i.imgur.com/GigEnAE.png" group-title="NSFW",Brazzers TV
-https://ythls.kekikakademi.org/oxax/brazzers-tv.m3u8
-
-#EXTINF:-1 tvg-name="Red Lips" tvg-language="English" tvg-country="USA" tvg-id="NSFW_RedLips" tvg-logo="https://i.imgur.com/lfM61ug.png" group-title="NSFW",Red Lips
-https://ythls.kekikakademi.org/oxax/red-lips.m3u8
-
-#EXTINF:-1 tvg-name="French Lover" tvg-language="English" tvg-country="USA" tvg-id="NSFW_FrenchLover" tvg-logo="https://i.imgur.com/L5S67gF.png" group-title="NSFW",French Lover
-https://ythls.kekikakademi.org/oxax/french_lover.m3u8
-
-#EXTINF:-1 tvg-name="KinoXXX" tvg-language="English" tvg-country="USA" tvg-id="NSFW_KinoXXX" tvg-logo="https://i.imgur.com/RJxLBmE.png" group-title="NSFW",KinoXXX
-https://ythls.kekikakademi.org/oxax/kino-xxx.m3u8
-
-#EXTINF:-1 tvg-name="XY Max HD" tvg-language="English" tvg-country="USA" tvg-id="NSFW_XYMaxHD" tvg-logo="https://i.imgur.com/MJbFG1z.png" group-title="NSFW",XY Max HD
-https://ythls.kekikakademi.org/oxax/xy-max-hd.m3u8
-
-#EXTINF:-1 tvg-name="XY Plus HD" tvg-language="English" tvg-country="USA" tvg-id="NSFW_XYPlusHD" tvg-logo="https://i.imgur.com/aguADMz.png" group-title="NSFW",XY Plus HD
-https://ythls.kekikakademi.org/oxax/xy-plus-hd.m3u8
-
-#EXTINF:-1 tvg-name="XY Mix HD" tvg-language="English" tvg-country="USA" tvg-id="NSFW_XYMixHD" tvg-logo="https://i.imgur.com/yp1VBl6.png" group-title="NSFW",XY Mix HD
-https://ythls.kekikakademi.org/oxax/xy-mix-hd.m3u8
-
-#EXTINF:-1 tvg-name="Barely legal" tvg-language="English" tvg-country="USA" tvg-id="NSFW_Barelylegal" tvg-logo="https://i.imgur.com/yNt8FyL.png" group-title="NSFW",Barely legal
-https://ythls.kekikakademi.org/oxax/barely-legal.m3u8
-
-#EXTINF:-1 tvg-name="Playboy TV" tvg-language="English" tvg-country="USA" tvg-id="NSFW_PlayboyTV" tvg-logo="https://i.imgur.com/OJ3osog.png" group-title="NSFW",Playboy TV
-https://ythls.kekikakademi.org/oxax/playboy-tv.m3u8
-
-#EXTINF:-1 tvg-name="Vivid Red HD" tvg-language="English" tvg-country="USA" tvg-id="NSFW_VividRedHD" tvg-logo="https://i.imgur.com/eoExtXF.png" group-title="NSFW",Vivid Red HD
-https://ythls.kekikakademi.org/oxax/vivid-red.m3u8
-
-#EXTINF:-1 tvg-name="Exxxotica HD" tvg-language="English" tvg-country="USA" tvg-id="NSFW_ExxxoticaHD" tvg-logo="https://i.imgur.com/ViQLY4S.png" group-title="NSFW",Exxxotica HD
-https://ythls.kekikakademi.org/oxax/hot-pleasure.m3u8
-
-#EXTINF:-1 tvg-name="Babes TV" tvg-language="English" tvg-country="USA" tvg-id="NSFW_BabesTV" tvg-logo="https://i.imgur.com/7ShkmKH.png" group-title="NSFW",Babes TV
-https://ythls.kekikakademi.org/oxax/babes-tv.m3u8
-
-#EXTINF:-1 tvg-name="Pink O TV" tvg-language="English" tvg-country="USA" tvg-id="NSFW_PinkOTV" tvg-logo="https://i.imgur.com/Nq12KtX.png" group-title="NSFW",Pink O TV
-https://ythls.kekikakademi.org/oxax/pink-o.m3u8
-
-#EXTINF:-1 tvg-name="Eroxxx HD" tvg-language="English" tvg-country="USA" tvg-id="NSFW_EroxxxHD" tvg-logo="https://i.imgur.com/EilmlnN.png" group-title="NSFW",Eroxxx HD
-https://ythls.kekikakademi.org/oxax/eroxxx-hd.m3u8
-
-#EXTINF:-1 tvg-name="Hustler HD" tvg-language="English" tvg-country="USA" tvg-id="NSFW_HustlerHD" tvg-logo="https://i.imgur.com/mofbYfp.png" group-title="NSFW",Hustler HD
-https://ythls.kekikakademi.org/oxax/hustler-hd.m3u8
-
-#EXTINF:-1 tvg-name="Private TV" tvg-language="English" tvg-country="USA" tvg-id="NSFW_PrivateTV" tvg-logo="https://i.imgur.com/KsCvoTA.png" group-title="NSFW",Private TV
-https://ythls.kekikakademi.org/oxax/private-tv.m3u8
-
-#EXTINF:-1 tvg-name="Redlight HD" tvg-language="English" tvg-country="USA" tvg-id="NSFW_RedlightHD" tvg-logo="https://i.imgur.com/llc5OIj.png" group-title="NSFW",Redlight HD
-https://ythls.kekikakademi.org/oxax/redlight-hd.m3u8
-
-#EXTINF:-1 tvg-name="Penthouse Gold HD" tvg-language="English" tvg-country="USA" tvg-id="NSFW_PenthouseGoldHD" tvg-logo="https://i.imgur.com/Nchjh70.png" group-title="NSFW",Penthouse Gold HD
-https://ythls.kekikakademi.org/oxax/penthouse-gold.m3u8
-
-#EXTINF:-1 tvg-name="Penthouse Quickies" tvg-language="English" tvg-country="USA" tvg-id="NSFW_PenthouseQuickies" tvg-logo="https://i.imgur.com/PqhYNMo.png" group-title="NSFW",Penthouse Quickies
-https://ythls.kekikakademi.org/oxax/penthouse-2.m3u8
-
-#EXTINF:-1 tvg-name="Blue Hustler" tvg-language="English" tvg-country="USA" tvg-id="NSFW_BlueHustler" tvg-logo="https://i.imgur.com/beBJTt4.png" group-title="NSFW",Blue Hustler
-https://ythls.kekikakademi.org/oxax/blue-hustler.m3u8
-
-#EXTINF:-1 tvg-name="Shalun" tvg-language="English" tvg-country="USA" tvg-id="NSFW_Shalun" tvg-logo="https://i.imgur.com/62dWh8a.png" group-title="NSFW",Shalun
-https://ythls.kekikakademi.org/oxax/shalun.m3u8
-
-#EXTINF:-1 tvg-name="Dorcel TV" tvg-language="English" tvg-country="USA" tvg-id="NSFW_DorcelTV" tvg-logo="https://i.imgur.com/MvoOgyh.png" group-title="NSFW",Dorcel TV
-https://ythls.kekikakademi.org/oxax/dorcel-tv.m3u8
-
-#EXTINF:-1 tvg-name="Candy" tvg-language="English" tvg-country="USA" tvg-id="NSFW_Candy" tvg-logo="https://i.imgur.com/om2kK8W.png" group-title="NSFW",Candy
-https://ythls.kekikakademi.org/oxax/candy.m3u8
-
-#EXTINF:-1 tvg-name="Extasy HD" tvg-language="English" tvg-country="USA" tvg-id="NSFW_ExtasyHD" tvg-logo="https://i.imgur.com/o6Oe8Xt.png" group-title="NSFW",Extasy HD
-https://ythls.kekikakademi.org/oxax/extasyhd.m3u8
-
-#EXTINF:-1 tvg-name="XXL" tvg-language="English" tvg-country="USA" tvg-id="NSFW_XXL" tvg-logo="https://i.imgur.com/QhSHIY7.png" group-title="NSFW",XXL
-https://ythls.kekikakademi.org/oxax/xxl.m3u8
-
-#EXTINF:-1 tvg-name="FAP TV 2" tvg-language="English" tvg-country="USA" tvg-id="NSFW_FAPTV2" tvg-logo="https://i.imgur.com/fPmNFiR.png" group-title="NSFW",FAP TV 2
-https://ythls.kekikakademi.org/oxax/fap-tv-2.m3u8
-
-#EXTINF:-1 tvg-name="FAP TV 3" tvg-language="English" tvg-country="USA" tvg-id="NSFW_FAPTV3" tvg-logo="https://i.imgur.com/Wm0oMub.png" group-title="NSFW",FAP TV 3
-https://ythls.kekikakademi.org/oxax/fap-tv-3.m3u8
-
-#EXTINF:-1 tvg-name="FAP TV 4" tvg-language="English" tvg-country="USA" tvg-id="NSFW_FAPTV4" tvg-logo="https://i.imgur.com/F0DaE5j.png" group-title="NSFW",FAP TV 4
-https://ythls.kekikakademi.org/oxax/fap-tv-4.m3u8
-
-#EXTINF:-1 tvg-name="FAP TV Parody" tvg-language="English" tvg-country="USA" tvg-id="NSFW_FAPTVParody" tvg-logo="https://i.imgur.com/b6x2z4s.png" group-title="NSFW",FAP TV Parody
-https://ythls.kekikakademi.org/oxax/fap-tv-parody.m3u8
-
-#EXTINF:-1 tvg-name="FAP TV BBW" tvg-language="English" tvg-country="USA" tvg-id="NSFW_FAPTVBBW" tvg-logo="https://i.imgur.com/YB5ZK6Y.png" group-title="NSFW",FAP TV BBW
-https://ythls.kekikakademi.org/oxax/fap-tv-bbw.m3u8
-
-#EXTINF:-1 tvg-name="FAP TV Teens" tvg-language="English" tvg-country="USA" tvg-id="NSFW_FAPTVTeens" tvg-logo="https://i.imgur.com/qEOXqJQ.png" group-title="NSFW",FAP TV Teens
-https://ythls.kekikakademi.org/oxax/fap-tv-teens.m3u8
-
-#EXTINF:-1 tvg-name="FAP TV Lesbian" tvg-language="English" tvg-country="USA" tvg-id="NSFW_FAPTVLesbian" tvg-logo="https://i.imgur.com/Oatn5sk.png" group-title="NSFW",FAP TV Lesbian
-https://ythls.kekikakademi.org/oxax/fap-tv-lesbian.m3u8
-
-#EXTINF:-1 tvg-name="FAP TV Compilation" tvg-language="English" tvg-country="USA" tvg-id="NSFW_FAPTVCompilation" tvg-logo="https://i.imgur.com/eJdOcgH.png" group-title="NSFW",FAP TV Compilation
-https://ythls.kekikakademi.org/oxax/fap-tv-compilation.m3u8
 
 #EXTINF:-1 tvg-name="FAP TV Anal" tvg-language="English" tvg-country="USA" tvg-id="NSFW_FAPTVAnal" tvg-logo="https://i.imgur.com/EqGtDVW.png" group-title="NSFW",FAP TV Anal
 https://ythls.kekikakademi.org/oxax/fap-tv-anal.m3u8
