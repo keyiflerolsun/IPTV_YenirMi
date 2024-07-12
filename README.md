@@ -4,18 +4,19 @@
 
 - [KekikIPTV](https://raw.githubusercontent.com/keyiflerolsun/IPTV_YenirMi/main/Kanallar/KekikAkademi.m3u)
 
-## Televizyon İçin IPTV Önerisi
+## PC İçin IPTV Önerisi
 
-- https://www.ss-iptv.com/en/users/playlist
+- [4gray/iptvnator](https://github.com/4gray/iptvnator/releases)
 
 ## Tarayıcı Üzerinden M3U Oynatma
 
+- https://iptvnator.vercel.app/
 - http://player.streamingtvguides.com
 - https://m3u8play.dev
 
-## Linux İçin IPTV Önerisi
+## Televizyon İçin IPTV Önerisi
 
-- [4gray/iptvnator](https://github.com/4gray/iptvnator)
+- https://www.ss-iptv.com/en/users/playlist
 
 ## Android İçin IPTV Önerisi
 
@@ -27,6 +28,10 @@
 - [hayatiptv/iptv](https://github.com/hayatiptv/iptv)
 - [UzunMuhalefet/Legal-IPTV](https://github.com/UzunMuhalefet/Legal-IPTV)
 
+## Youtube Yayını M3U'ya Çevirme
+
+- [keyiflerolsun/ythls-FastAPI](https://github.com/keyiflerolsun/ythls-FastAPI)
+
 ## Hazır M3U Aynalama
 
 - [pierre-emmanuelJ/iptv-proxy](https://github.com/pierre-emmanuelJ/iptv-proxy)
@@ -34,10 +39,6 @@
 ## Canlı Yayını M3U'ya Çevirme
 
 - [LaneSh4d0w/query-streamlink](https://github.com/LaneSh4d0w/query-streamlink)
-
-## Youtube Yayını M3U'ya Çevirme
-
-- [abskmj/youtube-hls-m3u8](https://github.com/abskmj/youtube-hls-m3u8)
 
 ## M3U Liste Kontrol
 
