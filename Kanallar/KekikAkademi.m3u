@@ -191,22 +191,34 @@ https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-name="Sports TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SportsTV" tvg-logo="http://assets.tvcdn.net/96bc5554-741b-4e91-8b4f-7b3bcc1e4c1d.png" group-title="Spor",Sports TV
-http://stream.tvcdn.net/spor/sports-tv.m3u8
+https://live.sportstv.com.tr/hls/low/sportstv.m3u8
+# ? http://stream.tvcdn.net/spor/sports-tv.m3u8/
 
 #EXTINF:-1 tvg-name="beIN SPORTS Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSHaber" tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-haber-logo.jpg.webp" group-title="Spor",beIN SPORTS Haber
-http://stream.tvcdn.net/spor/bein-sports-haber.m3u8
+https://ythls.kekikakademi.org/channel/UCPe9vNjHF1kEExT5kHwc7aw.m3u8
+# ? http://stream.tvcdn.net/spor/bein-sports-haber.m3u8
 
 #EXTINF:-1 tvg-name="TJK TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TJKTV" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV
 http://stream.tvcdn.net/spor/tjk-tv.m3u8
-
-#EXTINF:-1 tvg-name="Euro Sport" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Eurosport_logo_%282001-2011%29.svg/640px-Eurosport_logo_%282001-2011%29.svg.png" group-title="Spor",Euro Sport
-https://eurosport1.blutv.com/blutv_eurosport1/eurosport1_hd.smil/index.m3u8
 
 #EXTINF:-1 tvg-name="GS TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_GSTV" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/a/a1/Gstv-yeni.PNG" group-title="Spor",GS TV
 https://owifavo5.rocketcdn.com/gstv/gstv.smil/master.m3u8
 
 #EXTINF:-1 tvg-name="FB TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_FBTV" tvg-logo="https://seeklogo.com/images/F/fenerbahce-tv-logo-A4F539D377-seeklogo.com.png" group-title="Spor",FB TV
 http://stream.tvcdn.net/spor/fb-tv.m3u8
+
+#EXTINF:-1 tvg-name="NBA TV" tvg-language="English" tvg-country="USA" tvg-id="Spor_NBATV" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/8/89/Nbatv.png" group-title="Spor",NBA TV
+#EXTVLCOPT:http-referrer=https://trgoals866.xyz/
+https://m3u8.trgoalsbabacdn.workers.dev/yayinnbatv.m3u8
+
+#EXTINF:-1 tvg-name="Sky Sports F1" tvg-language="English" tvg-country="UK" tvg-id="Spor_SkySportsF1" tvg-logo="https://www.cable.co.uk/images/content/sky_sport_f1_logo_header_landscape_min.jpg" group-title="Spor",Sky Sports F1
+#EXTVLCOPT:http-referrer=https://trgoals866.xyz/
+https://m3u8.trgoalsbabacdn.workers.dev/yayinf1.m3u8
+
+#EXTINF:-1 tvg-name="Euro Sport" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Eurosport_logo_%282001-2011%29.svg/640px-Eurosport_logo_%282001-2011%29.svg.png" group-title="Spor",Euro Sport
+#EXTVLCOPT:http-referrer=https://trgoals866.xyz/
+https://m3u8.trgoalsbabacdn.workers.dev/yayineu1.m3u8
+# ? https://eurosport1.blutv.com/blutv_eurosport1/eurosport1_hd.smil/index.m3u8
 
 #EXTINF:-1 tvg-name="Tivibu Spor 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor1" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230125889178.png" group-title="Spor",Tivibu Spor 1
 #EXTVLCOPT:http-referrer=https://trgoals866.xyz/
@@ -243,9 +255,6 @@ https://m3u8.trgoalsbabacdn.workers.dev/yayinb3.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS Max" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/BeIN_Sports_MAX.png" group-title="Spor",beIN SPORTS Max
 #EXTVLCOPT:http-referrer=https://trgoals866.xyz/
 https://m3u8.trgoalsbabacdn.workers.dev/yayinbm1.m3u8
-
-#EXTINF:-1 tvg-name="Sports TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SportsTV" tvg-logo="https://sportstv.com.tr/assets/images/template/sportstv-live.png" group-title="Spor",Sports TV
-https://live.sportstv.com.tr/hls/low/sportstv.m3u8
 
 
 
