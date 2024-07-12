@@ -211,10 +211,6 @@ http://stream.tvcdn.net/spor/fb-tv.m3u8
 #EXTVLCOPT:http-referrer=https://trgoals866.xyz/
 https://m3u8.trgoalsbabacdn.workers.dev/yayinnbatv.m3u8
 
-#EXTINF:-1 tvg-name="Sky Sports F1" tvg-language="English" tvg-country="UK" tvg-id="Spor_SkySportsF1" tvg-logo="https://www.cable.co.uk/images/content/sky_sport_f1_logo_header_landscape_min.jpg" group-title="Spor",Sky Sports F1
-#EXTVLCOPT:http-referrer=https://trgoals866.xyz/
-https://m3u8.trgoalsbabacdn.workers.dev/yayinf1.m3u8
-
 #EXTINF:-1 tvg-name="Euro Sport" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Eurosport_logo_%282001-2011%29.svg/640px-Eurosport_logo_%282001-2011%29.svg.png" group-title="Spor",Euro Sport
 #EXTVLCOPT:http-referrer=https://trgoals866.xyz/
 https://m3u8.trgoalsbabacdn.workers.dev/yayineu1.m3u8
