@@ -38,13 +38,13 @@ https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
 https://haberturkdvr.blutv.com/blutv_haberturk_dvr2/live_720p2000000kbps/index.m3u8
 
 #EXTINF:-1 tvg-name="CNN Türk" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_CNNTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/61236013866ac319e8143500" group-title="Haber",CNN Türk
-https://ythls.kekikakademi.org/channel/UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
 
 #EXTINF:-1 tvg-name="NTV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_NTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/56a72d98058d024d98970264" group-title="Haber",NTV
 https://dogus-live.daioncdn.net/ntv/ntv_720p.m3u8
 
 #EXTINF:-1 tvg-name="A Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_AHaber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png" group-title="Haber",A Haber
-https://ythls.kekikakademi.org/channel/UCKQhfw-lzz0uKnE1fY1PsAA.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCKQhfw-lzz0uKnE1fY1PsAA.m3u8
 
 #EXTINF:-1 tvg-name="Haber Global" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_HaberGlobal" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/603dfe0f866ac31798b3f4fa" group-title="Haber",Haber Global
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
@@ -53,13 +53,13 @@ https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
 https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
 
 #EXTINF:-1 tvg-name="Ulusal Kanal" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_UlusalKanal" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/603c1580866ac31704a99333" group-title="Haber",Ulusal Kanal
-https://ythls.kekikakademi.org/channel/UC6T0L26KS1NHMPbTwI1L4Eg.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UC6T0L26KS1NHMPbTwI1L4Eg.m3u8
 
 #EXTINF:-1 tvg-name="TV 100" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_TV100" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/60420fa5866ac32430025edd" group-title="Haber",TV 100
 https://tv100.blutv.com/blutv_tv100_live/live.m3u8
 
 #EXTINF:-1 tvg-name="Tele 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_Tele1" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/60e54dfe866ac30fa0be7528" group-title="Haber",Tele 1
-https://ythls.kekikakademi.org/channel/UCoHnRpOS5rL62jTmSDO5Npw.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCoHnRpOS5rL62jTmSDO5Npw.m3u8
 
 #EXTINF:-1 tvg-name="TGRT Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_TGRT" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5c63c466866ac30cbc2ad84f" group-title="Haber",TGRT Haber
 https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber_720p.m3u8
@@ -68,7 +68,7 @@ https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber_720p.m3u8
 https://krt.blutv.com/blutv_krt_live/live.m3u8
 
 #EXTINF:-1 tvg-name="Sözcü TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_SozcuTV" tvg-logo="https://www.evrensel.net/upload/dosya/231375.jpg" group-title="Haber",Sözcü TV
-https://ythls.kekikakademi.org/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8
 
 #EXTINF:-1 tvg-name="Halk TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_HalkTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2bfbd866ac31da06187c5" group-title="Haber",Halk TV
 https://halktv-live.daioncdn.net/halktv/halktv_720p.m3u8
@@ -195,7 +195,7 @@ https://live.sportstv.com.tr/hls/low/sportstv.m3u8
 # ? http://stream.tvcdn.net/spor/sports-tv.m3u8/
 
 #EXTINF:-1 tvg-name="beIN SPORTS Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSHaber" tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-haber-logo.jpg.webp" group-title="Spor",beIN SPORTS Haber
-https://ythls.kekikakademi.org/channel/UCPe9vNjHF1kEExT5kHwc7aw.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCPe9vNjHF1kEExT5kHwc7aw.m3u8
 # ? http://stream.tvcdn.net/spor/bein-sports-haber.m3u8
 
 #EXTINF:-1 tvg-name="TJK TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TJKTV" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV
@@ -333,49 +333,49 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d93b635b
 
 # * » İçerik « * #
 #EXTINF:-1 tvg-name="Yeşil Çam" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_YesilCam" tvg-logo="https://i.ytimg.com/vi/li4kIJdyxs4/hqdefault.jpg" group-title="İçerik",Yeşil Çam
-https://ythls.kekikakademi.org/channel/UCUALYmnkEmx8vlxIbpr2gmw.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCUALYmnkEmx8vlxIbpr2gmw.m3u8
 
 #EXTINF:-1 tvg-name="Şaban" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_Saban" tvg-logo="http://assets.tvcdn.net/6ec6e894-25f3-4432-8cb3-dbd2ff783842.png" group-title="İçerik",Şaban
 http://stream.tvcdn.net/diger-eglence/saban-tv.m3u8
 
 #EXTINF:-1 tvg-name="Şener Şen" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_SenerSen" tvg-logo="https://i.ytimg.com/vi/PTp6hmibGSc/hqdefault.jpg" group-title="İçerik",Şener Şen
-https://ythls.kekikakademi.org/channel/UCulg-mlXf314L1pemPqCVng.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCulg-mlXf314L1pemPqCVng.m3u8
 
 #EXTINF:-1 tvg-name="Behzat Ç." tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_BehzatC" tvg-logo="https://i.ytimg.com/vi/asbzUzzLwxs/hqdefault.jpg" group-title="İçerik",Behzat Ç.
-https://ythls.kekikakademi.org/channel/UCH3WnhFSx9r850HJRRs16lQ.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCH3WnhFSx9r850HJRRs16lQ.m3u8
 
 #EXTINF:-1 tvg-name="Cennet Mahallesi" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CennetMahallesi" tvg-logo="https://i.ytimg.com/vi/lf1NxAexRAE/hqdefault.jpg" group-title="İçerik",Cennet Mahallesi
-https://ythls.kekikakademi.org/channel/UCOqe-z52nnpVSAe8Ds0fxaA.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCOqe-z52nnpVSAe8Ds0fxaA.m3u8
 
 #EXTINF:-1 tvg-name="Güldür Güldür" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GuldurGuldur" tvg-logo="https://i.ytimg.com/vi/JX5mSkUfxmk/hqdefault.jpg" group-title="İçerik",Güldür Güldür
-https://ythls.kekikakademi.org/channel/UCdlEXiVLTEvA280oyMvr8Kw.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCdlEXiVLTEvA280oyMvr8Kw.m3u8
 
 #EXTINF:-1 tvg-name="eee Sonra" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_eeeSonra" tvg-logo="https://i.ytimg.com/vi/vzcV17H4pgk/hqdefault.jpg" group-title="İçerik",eee Sonra
-https://ythls.kekikakademi.org/channel/UCt28gd-5rh24_UPRwf-dulQ.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCt28gd-5rh24_UPRwf-dulQ.m3u8
 
 #EXTINF:-1 tvg-name="İşler Güçler" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_islerGucler" tvg-logo="https://i.ytimg.com/vi/So3gvma5Fmc/hqdefault.jpg" group-title="İçerik",İşler Güçler
-https://ythls.kekikakademi.org/channel/UCALHvpjqmBwdRwYPc3qVezw.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCALHvpjqmBwdRwYPc3qVezw.m3u8
 
 #EXTINF:-1 tvg-name="Geniş Aile" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GenisAile" tvg-logo="https://i.ytimg.com/vi/A-VMV-mJFiY/hqdefault.jpg" group-title="İçerik",Geniş Aile
-https://ythls.kekikakademi.org/channel/UC-_QrTM2lCjRhlv4l0vLJmw.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UC-_QrTM2lCjRhlv4l0vLJmw.m3u8
 
 #EXTINF:-1 tvg-name="Yalan Dünya" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_YalanDunya" tvg-logo="https://i.ytimg.com/vi/2X5QsM3Z8pQ/hqdefault.jpg" group-title="İçerik",Yalan Dünya
-https://ythls.kekikakademi.org/channel/UCN2Q-lSzQa7RjrCxQZ8DzbA.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCN2Q-lSzQa7RjrCxQZ8DzbA.m3u8
 
 #EXTINF:-1 tvg-name="Türk Malı" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_TurkMali" tvg-logo="https://i.ytimg.com/vi/RObRiZDDLEk/hqdefault.jpg" group-title="İçerik",Türk Malı
-https://ythls.kekikakademi.org/channel/UCpSOc0PBZP3eVjEAhFoq3rg.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCpSOc0PBZP3eVjEAhFoq3rg.m3u8
 
 #EXTINF:-1 tvg-name="Sihirli Annem" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_SihirliAnnem" tvg-logo="https://i.ytimg.com/vi/hzRyv4pyeO0/hqdefault.jpg" group-title="İçerik",Sihirli Annem
-https://ythls.kekikakademi.org/channel/UCNjRKDlSvo1H38XTkbIrMsA.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCNjRKDlSvo1H38XTkbIrMsA.m3u8
 
 #EXTINF:-1 tvg-name="Çilek Kokusu" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CilekKokusu" tvg-logo="https://i.ytimg.com/vi/78sojzQcvgs/hqdefault.jpg" group-title="İçerik",Çilek Kokusu
-https://ythls.kekikakademi.org/channel/UC3uB257qcHNt-Ri-iPx7uVA.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UC3uB257qcHNt-Ri-iPx7uVA.m3u8
 
 #EXTINF:-1 tvg-name="Adını Feriha Koydum" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_AdiniFerihaKoydum" tvg-logo="https://i.ytimg.com/vi/ESNRjuK9QdU/hqdefault.jpg" group-title="İçerik",Adını Feriha Koydum
-https://ythls.kekikakademi.org/channel/UCtkp8YehDHBNJ63CS9xwIQg.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCtkp8YehDHBNJ63CS9xwIQg.m3u8
 
 
 
 # * » Rahatlatıcı « * #
 #EXTINF:-1 tvg-name="Ateş Başı" tvg-language="Russian" tvg-country="RU" tvg-id="Rahat_AtesBasi" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/b524a99a-92d1-49a4-bb81-fda99617db2c.png" group-title="Rahatlatıcı",Ateş Başı
-https://ythls.kekikakademi.org/channel/UCMlIZGBeueCZBUmEP-PddJg.m3u8
+https://ythls.kekikakademi.org/youtube/channel/UCMlIZGBeueCZBUmEP-PddJg.m3u8
