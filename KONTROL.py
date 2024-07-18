@@ -63,7 +63,7 @@ for kanal in kanallar:
         oturum.headers.update({"Referer": kanal["referer"]})
 
     try:
-        istek = oturum.get(kanal['yayin'])
+        istek = oturum.get(kanal['yayin'], timeout=5)
     except Exception as hata:
         konsol.log(f"[!] {type(hata).__name__} : {hata}")
         satir_ekle("HATALAR.md", f"|**{kanal['ad']}**|`{type(hata).__name__}`|*{kanal['yayin']}*|")
