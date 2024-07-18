@@ -45,7 +45,9 @@ jobs:
       - name : Değişiklik Kontrolü
         id   : degisiklik_kontrol
         run  : |
-          git diff --quiet . || echo "degisiklik=true" >> $GITHUB_OUTPUT
+          if [ -f HATALAR.md ]; then
+            echo "degisiklik=true" >> $GITHUB_OUTPUT
+          fi
 
       - name : Issue Aç
         if   : steps.degisiklik_kontrol.outputs.degisiklik == 'true'
