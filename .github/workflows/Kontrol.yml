@@ -50,6 +50,23 @@ jobs:
             echo "degisiklik=true" >> $GITHUB_OUTPUT
           fi
 
+      - name : Mevcut Issue'ları Kontrol Et ve Kapat
+        if   : steps.degisiklik_kontrol.outputs.degisiklik == 'true'
+        run  : |
+          existing_issue=$(curl -s \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/issues \
+            | jq -r '.[] | select(.title == "⚠️ Kontrol Edilmesi Gereken Linkler") | .number')
+
+          if [ -n "$existing_issue" ]; then
+            curl -X PATCH \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              https://api.github.com/repos/${{ github.repository }}/issues/$existing_issue \
+              -d '{"state":"closed"}'
+          fi
+
       - name : Issue Aç
         if   : steps.degisiklik_kontrol.outputs.degisiklik == 'true'
         run  : |
@@ -60,4 +77,4 @@ jobs:
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${{ github.repository }}/issues \
-            -d '{"title":"⚠️ Çalışmayan Linkler Var..","body":'"$body"',"labels":["domain","auto-generated"]}'
+            -d '{"title":"⚠️ Kontrol Edilmesi Gereken Linkler","body":'"$body"',"labels":["domain","auto-generated"]}'
