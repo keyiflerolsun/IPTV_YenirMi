@@ -1,0 +1,59 @@
+# Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
+
+name: Yayın Kontrolü
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: 00 00 * * *
+
+jobs:
+  YayinKontrol:
+    runs-on: ubuntu-latest
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    permissions:
+      contents: write
+
+    steps:
+      - name : Depo Kontrolü
+        uses : actions/checkout@v4
+
+      - name : Python 3.11.8 Yükle
+        uses : actions/setup-python@v5
+        with :
+          python-version: 3.11.8
+
+      - name : Python Sürümünü Göster
+        run  : python -c "import sys; print(sys.version)"
+
+      - name : Gereksinimleri Yükle
+        run  : |
+          python -m pip install --upgrade pip
+          pip install -U setuptools wheel Kekik cloudscraper
+
+      - name : Betiği Çalıştır
+        run  : |
+          python KONTROL.py
+
+      - name : Değişiklik Kontrolü
+        id   : degisiklik_kontrol
+        run  : |
+          git diff --quiet . || echo "degisiklik=true" >> $GITHUB_OUTPUT
+
+      - name : Issue Aç
+        if   : steps.degisiklik_kontrol.outputs.degisiklik == 'true'
+        run  : |
+          hatalar=$(cat HATALAR.md)
+
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/issues \
+            -d '{"title":"⚠️ Çalışmayan Linkler Var..","body":"'"$hatalar"'","labels":["domain","auto-generated"]}'
