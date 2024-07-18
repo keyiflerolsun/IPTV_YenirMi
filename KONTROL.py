@@ -48,7 +48,7 @@ def iptv_parser(dosya_yolu:str) -> list[dict]:
 kanallar     = iptv_parser("Kanallar/KekikAkademi.m3u")
 hata_bulundu = False
 
-satir_ekle("HATALAR.md", "|AD|HATA|YAYIN|\n|--|----|-----|")
+satir_ekle("HATALAR.md", "[![Yayın Kontrolü](https://github.com/keyiflerolsun/IPTV_YenirMi/actions/workflows/Kontrol.yml/badge.svg)](https://github.com/keyiflerolsun/IPTV_YenirMi/actions/workflows/Kontrol.yml)\n\n|AD|HATA|YAYIN|\n|--|----|-----|")
 
 for kanal in kanallar:
     print("\n")
