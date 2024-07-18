@@ -54,8 +54,8 @@ satir_ekle("HATALAR.md", """
 
 ## [Kanallar/KekikAkademi.m3u](Kanallar/KekikAkademi.m3u)
 
-|AD|HATA|YAYIN|
-|--|----|-----|
+| AD | HATA | YAYIN |
+|----|------|-------|
 
 """.strip())
 
