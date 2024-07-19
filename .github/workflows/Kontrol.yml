@@ -10,6 +10,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: 00 00 * * *
+  push:
+    paths:
+      - KONTROL.py
+      - .github/workflows/Kontrol.yml
+      - Kanallar/KekikAkademi.m3u
 
 jobs:
   YayinKontrol:
