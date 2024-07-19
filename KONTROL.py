@@ -52,9 +52,8 @@ satir_ekle("HATALAR.md", """
 
 ***
 
+> # [![Yayın Kontrolü](https://github.com/keyiflerolsun/IPTV_YenirMi/actions/workflows/Kontrol.yml/badge.svg)](https://github.com/keyiflerolsun/IPTV_YenirMi/actions/workflows/Kontrol.yml)
 > ### [Kanallar/KekikAkademi.m3u](https://github.com/keyiflerolsun/IPTV_YenirMi/blob/main/Kanallar/KekikAkademi.m3u)
-
-[![Yayın Kontrolü](https://github.com/keyiflerolsun/IPTV_YenirMi/actions/workflows/Kontrol.yml/badge.svg)](https://github.com/keyiflerolsun/IPTV_YenirMi/actions/workflows/Kontrol.yml)
 
 ***
 
