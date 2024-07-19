@@ -6,7 +6,7 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
   cancel-in-progress: true
 
-on: 
+on:
   workflow_dispatch:
   schedule:
     - cron: 00 00 * * *
@@ -59,17 +59,17 @@ jobs:
       - name : Mevcut Issue'ları Kontrol Et ve Kapat
         if   : steps.degisiklik_kontrol.outputs.degisiklik == 'true'
         run  : |
-          existing_issue=$(curl -s \
+          mevcut_issue=$(curl -s \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${{ github.repository }}/issues \
-            | jq -r '.[] | select(.title == "⚠️ Kontrol Edilmesi Gereken Linkler") | .number')
+            | jq -r '.[] | select(.title == "⚠️ Kontrol Edilmesi Gereken Yayınlar") | .number')
 
-          if [ -n "$existing_issue" ]; then
+          if [ -n "$mevcut_issue" ]; then
             curl -X PATCH \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -H "Accept: application/vnd.github.v3+json" \
-              https://api.github.com/repos/${{ github.repository }}/issues/$existing_issue \
+              https://api.github.com/repos/${{ github.repository }}/issues/$mevcut_issue \
               -d '{"state":"closed"}'
           fi
 
@@ -77,10 +77,10 @@ jobs:
         if   : steps.degisiklik_kontrol.outputs.degisiklik == 'true'
         run  : |
           hatalar=$(cat HATALAR.md)
-          body=$(echo "$hatalar" | jq -sR .)
-          
+          issue_body=$(echo "$hatalar" | jq -sR .)
+
           curl -X POST \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${{ github.repository }}/issues \
-            -d '{"title":"⚠️ Kontrol Edilmesi Gereken Linkler","body":'"$body"',"labels":["help wanted"]}'
+            -d '{"title":"⚠️ Kontrol Edilmesi Gereken Yayınlar","body":'"$issue_body"',"labels":["help wanted"]}'
