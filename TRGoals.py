@@ -23,8 +23,12 @@ class TRGoals:
         eldeki_domain = self.referer_domainini_al()
         konsol.log(f"[yellow][~] Bilinen Domain : {eldeki_domain}")
 
-        istek       = self.oturum.get(eldeki_domain, allow_redirects=True)
-        yeni_domain = istek.url[:-1] if istek.url.endswith("/") else istek.url
+        try:
+            istek       = self.oturum.get(eldeki_domain, allow_redirects=True)
+            yeni_domain = istek.url[:-1] if istek.url.endswith("/") else istek.url
+        except Exception:
+            yeni_domain = "https://trgoals883.xyz"
+
         konsol.log(f"[green][+] Yeni URL       : {yeni_domain}")
 
         kontrol_url = f"{yeni_domain}/channel.html?id=yayin1"
