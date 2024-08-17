@@ -2,12 +2,14 @@
 
 from Kekik.cli    import konsol
 from cloudscraper import CloudScraper
+from httpx        import Client
 import re
 
 class TRGoals:
     def __init__(self, m3u_dosyasi):
         self.m3u_dosyasi = m3u_dosyasi
         self.oturum      = CloudScraper()
+        self.httpx       = Client()
 
     def referer_domainini_al(self):
         referer_deseni = r'#EXTVLCOPT:http-referrer=(https?://[^/]*trgoals[^/]*\.[^\s/]+)'
@@ -19,6 +21,13 @@ class TRGoals:
         else:
             raise ValueError("M3U dosyasında 'trgoals' içeren referer domain bulunamadı!")
 
+    def trgoals_domaini_al(self):
+        istek        = self.httpx.post("http://51.145.215.21:1453/api/v1/cf", json={"url": "https://trgoalsgiris.xyz/"})
+        redirect_url = re.search(r"href=\"(.*)\">Canlı Maç", istek.text)[1]
+        redirect     = self.oturum.get(redirect_url, allow_redirects=True)
+
+        return redirect.url[:-1] if redirect.url.endswith("/") else redirect.url
+
     def m3u_guncelle(self):
         eldeki_domain = self.referer_domainini_al()
         konsol.log(f"[yellow][~] Bilinen Domain : {eldeki_domain}")
@@ -27,7 +36,7 @@ class TRGoals:
             istek       = self.oturum.get(eldeki_domain, allow_redirects=True)
             yeni_domain = istek.url[:-1] if istek.url.endswith("/") else istek.url
         except Exception:
-            yeni_domain = "https://trgoals885.xyz"
+            yeni_domain = self.trgoals_domaini_al()
 
         konsol.log(f"[green][+] Yeni URL       : {yeni_domain}")
 
