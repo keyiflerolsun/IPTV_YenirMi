@@ -24,9 +24,10 @@ class TRGoals:
     def trgoals_domaini_al(self):
         istek        = self.httpx.post("http://51.145.215.21:1453/api/v1/cf", json={"url": "https://trgoalsgiris.xyz/"})
         redirect_url = re.search(r"href=\"(.*)\">Canlı Maç", istek.text)[1]
-        redirect     = self.oturum.get(redirect_url, allow_redirects=True)
+        istek        = self.httpx.post("http://51.145.215.21:1453/api/v1/url", json={"url": redirect_url})
+        redirect_url = istek.json().get("url")
 
-        return redirect.url[:-1] if redirect.url.endswith("/") else redirect.url
+        return redirect_url[:-1] if redirect_url.endswith("/") else redirect_url
 
     def m3u_guncelle(self):
         eldeki_domain = self.referer_domainini_al()
