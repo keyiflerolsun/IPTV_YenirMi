@@ -33,15 +33,15 @@ class TRGoals:
         eldeki_domain = self.referer_domainini_al()
         konsol.log(f"[yellow][~] Bilinen Domain : {eldeki_domain}")
 
+        # try:
+        #     istek       = self.oturum.get(eldeki_domain, allow_redirects=True)
+        #     yeni_domain = istek.url[:-1] if istek.url.endswith("/") else istek.url
+        # except Exception:
         try:
-            istek       = self.oturum.get(eldeki_domain, allow_redirects=True)
+            istek       = self.oturum.get("https://bit.ly/4dQFE5N?r=lp", allow_redirects=True)
             yeni_domain = istek.url[:-1] if istek.url.endswith("/") else istek.url
         except Exception:
-            try:
-                istek       = self.oturum.get("https://bit.ly/4dQFE5N?r=lp", allow_redirects=True)
-                yeni_domain = istek.url[:-1] if istek.url.endswith("/") else istek.url
-            except Exception:
-                yeni_domain = self.trgoals_domaini_al()
+            yeni_domain = self.trgoals_domaini_al()
 
         konsol.log(f"[green][+] Yeni Domain    : {yeni_domain}")
 
