@@ -26,7 +26,7 @@ class TRGoals:
         redirect_url = re.search(r"href=\"([^\"]*redirect[^\"]*)\"", istek.text)[1]
         return self.redirect_gec(redirect_url)
 
-    def redirect_gec(self, redirect_url:str)
+    def redirect_gec(self, redirect_url:str):
         istek        = self.httpx.post("http://51.145.215.21:1453/api/v1/url", json={"url": redirect_url})
         redirect_url = istek.json().get("url")
 
