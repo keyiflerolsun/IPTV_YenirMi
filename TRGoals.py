@@ -40,6 +40,8 @@ class TRGoals:
         try:
             istek       = self.oturum.get("https://bit.ly/4dQFE5N?r=lp", allow_redirects=True)
             yeni_domain = istek.url[:-1] if istek.url.endswith("/") else istek.url
+            istek       = self.oturum.get(yeni_domain, allow_redirects=True)
+            yeni_domain = istek.url[:-1] if istek.url.endswith("/") else istek.url
         except Exception:
             yeni_domain = self.trgoals_domaini_al()
 
