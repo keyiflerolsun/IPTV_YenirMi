@@ -39,7 +39,7 @@ class TRGoals:
         except Exception:
             yeni_domain = self.trgoals_domaini_al()
 
-        konsol.log(f"[green][+] Yeni URL       : {yeni_domain}")
+        konsol.log(f"[green][+] Yeni Domain    : {yeni_domain}")
 
         kontrol_url = f"{yeni_domain}/channel.html?id=yayin1"
 
