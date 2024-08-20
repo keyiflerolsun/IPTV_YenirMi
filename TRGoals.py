@@ -22,12 +22,12 @@ class TRGoals:
             raise ValueError("M3U dosyasında 'trgoals' içeren referer domain bulunamadı!")
 
     def trgoals_domaini_al(self):
-        istek        = self.httpx.post("http://51.145.215.21:1453/api/v1/cf", json={"url": "https://trgoalsgiris.xyz/"})
+        istek        = self.httpx.post("http://10.0.2.0:1221/api/v1/cf", json={"url": "https://trgoalsgiris.xyz/"})
         redirect_url = re.search(r"href=\"([^\"]*redirect[^\"]*)\"", istek.text)[1]
         return self.redirect_gec(redirect_url)
 
     def redirect_gec(self, redirect_url:str):
-        istek        = self.httpx.post("http://51.145.215.21:1453/api/v1/url", json={"url": redirect_url})
+        istek        = self.httpx.post("http://10.0.2.0:1221/api/v1/url", json={"url": redirect_url})
         redirect_url = istek.json().get("url")
 
         return redirect_url[:-1] if redirect_url.endswith("/") else redirect_url
@@ -37,13 +37,10 @@ class TRGoals:
         konsol.log(f"[yellow][~] Bilinen Domain : {eldeki_domain}")
 
         try:
-            istek       = self.oturum.get("https://bit.ly/4dQFE5N?r=lp", allow_redirects=True)
-            yeni_domain = istek.url[:-1] if istek.url.endswith("/") else istek.url
-            yeni_domain = self.redirect_gec(yeni_domain)
+            yeni_domain = self.redirect_gec("https://bit.ly/4dQFE5N?r=lp")
         except Exception:
             try:
-                istek       = self.oturum.get(eldeki_domain, allow_redirects=True)
-                yeni_domain = istek.url[:-1] if istek.url.endswith("/") else istek.url
+                yeni_domain = self.redirect_gec(eldeki_domain)
             except Exception:
                 yeni_domain = self.trgoals_domaini_al()
 
