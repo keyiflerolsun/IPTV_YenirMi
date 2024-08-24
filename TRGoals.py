@@ -47,7 +47,10 @@ class TRGoals:
             try:
                 yeni_domain = self.redirect_gec(eldeki_domain)
             except Exception:
-                yeni_domain = self.trgoals_domaini_al()
+                try:
+                    yeni_domain = self.trgoals_domaini_al()
+                except Exception:
+                    yeni_domain = "https://trgoals895.xyz"
 
         konsol.log(f"[green][+] Yeni Domain    : {yeni_domain}")
 
