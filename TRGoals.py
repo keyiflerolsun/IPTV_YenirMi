@@ -30,7 +30,12 @@ class TRGoals:
         istek        = self.httpx.post("http://10.0.2.0:1221/api/v1/url", json={"url": redirect_url})
         redirect_url = istek.json().get("url")
 
-        return redirect_url[:-1] if redirect_url.endswith("/") else redirect_url
+        domain = redirect_url[:-1] if redirect_url.endswith("/") else redirect_url
+
+        if "error" in domain:
+            raise ValueError("Redirect domain hatalı..")
+
+        return domain
 
     def m3u_guncelle(self):
         eldeki_domain = self.referer_domainini_al()
