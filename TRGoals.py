@@ -63,9 +63,10 @@ class TRGoals:
         eski_yayin_url = eski_yayin_url[0]
         konsol.log(f"[yellow][~] Eski Yayın URL : {eski_yayin_url}")
 
-        response = self.httpx.post("http://10.0.2.0:1221/api/v1/cf", json={"url": kontrol_url})
+        response = self.httpx.get(kontrol_url)
 
         if not (yayin_ara := re.search(r'var baseurl = "(https?:\/\/[^"]+)"', response.text)):
+            konsol.print(response.text)
             raise ValueError("Base URL bulunamadı!")
 
         yayin_url = yayin_ara[1]
