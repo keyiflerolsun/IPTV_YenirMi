@@ -57,7 +57,7 @@ class TRGoals:
         with open(self.m3u_dosyasi, "r") as dosya:
             m3u_icerik = dosya.read()
 
-        if not (eski_yayin_url := re.search(r'https?://[^/]+\.((workers\.dev)|(shop))/?', m3u_icerik)):
+        if not (eski_yayin_url := re.search(r'https?:\/\/[^\/]+\.(workers\.dev|shop)\/?', m3u_icerik)):
             raise ValueError("M3U dosyasında eski yayın URL'si bulunamadı!")
 
         eski_yayin_url = eski_yayin_url[0]
