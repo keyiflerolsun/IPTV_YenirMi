@@ -65,7 +65,7 @@ class TRGoals:
 
         response = self.httpx.post("http://10.0.2.0:1221/api/v1/cf", json={"url": kontrol_url})
 
-        if not (yayin_ara := re.search(r'var baseurl = "(https?://[^"]+)"', response.text)):
+        if not (yayin_ara := re.search(r'var baseurl = "(https?:\/\/[^"]+)"', response.text)):
             raise ValueError("Base URL bulunamadı!")
 
         yayin_url = yayin_ara[1]
