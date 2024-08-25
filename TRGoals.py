@@ -1,14 +1,12 @@
 # ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-from Kekik.cli    import konsol
-from cloudscraper import CloudScraper
-from httpx        import Client
+from Kekik.cli import konsol
+from httpx     import Client
 import re
 
 class TRGoals:
     def __init__(self, m3u_dosyasi):
         self.m3u_dosyasi = m3u_dosyasi
-        self.oturum      = CloudScraper()
         self.httpx       = Client()
 
     def referer_domainini_al(self):
@@ -65,7 +63,7 @@ class TRGoals:
         eski_yayin_url = eski_yayin_url[0]
         konsol.log(f"[yellow][~] Eski Yayın URL : {eski_yayin_url}")
 
-        response = self.oturum.get(kontrol_url)
+        response = self.httpx.post("http://10.0.2.0:1221/api/v1/cf", json={"url": kontrol_url})
 
         if not (yayin_ara := re.search(r'var baseurl = "(https?://[^"]+)"', response.text)):
             raise ValueError("Base URL bulunamadı!")
