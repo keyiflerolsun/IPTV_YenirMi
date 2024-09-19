@@ -2,6 +2,7 @@
 
 from Kekik.cli import konsol
 from httpx     import Client
+from parsel    import Selector
 import re
 
 class TRGoals:
@@ -20,8 +21,11 @@ class TRGoals:
             raise ValueError("M3U dosyasında 'trgoals' içeren referer domain bulunamadı!")
 
     def trgoals_domaini_al(self):
-        istek        = self.httpx.post("http://10.0.2.0:1221/api/v1/cf", json={"url": "https://trgoalsgiris.xyz/"})
-        redirect_url = re.search(r"href=\"([^\"]*redirect[^\"]*)\"", istek.text)[1]
+        istek        = self.httpx.post("http://10.0.2.0:1221/api/v1/cf", json={"url": "https://bit.ly/m/taraftarium24hd"})
+        # redirect_url = re.search(r"href=\"([^\"]*redirect[^\"]*)\"", istek.text)[1]
+        secici       = Selector(istek.text)
+        redirect_url = secici.xpath("(//section[@class='links']/a)[1]/@href").get()
+
         return self.redirect_gec(redirect_url)
 
     def redirect_gec(self, redirect_url:str):
