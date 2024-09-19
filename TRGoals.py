@@ -40,13 +40,13 @@ class TRGoals:
         konsol.log(f"[yellow][~] Bilinen Domain : {eldeki_domain}")
 
         try:
-            yeni_domain = self.redirect_gec("https://bit.ly/3XJTphe?r=lp")
+            yeni_domain = self.trgoals_domaini_al()
         except Exception:
             try:
-                yeni_domain = self.redirect_gec(eldeki_domain)
+                yeni_domain = self.redirect_gec("https://bit.ly/3XJTphe?r=lp")
             except Exception:
                 try:
-                    yeni_domain = self.trgoals_domaini_al()
+                    yeni_domain = self.redirect_gec(eldeki_domain)
                 except Exception:
                     yeni_domain = "https://trgoals895.xyz"
 
