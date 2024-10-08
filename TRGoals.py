@@ -26,7 +26,7 @@ class TRGoals:
         secici       = Selector(istek.text)
         redirect_url = secici.xpath("(//section[@class='links']/a)[1]/@href").get()
 
-        return self.redirect_gec(redirect_url)
+        return self.redirect_gec(self.redirect_gec(redirect_url))
 
     def redirect_gec(self, redirect_url:str):
         istek        = self.httpx.post("http://10.0.2.0:1221/api/v1/url", json={"url": redirect_url})
