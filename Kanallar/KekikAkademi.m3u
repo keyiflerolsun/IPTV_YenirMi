@@ -403,7 +403,7 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d93b635b
 
 
 # * » İçerik « * #
-#EXTINF:-1 tvg-name="Yeşil Çam" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_YesilCam" tvg-logo="https://i.ytimg.com/vi/li4kIJdyxs4/hqdefault.jpg" group-title="İçerik",Yeşil Çam
+#EXTINF:-1 tvg-name="Yeşil Çam" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_YesilCam" tvg-logo="https://i.ytimg.com/vi/rMjgoq_tMPE/hqdefault.jpg" group-title="İçerik",Yeşil Çam
 https://ythls.kekikakademi.org/youtube/channel/UCUALYmnkEmx8vlxIbpr2gmw.m3u8
 
 #EXTINF:-1 tvg-name="Kemal Sunal" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_KemalSunal" tvg-logo="https://i.ytimg.com/vi/lDI6Lbxhz6Y/hqdefault.jpg" group-title="İçerik",Kemal Sunal
