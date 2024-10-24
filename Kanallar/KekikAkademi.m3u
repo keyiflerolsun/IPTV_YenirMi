@@ -306,6 +306,41 @@ https://t.trgoalshls66.shop/yayinbm2.m3u8
 #EXTVLCOPT:http-referrer=https://trgoals980.xyz/
 https://t.trgoalshls66.shop/yayinex1.m3u8
 
+#EXTINF:-1 tvg-name="Tabii Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43023.jpeg" group-title="Spor",Tabii Spor
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals980.xyz/
+https://t.trgoalshls66.shop/yayinex7.m3u8
+
+#EXTINF:-1 tvg-name="Tabii Spor 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII1" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43005.jpeg" group-title="Spor",Tabii Spor 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals980.xyz/
+https://t.trgoalshls66.shop/yayinex1.m3u8
+
+#EXTINF:-1 tvg-name="Tabii Spor 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII2" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43008.jpeg" group-title="Spor",Tabii Spor 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals980.xyz/
+https://t.trgoalshls66.shop/yayinex2.m3u8
+
+#EXTINF:-1 tvg-name="Tabii Spor 3" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII3" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43011.jpeg" group-title="Spor",Tabii Spor 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals980.xyz/
+https://t.trgoalshls66.shop/yayinex3.m3u8
+
+#EXTINF:-1 tvg-name="Tabii Spor 4" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII4" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43014.jpeg" group-title="Spor",Tabii Spor 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals980.xyz/
+https://t.trgoalshls66.shop/yayinex4.m3u8
+
+#EXTINF:-1 tvg-name="Tabii Spor 5" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII5" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43017.jpeg" group-title="Spor",Tabii Spor 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals980.xyz/
+https://t.trgoalshls66.shop/yayinex5.m3u8
+
+#EXTINF:-1 tvg-name="Tabii Spor 6" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII6" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43020.jpeg" group-title="Spor",Tabii Spor 6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals980.xyz/
+https://t.trgoalshls66.shop/yayinex6.m3u8
+
 
 # * » Müzik « * #
 #EXTINF:-1 tvg-name="TRT Müzik" tvg-language="Turkish" tvg-country="TR" tvg-id="Muzik_TRT" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/12382043.png" group-title="Müzik",TRT Müzik
