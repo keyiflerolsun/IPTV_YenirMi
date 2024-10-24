@@ -412,8 +412,8 @@ https://ythls.kekikakademi.org/youtube/channel/UCoIUysIrvGxoDw-GkdOGjRw.m3u8
 #EXTINF:-1 tvg-name="Şener Şen" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_SenerSen" tvg-logo="https://i.ytimg.com/vi/PTp6hmibGSc/hqdefault.jpg" group-title="İçerik",Şener Şen
 https://ythls.kekikakademi.org/youtube/channel/UCulg-mlXf314L1pemPqCVng.m3u8
 
-#EXTINF:-1 tvg-name="Behzat Ç." tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_BehzatC" tvg-logo="https://i.ytimg.com/vi/asbzUzzLwxs/hqdefault.jpg" group-title="İçerik",Behzat Ç.
-https://ythls.kekikakademi.org/youtube/channel/UCH3WnhFSx9r850HJRRs16lQ.m3u8
+# #EXTINF:-1 tvg-name="Behzat Ç." tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_BehzatC" tvg-logo="https://i.ytimg.com/vi/asbzUzzLwxs/hqdefault.jpg" group-title="İçerik",Behzat Ç.
+# https://ythls.kekikakademi.org/youtube/channel/UCH3WnhFSx9r850HJRRs16lQ.m3u8
 
 #EXTINF:-1 tvg-name="Cennet Mahallesi" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CennetMahallesi" tvg-logo="https://i.ytimg.com/vi/lf1NxAexRAE/hqdefault.jpg" group-title="İçerik",Cennet Mahallesi
 https://ythls.kekikakademi.org/youtube/channel/UCOqe-z52nnpVSAe8Ds0fxaA.m3u8
@@ -421,8 +421,8 @@ https://ythls.kekikakademi.org/youtube/channel/UCOqe-z52nnpVSAe8Ds0fxaA.m3u8
 #EXTINF:-1 tvg-name="Güldür Güldür" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GuldurGuldur" tvg-logo="https://i.ytimg.com/vi/JX5mSkUfxmk/hqdefault.jpg" group-title="İçerik",Güldür Güldür
 https://ythls.kekikakademi.org/youtube/channel/UCdlEXiVLTEvA280oyMvr8Kw.m3u8
 
-#EXTINF:-1 tvg-name="eee Sonra" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_eeeSonra" tvg-logo="https://i.ytimg.com/vi/vzcV17H4pgk/hqdefault.jpg" group-title="İçerik",eee Sonra
-https://ythls.kekikakademi.org/youtube/channel/UCt28gd-5rh24_UPRwf-dulQ.m3u8
+# #EXTINF:-1 tvg-name="eee Sonra" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_eeeSonra" tvg-logo="https://i.ytimg.com/vi/vzcV17H4pgk/hqdefault.jpg" group-title="İçerik",eee Sonra
+# https://ythls.kekikakademi.org/youtube/channel/UCt28gd-5rh24_UPRwf-dulQ.m3u8
 
 #EXTINF:-1 tvg-name="İşler Güçler" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_islerGucler" tvg-logo="https://i.ytimg.com/vi/So3gvma5Fmc/hqdefault.jpg" group-title="İçerik",İşler Güçler
 https://ythls.kekikakademi.org/youtube/channel/UCALHvpjqmBwdRwYPc3qVezw.m3u8
@@ -436,11 +436,11 @@ https://ythls.kekikakademi.org/youtube/channel/UC-_QrTM2lCjRhlv4l0vLJmw.m3u8
 # #EXTINF:-1 tvg-name="Türk Malı" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_TurkMali" tvg-logo="https://i.ytimg.com/vi/RObRiZDDLEk/hqdefault.jpg" group-title="İçerik",Türk Malı
 # https://ythls.kekikakademi.org/youtube/channel/UCpSOc0PBZP3eVjEAhFoq3rg.m3u8
 
-#EXTINF:-1 tvg-name="Sihirli Annem" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_SihirliAnnem" tvg-logo="https://i.ytimg.com/vi/hzRyv4pyeO0/hqdefault.jpg" group-title="İçerik",Sihirli Annem
-https://ythls.kekikakademi.org/youtube/channel/UCNjRKDlSvo1H38XTkbIrMsA.m3u8
+# #EXTINF:-1 tvg-name="Sihirli Annem" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_SihirliAnnem" tvg-logo="https://i.ytimg.com/vi/hzRyv4pyeO0/hqdefault.jpg" group-title="İçerik",Sihirli Annem
+# https://ythls.kekikakademi.org/youtube/channel/UCNjRKDlSvo1H38XTkbIrMsA.m3u8
 
-#EXTINF:-1 tvg-name="Çilek Kokusu" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CilekKokusu" tvg-logo="https://i.ytimg.com/vi/78sojzQcvgs/hqdefault.jpg" group-title="İçerik",Çilek Kokusu
-https://ythls.kekikakademi.org/youtube/channel/UC3uB257qcHNt-Ri-iPx7uVA.m3u8
+# #EXTINF:-1 tvg-name="Çilek Kokusu" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CilekKokusu" tvg-logo="https://i.ytimg.com/vi/78sojzQcvgs/hqdefault.jpg" group-title="İçerik",Çilek Kokusu
+# https://ythls.kekikakademi.org/youtube/channel/UC3uB257qcHNt-Ri-iPx7uVA.m3u8
 
 # #EXTINF:-1 tvg-name="Adını Feriha Koydum" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_AdiniFerihaKoydum" tvg-logo="https://i.ytimg.com/vi/ESNRjuK9QdU/hqdefault.jpg" group-title="İçerik",Adını Feriha Koydum
 # https://ythls.kekikakademi.org/youtube/channel/UCtkp8YehDHBNJ63CS9xwIQg.m3u8
