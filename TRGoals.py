@@ -47,7 +47,7 @@ class TRGoals:
             yeni_domain = self.trgoals_domaini_al()
         except Exception:
             try:
-                yeni_domain = self.redirect_gec("https://bit.ly/3Byg5Iw")
+                yeni_domain = self.redirect_gec("https://bit.ly/3Byg5Iw?r=lp&m=Mo35cuwH2jM")
             except Exception:
                 try:
                     yeni_domain = self.redirect_gec(eldeki_domain)
