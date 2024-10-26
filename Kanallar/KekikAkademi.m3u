@@ -453,3 +453,6 @@ https://ythls.kekikakademi.org/youtube/channel/UC-_QrTM2lCjRhlv4l0vLJmw.m3u8
 # * » Rahatlatıcı « * #
 #EXTINF:-1 tvg-name="Ateş Başı" tvg-language="Russian" tvg-country="RU" tvg-id="Rahat_AtesBasi" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/b524a99a-92d1-49a4-bb81-fda99617db2c.png" group-title="Rahatlatıcı",Ateş Başı
 https://ythls.kekikakademi.org/youtube/channel/UCMlIZGBeueCZBUmEP-PddJg.m3u8
+
+#EXTINF:-1 tvg-name="Şelale" tvg-language="English" tvg-country="EN" tvg-id="Rahat_Selale" tvg-logo="https://i.ytimg.com/vi/uW-468cP5Rk/hqdefault.jpg" group-title="Rahatlatıcı",Şelale
+https://ythls.kekikakademi.org/youtube/channel/UCjzHeG1KWoonmf9d5KBvSiw.m3u8
