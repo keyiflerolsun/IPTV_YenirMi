@@ -448,8 +448,28 @@ https://ythls.kekikakademi.org/youtube/channel/UC-_QrTM2lCjRhlv4l0vLJmw.m3u8
 # #EXTINF:-1 tvg-name="Adını Feriha Koydum" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_AdiniFerihaKoydum" tvg-logo="https://i.ytimg.com/vi/ESNRjuK9QdU/hqdefault.jpg" group-title="İçerik",Adını Feriha Koydum
 # https://ythls.kekikakademi.org/youtube/channel/UCtkp8YehDHBNJ63CS9xwIQg.m3u8
 
+# #EXTINF:-1 tvg-name="Seksenler" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_Seksenler" tvg-logo="https://i.ytimg.com/vi/w0YwPu4XTzc/hqdefault.jpg" group-title="İçerik",Seksenler
+# https://ythls.kekikakademi.org/youtube/channel/UCYRPB4TbD2RYHlIQdLgEeYA.m3u8
+
+# #EXTINF:-1 tvg-name="Çocuklar Duymasın (Eski Sezon)" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CocuklarDuymasinEski" tvg-logo="https://i.ytimg.com/vi/wZGnao9E2bE/hqdefault.jpg" group-title="İçerik",Çocuklar Duymasın (Eski Sezon)
+https://ythls.kekikakademi.org/youtube/channel/UCHFxijaEOik8V6iH4rWoAYg.m3u8
+
+# #EXTINF:-1 tvg-name="Çocuklar Duymasın" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CocuklarDuymasin" tvg-logo="https://i.ytimg.com/vi/EVZmJPw-7hY/hqdefault.jpg" group-title="İçerik",Çocuklar Duymasın
+https://ythls.kekikakademi.org/youtube/channel/UCtjNs0q_cz-RdHy-HW2q8Cw.m3u8
+
+# #EXTINF:-1 tvg-name="Selena" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_Selena" tvg-logo="https://i.ytimg.com/vi/pjSDQwlyndY/hqdefault.jpg" group-title="İçerik",Selena
+https://ythls.kekikakademi.org/youtube/channel/UCC_iReQZgbPtOBfn3bjNnPw.m3u8
+
+# #EXTINF:-1 tvg-name="Yaprak Dökümü" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_YaprakDokumu" tvg-logo="https://i.ytimg.com/vi/GTJ-k0FPoCA/hqdefault.jpg" group-title="İçerik",Yaprak Dökümü
+https://ythls.kekikakademi.org/youtube/channel/UCi-nK74pBX9Ou66z1j7KYPQ.m3u8
+
+
+
 
 
 # * » Rahatlatıcı « * #
 #EXTINF:-1 tvg-name="Ateş Başı" tvg-language="Russian" tvg-country="RU" tvg-id="Rahat_AtesBasi" tvg-logo="https://vidmind-blizzard-images.s3.amazonaws.com/b524a99a-92d1-49a4-bb81-fda99617db2c.png" group-title="Rahatlatıcı",Ateş Başı
 https://ythls.kekikakademi.org/youtube/channel/UCMlIZGBeueCZBUmEP-PddJg.m3u8
+
+#EXTINF:-1 tvg-name="Şelale" tvg-language="English" tvg-country="EN" tvg-id="Rahat_Selale" tvg-logo="https://i.ytimg.com/vi/uW-468cP5Rk/hqdefault.jpg" group-title="Rahatlatıcı",Şelale
+https://ythls.kekikakademi.org/youtube/channel/UCjzHeG1KWoonmf9d5KBvSiw.m3u8
