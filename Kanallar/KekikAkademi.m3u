@@ -409,6 +409,9 @@ https://ythls.kekikakademi.org/youtube/channel/UCUALYmnkEmx8vlxIbpr2gmw.m3u8
 #EXTINF:-1 tvg-name="Kemal Sunal" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_KemalSunal" tvg-logo="https://i.ytimg.com/vi/lDI6Lbxhz6Y/hqdefault.jpg" group-title="İçerik",Kemal Sunal
 https://ythls.kekikakademi.org/youtube/channel/UCoIUysIrvGxoDw-GkdOGjRw.m3u8
 
+#EXTINF:-1 tvg-name="Kurtlar Vadisi<" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_KurtlarVadisi" tvg-logo="https://i.ytimg.com/vi/slT7aQuQukE/hqdefault.jpg" group-title="İçerik",Kurtlar Vadisi
+https://ythls.kekikakademi.org/youtube/channel/UCz1UfNp9VFp9R1HEFn5PY5A.m3u8
+
 #EXTINF:-1 tvg-name="Şener Şen" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_SenerSen" tvg-logo="https://i.ytimg.com/vi/PTp6hmibGSc/hqdefault.jpg" group-title="İçerik",Şener Şen
 https://ythls.kekikakademi.org/youtube/channel/UCulg-mlXf314L1pemPqCVng.m3u8
 
