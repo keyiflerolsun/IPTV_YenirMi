@@ -446,6 +446,11 @@ https://ythls.kekikakademi.org/youtube/channel/UCC_iReQZgbPtOBfn3bjNnPw.m3u8
 #EXTINF:-1 tvg-name="Yaprak Dökümü" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_YaprakDokumu" tvg-logo="https://i.ytimg.com/vi/GTJ-k0FPoCA/hqdefault.jpg" group-title="İçerik",Yaprak Dökümü
 https://ythls.kekikakademi.org/youtube/channel/UCi-nK74pBX9Ou66z1j7KYPQ.m3u8
 
+#EXTINF:-1 tvg-name="Kurtlar Vadisi Pusu" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_KurtlarVadisiPusu" tvg-logo="https://i.ytimg.com/vi/slT7aQuQukE/hqdefault.jpg" group-title="İçerik",Kurtlar Vadisi Pusu
+https://ythls.kekikakademi.org/youtube/channel/UCz1UfNp9VFp9R1HEFn5PY5A.m3u8
+
+#EXTINF:-1 tvg-name="Muhteşem Yüzyıl" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_MuhtesemYuzYil" tvg-logo="https://i.ytimg.com/vi/jo-ti1m0ZW0/hqdefault.jpg" group-title="İçerik",Muhteşem Yüzyıl
+https://ythls.kekikakademi.org/youtube/channel/UCkRY4J8G__K8SEWZRLbke-Q.m3u8
 
 
 # * » Rahatlatıcı « * #
