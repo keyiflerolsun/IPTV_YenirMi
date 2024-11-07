@@ -71,8 +71,13 @@ class TRGoals:
         response = self.httpx.get(kontrol_url)
 
         if not (yayin_ara := re.search(r'var baseurl = "(https?:\/\/[^"]+)"', response.text)):
-            konsol.print(response.text)
-            raise ValueError("Base URL bulunamadı!")
+            secici = Selector(response.text)
+            baslik = secici.xpath("//title/text()").get()
+            if baslik == "404 Not Found":
+                yayin_ara = [None, eski_yayin_url]
+            else:
+                konsol.print(response.text)
+                raise ValueError("Base URL bulunamadı!")
 
         yayin_url = yayin_ara[1]
         konsol.log(f"[green][+] Yeni Yayın URL : {yayin_url}")
