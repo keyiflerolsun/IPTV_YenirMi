@@ -475,4 +475,36 @@ https://ythls.kekikakademi.org/youtube/video/690lqxbFGI0.m3u8
 
 
 
+# * » Mobese « * #
+#EXTINF:-1 tvg-name="Anadolu Hisarı" tvg-language="Turkish" tvg-country="TR" tvg-id="Mobese_AnadoluHisari" tvg-logo="https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Logo_istanbulu_seyret.png" group-title="Mobese",Anadolu Hisarı
+https://hls.ibb.gov.tr/ls/cam_turistik/cam_trsk_anadolu_hisari.stream/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Beyazıt Kulesi" tvg-language="Turkish" tvg-country="TR" tvg-id="Mobese_BeyazitKulesi" tvg-logo="https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Logo_istanbulu_seyret.png" group-title="Mobese",Beyazıt Kulesi
+https://hls.ibb.gov.tr/ls/cam_turistik/cam_trsk_beyazit_kule_1.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Beyazıt Meydan" tvg-language="Turkish" tvg-country="TR" tvg-id="Mobese_BeyazitMeydan" tvg-logo="https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Logo_istanbulu_seyret.png" group-title="Mobese",Beyazıt Meydan
+https://hls.ibb.gov.tr/ls/cam_turistik/cam_trsk_beyazit_meydan.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Büyük Camlıca" tvg-language="Turkish" tvg-country="TR" tvg-id="Mobese_BuyukCamlica" tvg-logo="https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Logo_istanbulu_seyret.png" group-title="Mobese",Büyük Camlıca
+https://hls.ibb.gov.tr/ls/cam_turistik/cam_trsk_buyuk_camlica.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Dragos" tvg-language="Turkish" tvg-country="TR" tvg-id="Mobese_Dragos" tvg-logo="https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Logo_istanbulu_seyret.png" group-title="Mobese",Dragos
+https://hls.ibb.gov.tr/ls/cam_turistik/cam_trsk_dragos.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Eminönü" tvg-language="Turkish" tvg-country="TR" tvg-id="Mobese_Eminonu" tvg-logo="https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Logo_istanbulu_seyret.png" group-title="Mobese",Eminönü
+https://hls.ibb.gov.tr/ls/cam_turistik/cam_trsk_eminonu.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Eyüpsultan" tvg-language="Turkish" tvg-country="TR" tvg-id="Mobese_Eyupsultan" tvg-logo="https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Logo_istanbulu_seyret.png" group-title="Mobese",Eyüpsultan
+https://hls.ibb.gov.tr/ls/cam_turistik/cam_trsk_eyup.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Hidiv Kasrı" tvg-language="Turkish" tvg-country="TR" tvg-id="Mobese_HidivKasri" tvg-logo="https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Logo_istanbulu_seyret.png" group-title="Mobese",Hidiv Kasrı
+https://hls.ibb.gov.tr/ls/cam_turistik/cam_trsk_hidiv_kasri_1.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kapalı Çarşı" tvg-language="Turkish" tvg-country="TR" tvg-id="Mobese_KapaliCarsi" tvg-logo="https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Logo_istanbulu_seyret.png" group-title="Mobese",Kapalı Çarşı
+https://hls.ibb.gov.tr/ls/cam_turistik/cam_trsk_kapali_carsi.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Miniatürk" tvg-language="Turkish" tvg-country="TR" tvg-id="Mobese_Miniaturk" tvg-logo="https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Logo_istanbulu_seyret.png" group-title="Mobese",Miniatürk
+https://hls.ibb.gov.tr/ls/cam_turistik/cam_trsk_miniaturk.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Ortaköy" tvg-language="Turkish" tvg-country="TR" tvg-id="Mobese_Ortakoy" tvg-logo="https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Logo_istanbulu_seyret.png" group-title="Mobese",Ortaköy
+https://hls.ibb.gov.tr/ls/cam_turistik/cam_ortakoy.stream/playlist.m3u8
