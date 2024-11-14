@@ -21,7 +21,7 @@ class TRGoals:
             raise ValueError("M3U dosyasında 'trgoals' içeren referer domain bulunamadı!")
 
     def trgoals_domaini_al(self):
-        istek        = self.httpx.post("http://10.0.2.0:1221/api/v1/cf", json={"url": "https://bit.ly/m/taraftarium24hd"})
+        istek        = self.httpx.post("http://10.0.2.0:1221/api/v1/cf", json={"url": "https://bit.ly/m/taraftarium24a"})
         # redirect_url = re.search(r"href=\"([^\"]*redirect[^\"]*)\"", istek.text)[1]
         secici       = Selector(istek.text)
         redirect_url = secici.xpath("(//section[@class='links']/a)[1]/@href").get()
@@ -50,7 +50,7 @@ class TRGoals:
                 yeni_domain = self.trgoals_domaini_al()
             except Exception:
                 try:
-                    yeni_domain = self.redirect_gec("https://bit.ly/3Byg5Iw?r=lp&m=Mo35cuwH2jM")
+                    yeni_domain = self.redirect_gec("https://t.co/JbIFBZKZpO")
                 except Exception:
                     rakam = int(eldeki_domain.split("trgoals")[1].split(".")[0]) + 1
                     yeni_domain = f"https://trgoals{rakam}.xyz"
