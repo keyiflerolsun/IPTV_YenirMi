@@ -78,7 +78,7 @@ jobs:
               | jq -r '.body')
             mevcut_body_normalize=$(echo "$mevcut_body" | tr -d '\n' | tr -d '\r' | sed 's/[[:space:]]//g')
 
-            yeni_body=$(cat HATALAR.md)
+            yeni_body=$(cat HATALAR.md 2>/dev/null || echo "")
             yeni_body_normalize=$(echo "$yeni_body" | tr -d '\n' | tr -d '\r' | sed 's/[[:space:]]//g')
 
             if [ "${{ steps.hata_kontrol.outputs.hata }}" == "false" ]; then
