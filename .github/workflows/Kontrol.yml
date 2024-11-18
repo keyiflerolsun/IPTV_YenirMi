@@ -72,9 +72,9 @@ jobs:
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -H "Accept: application/vnd.github.v3+json" \
               https://api.github.com/repos/${{ github.repository }}/issues/$mevcut_issue \
-              | jq -r '.body')
+              | jq -r '.body | @text')
 
-            yeni_body=$(cat HATALAR.md | jq -sR .)
+            yeni_body=$(cat HATALAR.md | jq -sR '. | @text')
 
             echo "Mevcut : $mevcut_body"
             echo "Yeni   : $yeni_body"
