@@ -65,9 +65,7 @@ jobs:
               https://api.github.com/repos/${{ github.repository }}/issues/$mevcut_issue \
               | jq -r '.body')
 
-            echo "icerik<<EOF" >> $GITHUB_OUTPUT
-            echo "$icerik" >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
+            echo "icerik=$icerik" >> $GITHUB_OUTPUT
           else
             echo "icerik=" >> $GITHUB_OUTPUT
           fi
@@ -75,7 +73,8 @@ jobs:
       - name : İçerik Karşılaştır
         id   : icerik_karsilastir
         run  : |
-          yeni_icerik=$(cat HATALAR.md | sed 's/\n/\\n/g')
+          hatalar=$(cat HATALAR.md)
+          yeni_icerik=$(echo "$hatalar" | jq -sR .)
           mevcut_icerik="${{ steps.mevcut_issue_icerik.outputs.icerik }}"
 
           if [ "$yeni_icerik" = "$mevcut_icerik" ]; then
