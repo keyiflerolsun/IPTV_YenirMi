@@ -49,15 +49,41 @@ jobs:
         run  : |
           python KONTROL.py
 
-      - name : Değişiklik Kontrolü
-        id   : degisiklik_kontrol
+      - name : Mevcut Issue İçeriğini Al
+        id   : mevcut_issue_icerik
         run  : |
-          if [ -f HATALAR.md ]; then
+          mevcut_issue=$(curl -s \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/issues \
+            | jq -r '.[] | select(.title == "⚠️ Kontrol Edilmesi Gereken Yayınlar") | .number')
+
+          if [ -n "$mevcut_issue" ]; then
+            icerik=$(curl -s \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              https://api.github.com/repos/${{ github.repository }}/issues/$mevcut_issue \
+              | jq -r '.body')
+
+            echo "icerik=$icerik" >> $GITHUB_OUTPUT
+          else
+            echo "icerik=" >> $GITHUB_OUTPUT
+          fi
+
+      - name : İçerik Karşılaştır
+        id   : icerik_karsilastir
+        run  : |
+          yeni_icerik=$(cat HATALAR.md)
+          mevcut_icerik="${{ steps.mevcut_issue_icerik.outputs.icerik }}"
+
+          if [ "$yeni_icerik" == "$mevcut_icerik" ]; then
+            echo "degisiklik=false" >> $GITHUB_OUTPUT
+          else
             echo "degisiklik=true" >> $GITHUB_OUTPUT
           fi
 
       - name : Mevcut Issue'ları Kontrol Et ve Kapat
-        if   : steps.degisiklik_kontrol.outputs.degisiklik == 'true'
+        if   : steps.icerik_karsilastir.outputs.degisiklik == 'true'
         run  : |
           mevcut_issue=$(curl -s \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
@@ -74,7 +100,7 @@ jobs:
           fi
 
       - name : Issue Aç
-        if   : steps.degisiklik_kontrol.outputs.degisiklik == 'true'
+        if   : steps.icerik_karsilastir.outputs.degisiklik == 'true'
         run  : |
           hatalar=$(cat HATALAR.md)
           issue_body=$(echo "$hatalar" | jq -sR .)
@@ -83,4 +109,4 @@ jobs:
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${{ github.repository }}/issues \
-            -d '{"title":"⚠️ Kontrol Edilmesi Gereken Yayınlar","body":'"$issue_body"',"labels":["help wanted"]}'
+            -d '{"title":"⚠️ Kontrol Edilmesi Gereken Yayınlar","body":'"$issue_body"','"labels":["help wanted"]}'
