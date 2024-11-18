@@ -56,7 +56,7 @@ jobs:
             echo "degisiklik=true" >> $GITHUB_OUTPUT
           fi
 
-      - name : Mevcut Issue'ları Kontrol Et ve Kapat
+      - name : Mevcut Issue'ları Kontrol Et ve Gerekirse Kapat
         if   : steps.degisiklik_kontrol.outputs.degisiklik == 'true'
         run  : |
           echo "Mevcut issue'lar kontrol ediliyor..."
@@ -79,7 +79,7 @@ jobs:
             echo "Mevcut : $mevcut_body"
             echo "Yeni   : $yeni_body"
 
-            if [ "$mevcut_body" != "$yeni_body" ]; then
+            if [ "$(echo "$mevcut_body" | tr -d '\n' | tr -d '\r')" != "$(echo "$yeni_body" | tr -d '\n' | tr -d '\r')" ]; then
               echo "Hatalar farklı, mevcut issue kapatılacak..."
               curl -X PATCH \
                 -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
