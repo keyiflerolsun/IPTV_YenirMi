@@ -103,7 +103,7 @@ jobs:
         if   : steps.icerik_karsilastir.outputs.degisiklik == 'true'
         run  : |
           hatalar=$(cat HATALAR.md)
-          issue_body=$(echo "$hatalar" | jq -sR .)
+          issue_body=$(echo "$hatalar" | jq -Rs .)
 
           curl -X POST \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
