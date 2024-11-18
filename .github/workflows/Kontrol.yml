@@ -59,7 +59,6 @@ jobs:
           fi
 
       - name : Mevcut Issue'ları Kontrol Et ve Gerekirse Kapat
-        if   : steps.hata_kontrol.outputs.hata == 'true'
         id   : issue_kontrol
         run  : |
           echo "Mevcut issue'lar kontrol ediliyor..."
@@ -82,8 +81,14 @@ jobs:
             yeni_body=$(cat HATALAR.md)
             yeni_body_normalize=$(echo "$yeni_body" | tr -d '\n' | tr -d '\r' | sed 's/[[:space:]]//g')
 
-            if [ "$mevcut_body_normalize" != "$yeni_body_normalize" ]; then
-              echo "Hatalar farklı, mevcut issue kapatılacak..."
+            if [ "${{ steps.hata_kontrol.outputs.hata }}" == "false" ]; then
+              kapatma_nedeni="Hata yok."
+            elif [ "$mevcut_body_normalize" != "$yeni_body_normalize" ]; then
+              kapatma_nedeni="Hatalar farklı."
+            fi
+
+            if [ -n "$kapatma_nedeni" ]; then
+              echo "Mevcut issue kapatılacak... Kapatma nedeni: $kapatma_nedeni"
               curl -X PATCH \
                 -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                 -H "Accept: application/vnd.github.v3+json" \
