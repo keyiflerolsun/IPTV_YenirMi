@@ -75,7 +75,7 @@ jobs:
       - name : İçerik Karşılaştır
         id   : icerik_karsilastir
         run  : |
-          yeni_icerik=$(cat HATALAR.md)
+          yeni_icerik=$(cat HATALAR.md | sed 's/\n/\\n/g')
           mevcut_icerik="${{ steps.mevcut_issue_icerik.outputs.icerik }}"
 
           if [ "$yeni_icerik" = "$mevcut_icerik" ]; then
