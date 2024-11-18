@@ -74,7 +74,8 @@ class TRGoals:
             secici = Selector(response.text)
             baslik = secici.xpath("//title/text()").get()
             if baslik == "404 Not Found":
-                yayin_ara = [None, eski_yayin_url]
+                yeni_domain = eldeki_domain
+                yayin_ara   = [None, eski_yayin_url]
             else:
                 konsol.print(response.text)
                 raise ValueError("Base URL bulunamadı!")
