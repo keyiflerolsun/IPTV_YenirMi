@@ -78,7 +78,7 @@ jobs:
           yeni_icerik=$(cat HATALAR.md)
           mevcut_icerik="${{ steps.mevcut_issue_icerik.outputs.icerik }}"
 
-          if [ "$yeni_icerik" == "$mevcut_icerik" ]; then
+          if [ "$yeni_icerik" = "$mevcut_icerik" ]; then
             echo "degisiklik=false" >> $GITHUB_OUTPUT
           else
             echo "degisiklik=true" >> $GITHUB_OUTPUT
