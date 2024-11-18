@@ -66,9 +66,9 @@ jobs:
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -H "Accept: application/vnd.github.v3+json" \
               https://api.github.com/repos/${{ github.repository }}/issues/$issue_number \
-              | jq -r '.body')
+              | jq -sR .)
 
-            echo "Mevcut issue içeriği alındı: $icerik"
+            echo "Mevcut issue içeriği alındı."
             echo "icerik=$icerik" >> $GITHUB_OUTPUT
           else
             echo "Mevcut bir issue bulunamadı."
@@ -80,7 +80,7 @@ jobs:
         run  : |
           echo "İçerikler karşılaştırılıyor..."
           if [ -f HATALAR.md ]; then
-            hatalar=$(cat HATALAR.md)
+            hatalar=$(cat HATALAR.md | jq -sR .)
             yeni_icerik="$hatalar"
             mevcut_icerik="${{ steps.mevcut_issue_icerik.outputs.icerik }}"
 
@@ -123,8 +123,8 @@ jobs:
       - name : Issue Aç
         if   : steps.icerik_karsilastir.outputs.degisiklik == 'true'
         run  : |
-          hatalar=$(cat HATALAR.md)
-          issue_body=$(echo "$hatalar" | jq -sR .)
+          hatalar=$(cat HATALAR.md | jq -sR .)
+          issue_body="$hatalar"
 
           curl -X POST \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
