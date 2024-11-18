@@ -67,7 +67,7 @@ jobs:
 
             echo "icerik=$icerik" >> $GITHUB_OUTPUT
           else
-            echo "icerik=" >> $GITHUB_OUTPUT
+            echo "icerik=\"\"" >> $GITHUB_OUTPUT
           fi
 
       - name : İçerik Karşılaştır
