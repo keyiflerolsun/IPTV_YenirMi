@@ -52,48 +52,57 @@ jobs:
       - name : Mevcut Issue İçeriğini Al
         id   : mevcut_issue_icerik
         run  : |
-          mevcut_issue=$(curl -s -o response.json -w "%{http_code}" \
+          echo "Mevcut issue'lar alınıyor..."
+          mevcut_issue=$(curl -s \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${{ github.repository }}/issues)
 
-          if [ "$mevcut_issue" -eq 200 ]; then
-            issue_number=$(cat response.json | jq -r '.[] | select(.title == "⚠️ Kontrol Edilmesi Gereken Yayınlar") | .number')
-            if [ -n "$issue_number" ]; then
-              icerik=$(curl -s \
-                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-                -H "Accept: application/vnd.github.v3+json" \
-                https://api.github.com/repos/${{ github.repository }}/issues/$issue_number \
-                | jq -r '.body')
+          echo "Mevcut issue'lar: $mevcut_issue"
+          issue_number=$(echo "$mevcut_issue" | jq -r '.[] | select(.title == "⚠️ Kontrol Edilmesi Gereken Yayınlar") | .number')
+          echo "Issue numarası: $issue_number"
+          if [ -n "$issue_number" ]; then
+            icerik=$(curl -s \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              https://api.github.com/repos/${{ github.repository }}/issues/$issue_number \
+              | jq -r '.body')
 
-              echo "icerik="$icerik"" >> $GITHUB_OUTPUT
-            else
-              echo "icerik=\"\"" >> $GITHUB_OUTPUT
-            fi
+            echo "Mevcut issue içeriği alındı: $icerik"
+            echo "icerik=$icerik" >> $GITHUB_OUTPUT
           else
-            echo "icerik=\"\"" >> $GITHUB_OUTPUT
+            echo "Mevcut bir issue bulunamadı."
+            echo "icerik=" >> $GITHUB_OUTPUT
           fi
 
       - name : İçerik Karşılaştır
         id   : icerik_karsilastir
         run  : |
+          echo "İçerikler karşılaştırılıyor..."
           if [ -f HATALAR.md ]; then
             hatalar=$(cat HATALAR.md)
             yeni_icerik="$hatalar"
             mevcut_icerik="${{ steps.mevcut_issue_icerik.outputs.icerik }}"
 
+            echo "Yeni içerik: $yeni_icerik"
+            echo "Mevcut içerik: $mevcut_icerik"
+
             if [ "$yeni_icerik" = "$mevcut_icerik" ]; then
+              echo "Değişiklik tespit edilmedi."
               echo "degisiklik=false" >> $GITHUB_OUTPUT
             else
+              echo "Değişiklik tespit edildi."
               echo "degisiklik=true" >> $GITHUB_OUTPUT
             fi
           else
+            echo "HATALAR.md dosyası bulunamadı. Değişiklik yok."
             echo "degisiklik=false" >> $GITHUB_OUTPUT
           fi
 
       - name : Mevcut Issue'ları Kontrol Et ve Kapat
         if   : steps.icerik_karsilastir.outputs.degisiklik == 'true'
         run  : |
+          echo "Kapatılacak mevcut issue'lar kontrol ediliyor..."
           mevcut_issue=$(curl -s \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
@@ -101,11 +110,14 @@ jobs:
             | jq -r '.[] | select(.title == "⚠️ Kontrol Edilmesi Gereken Yayınlar") | .number')
 
           if [ -n "$mevcut_issue" ]; then
+            echo "Issue numarası kapatılıyor: $mevcut_issue"
             curl -X PATCH \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -H "Accept: application/vnd.github.v3+json" \
               https://api.github.com/repos/${{ github.repository }}/issues/$mevcut_issue \
               -d '{"state":"closed"}'
+          else
+            echo "Kapatılacak issue bulunamadı."
           fi
 
       - name : Issue Aç
