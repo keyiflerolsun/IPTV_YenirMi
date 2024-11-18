@@ -59,6 +59,7 @@ jobs:
       - name : Mevcut Issue'ları Kontrol Et ve Kapat
         if   : steps.degisiklik_kontrol.outputs.degisiklik == 'true'
         run  : |
+          echo "Mevcut issue'lar kontrol ediliyor..."
           mevcut_issue=$(curl -s \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
@@ -66,6 +67,7 @@ jobs:
             | jq -r '.[] | select(.title == "⚠️ Kontrol Edilmesi Gereken Yayınlar") | .number')
 
           if [ -n "$mevcut_issue" ]; then
+            echo "Mevcut issue bulundu: #$mevcut_issue"
             mevcut_body=$(curl -s \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -H "Accept: application/vnd.github.v3+json" \
@@ -74,13 +76,21 @@ jobs:
 
             yeni_body=$(cat HATALAR.md | jq -sR .)
 
+            echo "Mevcut : $mevcut_body"
+            echo "Yeni   : $yeni_body"
+
             if [ "$mevcut_body" != "$yeni_body" ]; then
+              echo "Hatalar farklı, mevcut issue kapatılacak..."
               curl -X PATCH \
                 -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                 -H "Accept: application/vnd.github.v3+json" \
                 https://api.github.com/repos/${{ github.repository }}/issues/$mevcut_issue \
                 -d '{"state":"closed"}'
+            else
+              echo "Mevcut issue ile aynı, kapatma gerekmiyor."
             fi
+          else
+            echo "Mevcut bir issue bulunamadı."
           fi
 
       - name : Issue Aç
