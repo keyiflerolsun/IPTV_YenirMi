@@ -30,10 +30,10 @@ jobs:
 
     steps:
       - name : Depo Kontrolü
-        uses : actions/checkout@v4
+        uses : actions/checkout@v4.2.2
 
       - name : Python 3.11.8 Yükle
-        uses : actions/setup-python@v5
+        uses : actions/setup-python@v5.3.0
         with :
           python-version: 3.11.8
 
