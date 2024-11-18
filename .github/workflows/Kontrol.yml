@@ -1,4 +1,4 @@
-# Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
+# Bu arac @keyiflerolsun tarafindan | @KekikAkademi icin yazilmistir.
 
 name: Yayın Kontrolü
 
@@ -49,60 +49,16 @@ jobs:
         run  : |
           python KONTROL.py
 
-      - name : Mevcut Issue İçeriğini Al
-        id   : mevcut_issue_icerik
+      - name : Değişiklik Kontrolü
+        id   : degisiklik_kontrol
         run  : |
-          echo "Mevcut issue'lar alınıyor..."
-          mevcut_issue=$(curl -s \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/${{ github.repository }}/issues)
-
-          echo "Mevcut issue'lar: $mevcut_issue"
-          issue_number=$(echo "$mevcut_issue" | jq -r '.[] | select(.title == "⚠️ Kontrol Edilmesi Gereken Yayınlar") | .number')
-          echo "Issue numarası: $issue_number"
-          if [ -n "$issue_number" ]; then
-            icerik=$(curl -s \
-              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-              -H "Accept: application/vnd.github.v3+json" \
-              https://api.github.com/repos/${{ github.repository }}/issues/$issue_number \
-              | jq -r '.body' | tr '\n' ' ')
-
-            echo "Mevcut issue içeriği alındı."
-            echo "icerik=$icerik" >> $GITHUB_OUTPUT
-          else
-            echo "Mevcut bir issue bulunamadı."
-            echo "icerik=" >> $GITHUB_OUTPUT
-          fi
-
-      - name : İçerik Karşılaştır
-        id   : icerik_karsilastir
-        run  : |
-          echo "İçerikler karşılaştırılıyor..."
           if [ -f HATALAR.md ]; then
-            hatalar=$(cat HATALAR.md | tr '\n' ' ')
-            yeni_icerik="$hatalar"
-            mevcut_icerik="${{ steps.mevcut_issue_icerik.outputs.icerik }}"
-
-            echo "Yeni içerik: $yeni_icerik"
-            echo "Mevcut içerik: $mevcut_icerik"
-
-            if [ "$yeni_icerik" = "$mevcut_icerik" ]; then
-              echo "Değişiklik tespit edilmedi."
-              echo "degisiklik=false" >> $GITHUB_OUTPUT
-            else
-              echo "Değişiklik tespit edildi."
-              echo "degisiklik=true" >> $GITHUB_OUTPUT
-            fi
-          else
-            echo "HATALAR.md dosyası bulunamadı. Değişiklik yok."
-            echo "degisiklik=false" >> $GITHUB_OUTPUT
+            echo "degisiklik=true" >> $GITHUB_OUTPUT
           fi
 
       - name : Mevcut Issue'ları Kontrol Et ve Kapat
-        if   : steps.icerik_karsilastir.outputs.degisiklik == 'true'
+        if   : steps.degisiklik_kontrol.outputs.degisiklik == 'true'
         run  : |
-          echo "Kapatılacak mevcut issue'lar kontrol ediliyor..."
           mevcut_issue=$(curl -s \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
@@ -110,21 +66,28 @@ jobs:
             | jq -r '.[] | select(.title == "⚠️ Kontrol Edilmesi Gereken Yayınlar") | .number')
 
           if [ -n "$mevcut_issue" ]; then
-            echo "Issue numarası kapatılıyor: $mevcut_issue"
-            curl -X PATCH \
+            mevcut_body=$(curl -s \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -H "Accept: application/vnd.github.v3+json" \
               https://api.github.com/repos/${{ github.repository }}/issues/$mevcut_issue \
-              -d '{"state":"closed"}'
-          else
-            echo "Kapatılacak issue bulunamadı."
+              | jq -r '.body')
+
+            yeni_body=$(cat HATALAR.md | jq -sR .)
+
+            if [ "$mevcut_body" != "$yeni_body" ]; then
+              curl -X PATCH \
+                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                -H "Accept: application/vnd.github.v3+json" \
+                https://api.github.com/repos/${{ github.repository }}/issues/$mevcut_issue \
+                -d '{"state":"closed"}'
+            fi
           fi
 
       - name : Issue Aç
-        if   : steps.icerik_karsilastir.outputs.degisiklik == 'true'
+        if   : steps.degisiklik_kontrol.outputs.degisiklik == 'true'
         run  : |
-          hatalar=$(cat HATALAR.md | tr '\n' ' ')
-          issue_body="$hatalar"
+          hatalar=$(cat HATALAR.md)
+          issue_body=$(echo "$hatalar" | jq -sR .)
 
           curl -X POST \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
