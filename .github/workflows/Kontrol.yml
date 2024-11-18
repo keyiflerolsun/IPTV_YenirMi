@@ -63,18 +63,18 @@ jobs:
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -H "Accept: application/vnd.github.v3+json" \
               https://api.github.com/repos/${{ github.repository }}/issues/$mevcut_issue \
-              | jq -sR .)
+              | jq -r '.body')
 
-            echo "icerik=$icerik" >> $GITHUB_OUTPUT
+            echo "icerik="$icerik"" >> $GITHUB_OUTPUT
           else
-            echo "icerik=\"\"" >> $GITHUB_OUTPUT
+            echo "icerik=" >> $GITHUB_OUTPUT
           fi
 
       - name : İçerik Karşılaştır
         id   : icerik_karsilastir
         run  : |
           hatalar=$(cat HATALAR.md)
-          yeni_icerik=$(echo "$hatalar" | jq -sR .)
+          yeni_icerik="$hatalar"
           mevcut_icerik="${{ steps.mevcut_issue_icerik.outputs.icerik }}"
 
           if [ "$yeni_icerik" = "$mevcut_icerik" ]; then
