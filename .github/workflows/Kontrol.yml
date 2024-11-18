@@ -52,35 +52,43 @@ jobs:
       - name : Mevcut Issue İçeriğini Al
         id   : mevcut_issue_icerik
         run  : |
-          mevcut_issue=$(curl -s \
+          mevcut_issue=$(curl -s -o response.json -w "%{http_code}" \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/${{ github.repository }}/issues \
-            | jq -r '.[] | select(.title == "⚠️ Kontrol Edilmesi Gereken Yayınlar") | .number')
+            https://api.github.com/repos/${{ github.repository }}/issues)
 
-          if [ -n "$mevcut_issue" ]; then
-            icerik=$(curl -s \
-              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-              -H "Accept: application/vnd.github.v3+json" \
-              https://api.github.com/repos/${{ github.repository }}/issues/$mevcut_issue \
-              | jq -r '.body')
+          if [ "$mevcut_issue" -eq 200 ]; then
+            issue_number=$(cat response.json | jq -r '.[] | select(.title == "⚠️ Kontrol Edilmesi Gereken Yayınlar") | .number')
+            if [ -n "$issue_number" ]; then
+              icerik=$(curl -s \
+                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                -H "Accept: application/vnd.github.v3+json" \
+                https://api.github.com/repos/${{ github.repository }}/issues/$issue_number \
+                | jq -r '.body')
 
-            echo "icerik="$icerik"" >> $GITHUB_OUTPUT
+              echo "icerik="$icerik"" >> $GITHUB_OUTPUT
+            else
+              echo "icerik=\"\"" >> $GITHUB_OUTPUT
+            fi
           else
-            echo "icerik=" >> $GITHUB_OUTPUT
+            echo "icerik=\"\"" >> $GITHUB_OUTPUT
           fi
 
       - name : İçerik Karşılaştır
         id   : icerik_karsilastir
         run  : |
-          hatalar=$(cat HATALAR.md)
-          yeni_icerik="$hatalar"
-          mevcut_icerik="${{ steps.mevcut_issue_icerik.outputs.icerik }}"
+          if [ -f HATALAR.md ]; then
+            hatalar=$(cat HATALAR.md)
+            yeni_icerik="$hatalar"
+            mevcut_icerik="${{ steps.mevcut_issue_icerik.outputs.icerik }}"
 
-          if [ "$yeni_icerik" = "$mevcut_icerik" ]; then
-            echo "degisiklik=false" >> $GITHUB_OUTPUT
+            if [ "$yeni_icerik" = "$mevcut_icerik" ]; then
+              echo "degisiklik=false" >> $GITHUB_OUTPUT
+            else
+              echo "degisiklik=true" >> $GITHUB_OUTPUT
+            fi
           else
-            echo "degisiklik=true" >> $GITHUB_OUTPUT
+            echo "degisiklik=false" >> $GITHUB_OUTPUT
           fi
 
       - name : Mevcut Issue'ları Kontrol Et ve Kapat
