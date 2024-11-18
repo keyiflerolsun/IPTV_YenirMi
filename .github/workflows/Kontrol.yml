@@ -72,14 +72,18 @@ jobs:
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -H "Accept: application/vnd.github.v3+json" \
               https://api.github.com/repos/${{ github.repository }}/issues/$mevcut_issue \
-              | jq -r '.body | @text')
+              | jq -r '.body')
 
-            yeni_body=$(cat HATALAR.md | jq -sR '. | @text')
+            yeni_body=$(cat HATALAR.md)
 
-            echo "Mevcut : $mevcut_body"
-            echo "Yeni   : $yeni_body"
+            # Fazlalıkları temizle ve normalize et
+            mevcut_body_normalize=$(echo "$mevcut_body" | tr -d '\n' | tr -d '\r' | sed 's/[[:space:]]//g')
+            yeni_body_normalize=$(echo "$yeni_body" | tr -d '\n' | tr -d '\r' | sed 's/[[:space:]]//g')
 
-            if [ "$(echo "$mevcut_body" | tr -d '\n' | tr -d '\r')" != "$(echo "$yeni_body" | tr -d '\n' | tr -d '\r')" ]; then
+            echo "Mevcut (normalize edilmiş): $mevcut_body_normalize"
+            echo "Yeni (normalize edilmiş)  : $yeni_body_normalize"
+
+            if [ "$mevcut_body_normalize" != "$yeni_body_normalize" ]; then
               echo "Hatalar farklı, mevcut issue kapatılacak..."
               curl -X PATCH \
                 -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
