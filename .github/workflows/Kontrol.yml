@@ -54,6 +54,8 @@ jobs:
         run  : |
           if [ -f HATALAR.md ]; then
             echo "hata=true" >> $GITHUB_OUTPUT
+          else
+            echo "hata=false" >> $GITHUB_OUTPUT
           fi
 
       - name : Mevcut Issue'ları Kontrol Et ve Gerekirse Kapat
@@ -61,7 +63,6 @@ jobs:
         id   : issue_kontrol
         run  : |
           echo "Mevcut issue'lar kontrol ediliyor..."
-          echo "issue=true" > $GITHUB_OUTPUT
           mevcut_issue=$(curl -s \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
@@ -88,13 +89,14 @@ jobs:
                 -H "Accept: application/vnd.github.v3+json" \
                 https://api.github.com/repos/${{ github.repository }}/issues/$mevcut_issue \
                 -d '{"state":"closed"}'
+              echo "issue=true" >> $GITHUB_OUTPUT
             else
               echo "Mevcut issue ile aynı, kapatma gerekmiyor."
-              echo "issue=false" > $GITHUB_OUTPUT
+              echo "issue=false" >> $GITHUB_OUTPUT
             fi
           else
             echo "Mevcut bir issue bulunamadı."
-            echo "issue=false" > $GITHUB_OUTPUT
+            echo "issue=false" >> $GITHUB_OUTPUT
           fi
 
       - name : Issue Aç
