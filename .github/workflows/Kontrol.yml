@@ -65,7 +65,9 @@ jobs:
               https://api.github.com/repos/${{ github.repository }}/issues/$mevcut_issue \
               | jq -r '.body')
 
-            echo "icerik=$icerik" >> $GITHUB_OUTPUT
+            echo "icerik<<EOF" >> $GITHUB_OUTPUT
+            echo "$icerik" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
           else
             echo "icerik=" >> $GITHUB_OUTPUT
           fi
