@@ -341,6 +341,10 @@ https://3.trgoalshls97.shop/yayinex5.m3u8
 #EXTVLCOPT:http-referrer=https://trgoals1020.xyz/
 https://3.trgoalshls97.shop/yayinex6.m3u8
 
+#EXTINF:-1 tvg-name="WWE Network" tvg-language="English" tvg-country="USA" tvg-id="Spor_WWENetwork" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/WWENetworkLogo.png" group-title="Spor",WWE Network
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://reliabletv.me/sd0embed/WWE?pid=1&gacat=WWE+Network&gatxt=WWE&v=wwwnetsd
+https://serid-b2.ofemm.com/plyvivo/xoyotoy0fowodicudusa/chunklist.m3u8
 
 
 # * » Müzik « * #
