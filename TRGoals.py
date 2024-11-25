@@ -39,22 +39,33 @@ class TRGoals:
 
         return domain
 
-    def m3u_guncelle(self):
-        eldeki_domain = self.referer_domainini_al()
-        konsol.log(f"[yellow][~] Bilinen Domain : {eldeki_domain}")
-
+    def yeni_domaini_al(self, eldeki_domain:str):
         try:
-            yeni_domain = self.trgoals_domaini_al()            
+            yeni_domain = self.trgoals_domaini_al()   
+            if yeni_domain == "https://trgoalsgiris.xyz":
+                konsol.log("[red][!] `trgoals_domaini_al` fonksiyonunda hata oluştu.")
+                raise ValueError("Yeni domain alınamadı")
         except Exception:
             try:
                 yeni_domain = self.redirect_gec(eldeki_domain)
+                if yeni_domain == "https://trgoalsgiris.xyz":
+                    konsol.log("[red][!] `redirect_gec(eldeki_domain)` fonksiyonunda hata oluştu.")
+                    raise ValueError("Yeni domain alınamadı")
             except Exception:
                 try:
                     yeni_domain = self.redirect_gec("https://t.co/JbIFBZKZpO")
+                    if yeni_domain == "https://trgoalsgiris.xyz":
+                        konsol.log("[red][!] `redirect_gec('https://t.co/JbIFBZKZpO')` fonksiyonunda hata oluştu.")
+                        raise ValueError("Yeni domain alınamadı")
                 except Exception:
                     rakam = int(eldeki_domain.split("trgoals")[1].split(".")[0]) + 1
                     yeni_domain = f"https://trgoals{rakam}.xyz"
 
+    def m3u_guncelle(self):
+        eldeki_domain = self.referer_domainini_al()
+        konsol.log(f"[yellow][~] Bilinen Domain : {eldeki_domain}")
+
+        yeni_domain = self.trgoals_domaini_al()
         konsol.log(f"[green][+] Yeni Domain    : {yeni_domain}")
 
         kontrol_url = f"{yeni_domain}/channel.html?id=yayin1"
