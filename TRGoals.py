@@ -43,21 +43,21 @@ class TRGoals:
         try:
             yeni_domain = self.trgoals_domaini_al()   
             if yeni_domain == "https://trgoalsgiris.xyz":
-                konsol.log("[red][!] `trgoals_domaini_al` fonksiyonunda hata oluştu.")
                 raise ValueError("Yeni domain alınamadı")
         except Exception:
+            konsol.log("[red][!] `trgoals_domaini_al` fonksiyonunda hata oluştu.")
             try:
                 yeni_domain = self.redirect_gec(eldeki_domain)
                 if yeni_domain == "https://trgoalsgiris.xyz":
-                    konsol.log("[red][!] `redirect_gec(eldeki_domain)` fonksiyonunda hata oluştu.")
                     raise ValueError("Yeni domain alınamadı")
             except Exception:
+                konsol.log("[red][!] `redirect_gec(eldeki_domain)` fonksiyonunda hata oluştu.")
                 try:
                     yeni_domain = self.redirect_gec("https://t.co/JbIFBZKZpO")
                     if yeni_domain == "https://trgoalsgiris.xyz":
-                        konsol.log("[red][!] `redirect_gec('https://t.co/JbIFBZKZpO')` fonksiyonunda hata oluştu.")
                         raise ValueError("Yeni domain alınamadı")
                 except Exception:
+                    konsol.log("[red][!] `redirect_gec('https://t.co/JbIFBZKZpO')` fonksiyonunda hata oluştu.")
                     rakam = int(eldeki_domain.split("trgoals")[1].split(".")[0]) + 1
                     yeni_domain = f"https://trgoals{rakam}.xyz"
 
