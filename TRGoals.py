@@ -65,7 +65,7 @@ class TRGoals:
         eldeki_domain = self.referer_domainini_al()
         konsol.log(f"[yellow][~] Bilinen Domain : {eldeki_domain}")
 
-        yeni_domain = self.trgoals_domaini_al()
+        yeni_domain = self.yeni_domaini_al(eldeki_domain)
         konsol.log(f"[green][+] Yeni Domain    : {yeni_domain}")
 
         kontrol_url = f"{yeni_domain}/channel.html?id=yayin1"
