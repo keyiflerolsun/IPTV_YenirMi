@@ -15,7 +15,7 @@ class IPTVParser:
         self.dosya_yolu   = dosya_yolu
         self.kanallar     = []
         self.hata_bulundu = False
-        self.oturum       = Client(verify=False, timeout=5)
+        self.oturum       = Client(verify=False, timeout=10)
 
     def dosya_parse(self):
         with open(self.dosya_yolu, "r", encoding="utf-8") as dosya:
