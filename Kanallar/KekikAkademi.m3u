@@ -173,11 +173,11 @@ http://stream.tvcdn.net/cocuk-egitim/trt-diyanet-cocuk.m3u8
 http://stream.tvcdn.net/cocuk-egitim/cartoon-network.m3u8
 
 #EXTINF:-1 tvg-name="MinikaGo" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_MinikaGo" tvg-logo="https://i.ibb.co/2ZwxWr0/minika-go.png" group-title="ÇizgiFilm",MinikaGo
-http://cmr.cvzr17.xyz:8880/live/SenolAGA/20082019KLM1/244.m3u8
+http://relaxsrv.xyz:8080/live/inanc2old/8c5RH7We8A44/6244.m3u8
 # ? http://stream.tvcdn.net/cocuk-egitim/minika-go.m3u8
 
 #EXTINF:-1 tvg-name="Minika Çocuk" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_MinikaCocuk" tvg-logo="https://i.ibb.co/S794c6W/minika-cocuk.png" group-title="ÇizgiFilm",Minika Çocuk
-http://cmr.cvzr17.xyz:8880/live/SenolAGA/20082019KLM1/4984.m3u8
+http://relaxsrv.xyz:8080/live/inanc2old/8c5RH7We8A44/6247.m3u8
 # ? http://stream.tvcdn.net/cocuk-egitim/minika-cocuk.m3u8
 
 #EXTINF:-1 tvg-name="Cartoonito TV" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_CartoonitoTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/500x500/64f57b42866ac307e484249e" group-title="ÇizgiFilm",Cartoonito TV
@@ -418,15 +418,6 @@ https://ythls.kekikakademi.org/youtube/channel/UCOqe-z52nnpVSAe8Ds0fxaA.m3u8
 #EXTINF:-1 tvg-name="Güldür Güldür" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GuldurGuldur" tvg-logo="https://i.ytimg.com/vi/JX5mSkUfxmk/hqdefault.jpg" group-title="İçerik",Güldür Güldür
 https://ythls.kekikakademi.org/youtube/channel/UCdlEXiVLTEvA280oyMvr8Kw.m3u8
 
-#EXTINF:-1 tvg-name="İşler Güçler" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_islerGucler" tvg-logo="https://i.ytimg.com/vi/So3gvma5Fmc/hqdefault.jpg" group-title="İçerik",İşler Güçler
-https://ythls.kekikakademi.org/youtube/channel/UCALHvpjqmBwdRwYPc3qVezw.m3u8
-
-#EXTINF:-1 tvg-name="Geniş Aile" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GenisAile" tvg-logo="https://i.ytimg.com/vi/A-VMV-mJFiY/hqdefault.jpg" group-title="İçerik",Geniş Aile
-https://ythls.kekikakademi.org/youtube/channel/UC-_QrTM2lCjRhlv4l0vLJmw.m3u8
-
-#EXTINF:-1 tvg-name="Adını Feriha Koydum" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_AdiniFerihaKoydum" tvg-logo="https://i.ytimg.com/vi/ESNRjuK9QdU/hqdefault.jpg" group-title="İçerik",Adını Feriha Koydum
-https://ythls.kekikakademi.org/youtube/channel/UCtkp8YehDHBNJ63CS9xwIQg.m3u8
-
 #EXTINF:-1 tvg-name="Seksenler" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_Seksenler" tvg-logo="https://i.ytimg.com/vi/w0YwPu4XTzc/hqdefault.jpg" group-title="İçerik",Seksenler
 https://ythls.kekikakademi.org/youtube/channel/UCYRPB4TbD2RYHlIQdLgEeYA.m3u8
 
@@ -444,9 +435,6 @@ https://ythls.kekikakademi.org/youtube/channel/UCi-nK74pBX9Ou66z1j7KYPQ.m3u8
 
 #EXTINF:-1 tvg-name="Kurtlar Vadisi Pusu" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_KurtlarVadisiPusu" tvg-logo="https://i.ytimg.com/vi/slT7aQuQukE/hqdefault.jpg" group-title="İçerik",Kurtlar Vadisi Pusu
 https://ythls.kekikakademi.org/youtube/channel/UCz1UfNp9VFp9R1HEFn5PY5A.m3u8
-
-#EXTINF:-1 tvg-name="Söz" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_Soz" tvg-logo="https://i.ytimg.com/vi/bGI5F4pmG_4/hqdefault.jpg" group-title="İçerik",Söz
-https://ythls.kekikakademi.org/youtube/channel/UCJkBcPylctTT0_jVC5XMFIg.m3u8
 
 #EXTINF:-1 tvg-name="Adanalı" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_Adanali" tvg-logo="https://i.ytimg.com/vi/L2dhJQvBZk8/hqdefault.jpg" group-title="İçerik",Adanalı
 https://ythls.kekikakademi.org/youtube/channel/UCRP2h7AKS4nnUho0pyBCHgw.m3u8
