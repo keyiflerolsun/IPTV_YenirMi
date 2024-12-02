@@ -181,9 +181,6 @@ http://relaxsrv.xyz:8080/live/inanc2old/8c5RH7We8A44/6244.m3u8
 http://relaxsrv.xyz:8080/live/inanc2old/8c5RH7We8A44/6247.m3u8
 # ? http://stream.tvcdn.net/cocuk-egitim/minika-cocuk.m3u8
 
-#EXTINF:-1 tvg-name="Cartoonito TV" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_CartoonitoTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/500x500/64f57b42866ac307e484249e" group-title="ÇizgiFilm",Cartoonito TV
-https://cartoonito.blutv.com/blutv_cartoonito/smil:cartoonito.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Zarok TV" tvg-language="Kurdish" tvg-country="IR" tvg-id="CizgiFilm_ZarokTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ee/1_ZarokTVLogonet5.png" group-title="ÇizgiFilm",Zarok TV
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 
@@ -373,9 +370,6 @@ https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="PowerTürk Taptaze" tvg-language="Turkish" tvg-country="TR" tvg-id="Muzik_PowerTurkTaptaze" tvg-logo="https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_2534.png" group-title="Müzik",PowerTürk Taptaze
 https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Milyon TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Muzik_MilyonTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/60900db7866ac318488bc30f" group-title="Müzik",Milyon TV
-https://sosyoapp-live.cdnnew.com/sosyo/buraya-bir-isim-verin.m3u8
 
 #EXTINF:-1 tvg-name="Kral Pop" tvg-language="Turkish" tvg-country="TR" tvg-id="Muzik_KralPop" tvg-logo="https://canlitv.center/channels/kral-pop-tv.png" group-title="Müzik",Kral Pop
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
