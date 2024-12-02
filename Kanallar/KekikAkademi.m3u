@@ -174,6 +174,7 @@ http://stream.tvcdn.net/cocuk-egitim/cartoon-network.m3u8
 
 #EXTINF:-1 tvg-name="MinikaGo" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_MinikaGo" tvg-logo="https://i.ibb.co/2ZwxWr0/minika-go.png" group-title="ÇizgiFilm",MinikaGo
 http://relaxsrv.xyz:8080/live/inanc2old/8c5RH7We8A44/6244.m3u8
+# ? http://midyat47.xyz:8080/live/Ejdet47/OQXFXRaPaZ/90.m3u8
 # ? http://stream.tvcdn.net/cocuk-egitim/minika-go.m3u8
 
 #EXTINF:-1 tvg-name="Minika Çocuk" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_MinikaCocuk" tvg-logo="https://i.ibb.co/S794c6W/minika-cocuk.png" group-title="ÇizgiFilm",Minika Çocuk
