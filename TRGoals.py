@@ -26,7 +26,10 @@ class TRGoals:
         secici       = Selector(istek.text)
         redirect_url = secici.xpath("(//section[@class='links']/a)[1]/@href").get()
 
-        return self.redirect_gec(self.redirect_gec(redirect_url))
+        while "bit.ly" in redirect_url:
+            redirect_url = self.redirect_gec(redirect_url)
+
+        return redirect_url
 
     def redirect_gec(self, redirect_url:str):
         istek        = self.httpx.post("http://10.0.2.0:1221/api/v1/url", json={"url": redirect_url})
@@ -39,25 +42,28 @@ class TRGoals:
 
         return domain
 
-    def yeni_domaini_al(self, eldeki_domain:str):
-        try:
-            yeni_domain = self.trgoals_domaini_al()   
-            if yeni_domain == "https://trgoalsgiris.xyz":
+    def yeni_domaini_al(self, eldeki_domain: str) -> str:
+        def check_domain(domain: str) -> str:
+            if domain == "https://trgoalsgiris.xyz":
                 raise ValueError("Yeni domain alınamadı")
+            return domain
+
+        try:
+            # İlk kontrol: Redirect geçiş
+            yeni_domain = check_domain(self.redirect_gec(eldeki_domain))
         except Exception:
-            konsol.log("[red][!] `trgoals_domaini_al` fonksiyonunda hata oluştu.")
+            konsol.log("[red][!] `redirect_gec(eldeki_domain)` fonksiyonunda hata oluştu.")
             try:
-                yeni_domain = self.redirect_gec(eldeki_domain)
-                if yeni_domain == "https://trgoalsgiris.xyz":
-                    raise ValueError("Yeni domain alınamadı")
+                # İkinci kontrol: trgoals domainini al
+                yeni_domain = check_domain(self.trgoals_domaini_al())
             except Exception:
-                konsol.log("[red][!] `redirect_gec(eldeki_domain)` fonksiyonunda hata oluştu.")
+                konsol.log("[red][!] `trgoals_domaini_al` fonksiyonunda hata oluştu.")
                 try:
-                    yeni_domain = self.redirect_gec("https://t.co/JbIFBZKZpO")
-                    if yeni_domain == "https://trgoalsgiris.xyz":
-                        raise ValueError("Yeni domain alınamadı")
+                    # Üçüncü kontrol: Alternatif bir URL üzerinden redirect geç
+                    yeni_domain = check_domain(self.redirect_gec("https://t.co/JbIFBZKZpO"))
                 except Exception:
                     konsol.log("[red][!] `redirect_gec('https://t.co/JbIFBZKZpO')` fonksiyonunda hata oluştu.")
+                    # Son çare: Yeni bir domain üret
                     rakam = int(eldeki_domain.split("trgoals")[1].split(".")[0]) + 1
                     yeni_domain = f"https://trgoals{rakam}.xyz"
 
