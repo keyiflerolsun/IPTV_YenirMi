@@ -41,7 +41,9 @@ https://ythls.kekikakademi.org/youtube/channel/UCV6zcRug6Hqp1UX_FdyUeBg.m3u8
 https://dogus-live.daioncdn.net/ntv/ntv_720p.m3u8
 
 #EXTINF:-1 tvg-name="A Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_AHaber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png" group-title="Haber",A Haber
-https://ythls.kekikakademi.org/youtube/channel/UCKQhfw-lzz0uKnE1fY1PsAA.m3u8
+http://69973.unimaster.us:80/VedatSrli34/121idsub52/139
+# ? https://ythls.kekikakademi.org/youtube/channel/UCKQhfw-lzz0uKnE1fY1PsAA.m3u8
+
 
 #EXTINF:-1 tvg-name="Haber Global" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_HaberGlobal" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/603dfe0f866ac31798b3f4fa" group-title="Haber",Haber Global
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
@@ -98,7 +100,8 @@ https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 https://dogus-live.daioncdn.net/startv/startv.m3u8
 
 #EXTINF:-1 tvg-name="ATV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_ATV" tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="Genel",ATV
-http://stream.tvcdn.net/ulusal/atv.m3u8
+# ? http://stream.tvcdn.net/ulusal/atv.m3u8
+http://69973.unimaster.us:80/VedatSrli34/121idsub52/46
 
 #EXTINF:-1 tvg-name="Now TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_FoxTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/NOW_TV_%28Turkey%29_wordmark-red.svg/1920px-NOW_TV_%28Turkey%29_wordmark-red.svg.png" group-title="Genel",Now TV
 http://stream.tvcdn.net/ulusal/now-tv.m3u8
@@ -407,9 +410,6 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d93b635b
 
 
 # * » İçerik « * #
-#EXTINF:-1 tvg-name="Yeşil Çam" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_YesilCam" tvg-logo="https://i.ytimg.com/vi/rMjgoq_tMPE/hqdefault.jpg" group-title="İçerik",Yeşil Çam
-https://ythls.kekikakademi.org/youtube/channel/UCUALYmnkEmx8vlxIbpr2gmw.m3u8
-
 #EXTINF:-1 tvg-name="Kemal Sunal" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_KemalSunal" tvg-logo="https://i.ytimg.com/vi/lDI6Lbxhz6Y/hqdefault.jpg" group-title="İçerik",Kemal Sunal
 https://ythls.kekikakademi.org/youtube/channel/UCHumSHRFQ8skiHTY75sxytQ.m3u8
 
@@ -454,9 +454,6 @@ https://ythls.kekikakademi.org/youtube/video/2OM7adQl-YQ.m3u8
 
 #EXTINF:-1 tvg-name="Doğa" tvg-language="English" tvg-country="CA" tvg-id="Rahat_Doga" tvg-logo="https://i.ytimg.com/vi/e7nM3et_bII/hqdefault.jpg" group-title="Rahatlatıcı",Doğa
 https://ythls.kekikakademi.org/youtube/video/e7nM3et_bII.m3u8
-
-#EXTINF:-1 tvg-name="Deniz" tvg-language="English" tvg-country="USA" tvg-id="Rahat_Deniz" tvg-logo="https://i.ytimg.com/vi/wKg71lcs5Nw/hqdefault.jpg" group-title="Rahatlatıcı",Deniz
-https://ythls.kekikakademi.org/youtube/video/690lqxbFGI0.m3u8
 
 
 
