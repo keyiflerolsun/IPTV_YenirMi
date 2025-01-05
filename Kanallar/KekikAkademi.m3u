@@ -181,13 +181,10 @@ http://stream.tvcdn.net/cocuk-egitim/trt-diyanet-cocuk.m3u8
 http://stream.tvcdn.net/cocuk-egitim/cartoon-network.m3u8
 
 #EXTINF:-1 tvg-name="MinikaGo" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_MinikaGo" tvg-logo="https://i.ibb.co/2ZwxWr0/minika-go.png" group-title="ÇizgiFilm",MinikaGo
-http://relaxsrv.xyz:8080/live/inanc2old/8c5RH7We8A44/6244.m3u8
-# ? http://midyat47.xyz:8080/live/Ejdet47/OQXFXRaPaZ/90.m3u8
-# ? http://stream.tvcdn.net/cocuk-egitim/minika-go.m3u8
+http://stream.tvcdn.net/cocuk-egitim/minika-go.m3u8
 
 #EXTINF:-1 tvg-name="Minika Çocuk" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_MinikaCocuk" tvg-logo="https://i.ibb.co/S794c6W/minika-cocuk.png" group-title="ÇizgiFilm",Minika Çocuk
-http://relaxsrv.xyz:8080/live/inanc2old/8c5RH7We8A44/6247.m3u8
-# ? http://stream.tvcdn.net/cocuk-egitim/minika-cocuk.m3u8
+http://stream.tvcdn.net/cocuk-egitim/minika-cocuk.m3u8
 
 #EXTINF:-1 tvg-name="Cartoonito TV" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_CartoonitoTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/500x500/64f57b42866ac307e484249e" group-title="ÇizgiFilm",Cartoonito TV
 https://ythls.kekikakademi.org/youtube/channel/UCai9a-7GjCkWiaV7cCkIMJg.m3u8
@@ -416,13 +413,13 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d93b635b
 
 
 # * » İçerik « * #
-#EXTINF:-1 tvg-name="Kemal Sunal" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_KemalSunal" tvg-logo="https://i.ytimg.com/vi/lDI6Lbxhz6Y/hqdefault.jpg" group-title="İçerik",Kemal Sunal
+#EXTINF:-1 tvg-name="Kemal Sunal" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_KemalSunal" tvg-logo="https://i.ytimg.com/vi/hfx8H7YrmTw/hqdefault.jpg" group-title="İçerik",Kemal Sunal
 https://ythls.kekikakademi.org/youtube/channel/UCHumSHRFQ8skiHTY75sxytQ.m3u8
 
 #EXTINF:-1 tvg-name="Cennet Mahallesi" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_CennetMahallesi" tvg-logo="https://i.ytimg.com/vi/lf1NxAexRAE/hqdefault.jpg" group-title="İçerik",Cennet Mahallesi
 https://ythls.kekikakademi.org/youtube/channel/UCOqe-z52nnpVSAe8Ds0fxaA.m3u8
 
-#EXTINF:-1 tvg-name="Güldür Güldür" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GuldurGuldur" tvg-logo="https://i.ytimg.com/vi/JX5mSkUfxmk/hqdefault.jpg" group-title="İçerik",Güldür Güldür
+#EXTINF:-1 tvg-name="Güldür Güldür" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GuldurGuldur" tvg-logo="https://i.ytimg.com/vi/sifZrlmoCus/hqdefault.jpg" group-title="İçerik",Güldür Güldür
 https://ythls.kekikakademi.org/youtube/channel/UCdlEXiVLTEvA280oyMvr8Kw.m3u8
 
 #EXTINF:-1 tvg-name="Seksenler" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_Seksenler" tvg-logo="https://i.ytimg.com/vi/w0YwPu4XTzc/hqdefault.jpg" group-title="İçerik",Seksenler
@@ -440,7 +437,7 @@ https://ythls.kekikakademi.org/youtube/channel/UCC_iReQZgbPtOBfn3bjNnPw.m3u8
 #EXTINF:-1 tvg-name="Yaprak Dökümü" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_YaprakDokumu" tvg-logo="https://i.ytimg.com/vi/GTJ-k0FPoCA/hqdefault.jpg" group-title="İçerik",Yaprak Dökümü
 https://ythls.kekikakademi.org/youtube/channel/UCi-nK74pBX9Ou66z1j7KYPQ.m3u8
 
-#EXTINF:-1 tvg-name="Kurtlar Vadisi Pusu" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_KurtlarVadisiPusu" tvg-logo="https://i.ytimg.com/vi/slT7aQuQukE/hqdefault.jpg" group-title="İçerik",Kurtlar Vadisi Pusu
+#EXTINF:-1 tvg-name="Kurtlar Vadisi Pusu" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_KurtlarVadisiPusu" tvg-logo="https://i.ytimg.com/vi/-nMMb8iLIHE/hqdefault.jpg" group-title="İçerik",Kurtlar Vadisi Pusu
 https://ythls.kekikakademi.org/youtube/channel/UCz1UfNp9VFp9R1HEFn5PY5A.m3u8
 
 #EXTINF:-1 tvg-name="Adanalı" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_Adanali" tvg-logo="https://i.ytimg.com/vi/L2dhJQvBZk8/hqdefault.jpg" group-title="İçerik",Adanalı
@@ -458,8 +455,8 @@ https://ythls.kekikakademi.org/youtube/channel/UCMlIZGBeueCZBUmEP-PddJg.m3u8
 #EXTINF:-1 tvg-name="Şelale" tvg-language="English" tvg-country="USA" tvg-id="Rahat_Selale" tvg-logo="https://i.ytimg.com/vi/uW-468cP5Rk/hqdefault.jpg" group-title="Rahatlatıcı",Şelale
 https://ythls.kekikakademi.org/youtube/video/2OM7adQl-YQ.m3u8
 
-#EXTINF:-1 tvg-name="Doğa" tvg-language="English" tvg-country="CA" tvg-id="Rahat_Doga" tvg-logo="https://i.ytimg.com/vi/e7nM3et_bII/hqdefault.jpg" group-title="Rahatlatıcı",Doğa
-https://ythls.kekikakademi.org/youtube/video/e7nM3et_bII.m3u8
+#EXTINF:-1 tvg-name="Doğa" tvg-language="English" tvg-country="CA" tvg-id="Rahat_Doga" tvg-logo="https://i.ytimg.com/vi/mbqiXyhQbFQ/hqdefault.jpg" group-title="Rahatlatıcı",Doğa
+https://ythls.kekikakademi.org/youtube/video/mbqiXyhQbFQ.m3u8
 
 
 
