@@ -27,6 +27,8 @@
 - [iptv-org/database](https://iptv-org.github.io/)
 - [hayatiptv/iptv](https://github.com/hayatiptv/iptv)
 - [UzunMuhalefet/Legal-IPTV](https://github.com/UzunMuhalefet/Legal-IPTV)
+- [devsolux/iptv-playlist](https://github.com/devsolux/iptv-playlist)
+- [Turis-Tv/2025](https://github.com/Turis-Tv/2025)
 
 ## Youtube Yayını M3U'ya Çevirme
 
