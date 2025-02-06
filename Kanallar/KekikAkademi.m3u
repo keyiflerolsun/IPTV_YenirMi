@@ -93,7 +93,7 @@ https://dogus-live.daioncdn.net/tlc/tlc_720p.m3u8
 https://dogus-live.daioncdn.net/dmax/dmax_720p.m3u8
 
 #EXTINF:-1 tvg-name="TGRT Belgesel" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_TGRT" tvg-logo="https://www.tgrtbelgesel.com.tr/wp-content/uploads/2021/08/TGRT_Belgesel_Logo.png" group-title="Belgesel",TGRT Belgesel
-https://canli.ihlasdigitalassets.com/tgrtbelgesel.m3u8
+https://tgrt-live.ercdn.net/tgrtbelgesel/tgrtbelgesel.m3u8
 
 #EXTINF:-1 tvg-name="Çiftçi TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_CiftciTV" tvg-logo="https://www.ciftcitv.com/wp-content/uploads/2021/02/favicon.png" group-title="Belgesel",Çiftçi TV
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
@@ -237,22 +237,22 @@ https://d0.b4c8d3e9f1a2b7c5d44.cfd/yayineu1.m3u8
 #EXTVLCOPT:http-referrer=https://trgoals1152.xyz/
 https://d0.b4c8d3e9f1a2b7c5d44.cfd/yayineu2.m3u8
 
-#EXTINF:-1 tvg-name="Tivibu Spor 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor1" tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/qadnsi1642604437.png" group-title="Spor",Tivibu Spor 1
+#EXTINF:-1 tvg-name="Tivibu Spor 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/qadnsi1642604437.png" group-title="Spor",Tivibu Spor 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1152.xyz/
 https://d0.b4c8d3e9f1a2b7c5d44.cfd/yayint1.m3u8
 
-#EXTINF:-1 tvg-name="Tivibu Spor 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor2" tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/kuasdm1642604455.png" group-title="Spor",Tivibu Spor 2
+#EXTINF:-1 tvg-name="Tivibu Spor 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor2" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/kuasdm1642604455.png" group-title="Spor",Tivibu Spor 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1152.xyz/
 https://d0.b4c8d3e9f1a2b7c5d44.cfd/yayint2.m3u8
 
-#EXTINF:-1 tvg-name="Tivibu Spor 3" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor3" tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/slwrz41642604502.png" group-title="Spor",Tivibu Spor 3
+#EXTINF:-1 tvg-name="Tivibu Spor 3" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor3" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/slwrz41642604502.png" group-title="Spor",Tivibu Spor 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1152.xyz/
 https://d0.b4c8d3e9f1a2b7c5d44.cfd/yayint3.m3u8
 
-#EXTINF:-1 tvg-name="Tivibu Spor 4" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor4" tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/59bqi81642604517.png" group-title="Spor",Tivibu Spor 4
+#EXTINF:-1 tvg-name="Tivibu Spor 4" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor4" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/59bqi81642604517.png" group-title="Spor",Tivibu Spor 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1152.xyz/
 https://d0.b4c8d3e9f1a2b7c5d44.cfd/yayint4.m3u8
@@ -277,22 +277,22 @@ https://d0.b4c8d3e9f1a2b7c5d44.cfd/yayinss.m3u8
 #EXTVLCOPT:http-referrer=https://trgoals1152.xyz/
 https://d0.b4c8d3e9f1a2b7c5d44.cfd/yayinss2.m3u8
 
-#EXTINF:-1 tvg-name="beIN SPORTS" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",beIN SPORTS
+#EXTINF:-1 tvg-name="beIN SPORTS" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",beIN SPORTS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1152.xyz/
 https://d0.b4c8d3e9f1a2b7c5d44.cfd/yayinzirve.m3u8
 
-#EXTINF:-1 tvg-name="beIN SPORTS 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS2" tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="Spor",beIN SPORTS 2
+#EXTINF:-1 tvg-name="beIN SPORTS 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS2" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="Spor",beIN SPORTS 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1152.xyz/
 https://d0.b4c8d3e9f1a2b7c5d44.cfd/yayinb2.m3u8
 
-#EXTINF:-1 tvg-name="beIN SPORTS 3" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS3" tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png" group-title="Spor",beIN SPORTS 3
+#EXTINF:-1 tvg-name="beIN SPORTS 3" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS3" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png" group-title="Spor",beIN SPORTS 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1152.xyz/
 https://d0.b4c8d3e9f1a2b7c5d44.cfd/yayinb3.m3u8
 
-#EXTINF:-1 tvg-name="beIN SPORTS 4" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS4" tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png" group-title="Spor",beIN SPORTS 4
+#EXTINF:-1 tvg-name="beIN SPORTS 4" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS4" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png" group-title="Spor",beIN SPORTS 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1152.xyz/
 https://d0.b4c8d3e9f1a2b7c5d44.cfd/yayinb4.m3u8
@@ -385,7 +385,7 @@ https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Milyon TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Muzik_MilyonTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/60900db7866ac318488bc30f" group-title="Müzik",Milyon TV
 https://sosyoapp-live.cdnnew.com/sosyo/buraya-bir-isim-verin.m3u8
 
-#EXTINF:-1 tvg-name="Kral Pop" tvg-language="Turkish" tvg-country="TR" tvg-id="Muzik_KralPop" tvg-logo="https://canlitv.center/channels/kral-pop-tv.png" group-title="Müzik",Kral Pop
+#EXTINF:-1 tvg-name="Kral Pop" tvg-language="Turkish" tvg-country="TR" tvg-id="Muzik_KralPop" tvg-logo="https://img-puhutv.mncdn.com/media/img/content/23-01/26/kral.png" group-title="Müzik",Kral Pop
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NumberOne Türk" tvg-language="Turkish" tvg-country="TR" tvg-id="Muzik_NumberOneTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5e415bb8866ac31d980eb377" group-title="Müzik",NumberOne Türk
@@ -403,7 +403,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198
 #EXTINF:-1 tvg-name="NumberOne Dance" tvg-language="Turkish" tvg-country="TR" tvg-id="Muzik_NumberOneDance" tvg-logo="https://www.numberone.com.tr/wp-content/uploads/2015/12/N1_Dance-1-768x768.png" group-title="Müzik",NumberOne Dance
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Tatlıses TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Muzik_TatlisesTV" tvg-logo="https://canlitv.center/channels/tatlises-tv.png" group-title="Müzik",Tatlıses TV
+#EXTINF:-1 tvg-name="Tatlıses TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Muzik_TatlisesTV" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/tatlises-tv-buyuk.png" group-title="Müzik",Tatlıses TV
 https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="MTV Biggest Pop" tvg-language="English" tvg-country="USA" tvg-id="Muzik_MTVBiggestPop" tvg-logo="https://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/colorLogoPNG.png" group-title="Müzik",MTV Biggest Pop
