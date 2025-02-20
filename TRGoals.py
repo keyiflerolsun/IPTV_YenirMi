@@ -90,7 +90,7 @@ class TRGoals:
         kimlik   = self.httpx.post("http://10.0.2.0:1221/api/v1/kimlik", json={"url": yeni_domain}).json()
         self.httpx.cookies.update(kimlik["cookies"])
         self.httpx.headers.update(kimlik["headers"])
-        response = self.httpx.get(kontrol_url)
+        response = self.httpx.get(kontrol_url, follow_redirects=True)
 
         if not (yayin_ara := re.search(r'var baseurl = "(https?:\/\/[^"]+)"', response.text)):
             secici = Selector(response.text)
