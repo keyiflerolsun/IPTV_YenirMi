@@ -87,7 +87,7 @@ class TRGoals:
         eski_yayin_url = eski_yayin_url[0]
         konsol.log(f"[yellow][~] Eski Yayın URL : {eski_yayin_url}")
 
-        kimlik = self.httpx.post("http://10.0.2.0:1221/api/v1/kimlik", json={"url": yeni_domain}).json()
+        kimlik   = self.httpx.post("http://10.0.2.0:1221/api/v1/kimlik", json={"url": yeni_domain}).json()
         self.httpx.cookies.update(kimlik["cookies"])
         self.httpx.headers.update(kimlik["headers"])
         response = self.httpx.get(kontrol_url)
